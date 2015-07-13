@@ -1,0 +1,59 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:1.0:assertion" xmlns="urn:oasis:names:tc:SAML:1.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:1.0:protocol" AssertionID="b3f20c08b0292eaae388d27404391403" IssueInstant="2015-07-13T09:22:22.252Z" Issuer="http://online.hmrc.gov.uk/SAML" MajorVersion="1" MinorVersion="1">
+				<saml:Conditions NotBefore="2015-07-13T10:22:22.252Z" NotOnOrAfter="2015-07-13T14:22:22.252Z"/>
+				<saml:AuthenticationStatement AuthenticationInstant="2015-07-13T10:22:22.252Z" AuthenticationMethod="urn:oasis:names:tc:SAML:1.0:am:unspecified">
+					<saml:Subject>
+						<saml:NameIdentifier Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" NameQualifier="SubjectNameQualifier">SubjectName</saml:NameIdentifier>
+						<saml:SubjectConfirmation>
+							<saml:ConfirmationMethod>urn:oasis:names:tc:SAML:1.0:cm:sender-vouches</saml:ConfirmationMethod>
+						</saml:SubjectConfirmation>
+					</saml:Subject>
+					<saml:SubjectLocality IPAddress="212.56.93.37"/>
+				</saml:AuthenticationStatement>
+				<saml:AttributeStatement>
+					<saml:Subject>
+						<saml:NameIdentifier Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" NameQualifier="SubjectNameQualifier">SubjectName</saml:NameIdentifier>
+						<saml:SubjectConfirmation>
+							<saml:ConfirmationMethod>urn:oasis:names:tc:SAML:1.0:cm:sender-vouches</saml:ConfirmationMethod>
+						</saml:SubjectConfirmation>
+					</saml:Subject>
+					<saml:Attribute xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AttributeName="SESSION_ID" AttributeNamespace="http://online.hmrc.gov.uk/SAML">
+						<saml:AttributeValue>ef0c5410-926f-424c-8495-13df1cba13f6</saml:AttributeValue>
+					</saml:Attribute>
+					<saml:Attribute xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AttributeName="USER_AUTHENTICATION_TOKEN" AttributeNamespace="http://online.hmrc.gov.uk/SAML">
+						<saml:AttributeValue>QS7YC9qzAfbbDKqWmM/YQqDdgURwxwNLcYqW1z8j69GKvSS3DeqJ3922dAPw0xL0GQGJgqcTmtkcgHEfuf2jLnywuy427nWe7E0D4KRnz9g77PdH58bDCOV2vAuVHL9p9HFeyO1Oniy7ct9o143rvJ+o6GZtLhotWKnZ9Yi+IW2YN+Xmbhezs4ToJLWhaPIqYnLawZnM6LY51wBhpUQCMkornRpjejcrUKTWjlwesKg=</saml:AttributeValue>
+					</saml:Attribute>
+				</saml:AttributeStatement>
+				<dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+					<dsig:SignedInfo>
+						<dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+						<dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#hmac-sha1"/>
+						<dsig:Reference URI="#b3f20c08b0292eaae388d27404391403">
+							<dsig:Transforms>
+								<dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+								<dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+							</dsig:Transforms>
+							<dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+							<dsig:DigestValue>X5sbPTJ2Rbt/ZkhbJJWgsXHFcnM=</dsig:DigestValue>
+						</dsig:Reference>
+					</dsig:SignedInfo>
+					<dsig:SignatureValue>1jDUvouG8gYDTaPfrwA+XGTKx9U=</dsig:SignatureValue>
+				</dsig:Signature>
+			</saml:Assertion>
+		</wsse:Security>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<m:DPSretrieve xmlns:m="https://tpvs.hmrc.gov.uk/dps">
+			<m:version>1</m:version>
+			<m:vendorID>0178</m:vendorID>
+			<m:service>PAYE</m:service>
+			<m:entityType>EmpRef</m:entityType>
+			<m:entity>123/A6</m:entity>
+			<m:dataType>P9</m:dataType>
+			<m:got>0</m:got>
+			<m:nItems>0</m:nItems>
+		</m:DPSretrieve>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -3,37 +3,37 @@ using System.Xml;
 
 namespace HmrcTpvsProxy.Domain
 {
-    public class ResponseFileResolver : IResponseFileResolver
+    public class ResponseFileRetriever : IResponseFileRetriever
     {
-        public XmlDocument GetResponse(ResponseType responseType)
+        public XmlDocument GetResponse(RequestType requestType)
         {
             var response = new XmlDocument();
 
-            switch (responseType)
+            switch (requestType)
             {
-                case ResponseType.Authorisation:
+                case RequestType.Authorisation:
                     response.LoadXml(CascadeEdgeCaseFiles.Authorisation);
                     break;
-                case ResponseType.P6:
+                case RequestType.P6:
                     response.LoadXml(CascadeEdgeCaseFiles.P6Data);
                     break;
-                case ResponseType.P9:
+                case RequestType.P9:
                     response.LoadXml(CascadeEdgeCaseFiles.P9Data);
                     break;
-                case ResponseType.SL1:
+                case RequestType.SL1:
                     response.LoadXml(CascadeEdgeCaseFiles.SL1Data);
                     break;
-                case ResponseType.SL2:
+                case RequestType.SL2:
                     response.LoadXml(CascadeEdgeCaseFiles.SL2Data);
                     break;
-                case ResponseType.NOT:
+                case RequestType.NOT:
                     response.LoadXml(CascadeEdgeCaseFiles.NOTData);
                     break;
-                case ResponseType.AR:
+                case RequestType.AR:
                     response.LoadXml(CascadeEdgeCaseFiles.ARData);
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException("responseType");
+                    throw new ArgumentOutOfRangeException("requestType");
             }
 
             return response;

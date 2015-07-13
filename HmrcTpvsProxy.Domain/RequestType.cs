@@ -1,7 +1,8 @@
 ﻿namespace HmrcTpvsProxy.Domain
 {
-    public enum ResponseType
+    public enum RequestType
     {
+        Unknown,
         Authorisation,
         P6,
         P9,

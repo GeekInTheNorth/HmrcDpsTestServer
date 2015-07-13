@@ -44,10 +44,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CascadeEdgeCaseFiles.resx</DependentUpon>
     </Compile>
-    <Compile Include="IResponseFileResolver.cs" />
-    <Compile Include="ResponseFileResolver.cs" />
+    <Compile Include="IRequestTypeResolver.cs" />
+    <Compile Include="IResponseFileRetriever.cs" />
+    <Compile Include="RequestTypeResolver.cs" />
+    <Compile Include="ResponseFileRetriever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResponseType.cs" />
+    <Compile Include="RequestType.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CascadeEdgeCaseFiles.resx">

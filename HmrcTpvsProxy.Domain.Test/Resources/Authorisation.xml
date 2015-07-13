@@ -1,0 +1,16 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SOAP-ENV:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken>
+        <wsse:Username>ISV178</wsse:Username>
+        <wsse:Password>TESTING1</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <m:DPSrequestToken xmlns:m="https://tpvs.hmrc.gov.uk/dpsauthentication">
+      <m:version>1</m:version>
+      <m:vendorID>0178</m:vendorID>
+    </m:DPSrequestToken>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
