@@ -56,7 +56,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\ARData.xml" />
     <Content Include="Resources\Authorisation.xml" />
+    <Content Include="Resources\NOTData.xml" />
     <Content Include="Resources\P6Data.xml" />
     <Content Include="Resources\P9Data.xml" />
     <Content Include="Resources\SL1Data.xml" />

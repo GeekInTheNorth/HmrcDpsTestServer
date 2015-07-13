@@ -1,0 +1,675 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<env:Body>
+		<DPSretrieveResponse xmlns="https://tpvs.hmrc.gov.uk/dps">
+			<DPSdata xmlns="http://www.govtalk.gov.uk/taxation/DPSwrapper/1">
+				<DPSheader>
+					<Service>PAYE</Service>
+					<EntityType>EmpRef</EntityType>
+					<Entity>123/A6</Entity>
+					<DataType>AR</DataType>
+					<Got>0</Got>
+					<NItems>20</NItems>
+					<VendorID>0178</VendorID>
+					<MoreData>false</MoreData>
+					<HighWaterMark>2024</HighWaterMark>
+					<NItemsReturned>16</NItemsReturned>
+					<Timestamp>2015-07-13T10:18:27.553+01:00</Timestamp>
+				</DPSheader>
+				<ReminderAR FormType="AR1n" IssueDate="2009-04-10" SequenceNumber="1318" TaxYearEnd="2009" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR2n" IssueDate="2009-11-10" SequenceNumber="1321" TaxYearEnd="2009" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR6" IssueDate="2010-01-10" SequenceNumber="1324" TaxYearEnd="2009" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderARmn FormType="AR2mn" IssueDate="2009-11-10" SequenceNumber="1327" TaxYearEnd="2009" xmlns="http://www.govtalk.gov.uk/taxation/ReminderARmn/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+						<LiabilityType>Income Tax PAYE, National Insurance Contributions and</LiabilityType>
+						<LiabilityType>Amounts Deductible from Payments made to Sub-Contractors</LiabilityType>
+						<LiabilityType>in the Construction Industry</LiabilityType>
+						<DueDate>2009-05-19</DueDate>
+					</EmployerDetails>
+				</ReminderARmn>
+				<ReminderAR FormType="AR1n" IssueDate="2010-04-10" SequenceNumber="1484" TaxYearEnd="2010" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR2n" IssueDate="2010-11-10" SequenceNumber="1487" TaxYearEnd="2010" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR6" IssueDate="2011-01-10" SequenceNumber="1490" TaxYearEnd="2010" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderARmn FormType="AR2mn" IssueDate="2010-11-10" SequenceNumber="1493" TaxYearEnd="2010" xmlns="http://www.govtalk.gov.uk/taxation/ReminderARmn/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+						<DueDate>2010-05-19</DueDate>
+					</EmployerDetails>
+				</ReminderARmn>
+				<ReminderAR FormType="AR1n" IssueDate="2011-04-10" SequenceNumber="1728" TaxYearEnd="2011" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR2n" IssueDate="2011-09-01" SequenceNumber="1731" TaxYearEnd="2011" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR6" IssueDate="2011-11-23" SequenceNumber="1734" TaxYearEnd="2011" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderARmn FormType="AR2mn" IssueDate="2011-11-10" SequenceNumber="1737" TaxYearEnd="2011" xmlns="http://www.govtalk.gov.uk/taxation/ReminderARmn/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+						<DueDate>2011-05-19</DueDate>
+					</EmployerDetails>
+				</ReminderARmn>
+				<ReminderAR FormType="AR1n" IssueDate="2011-04-10" SequenceNumber="2015" TaxYearEnd="2012" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>1234567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR2n" IssueDate="2011-09-01" SequenceNumber="2018" TaxYearEnd="2012" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>1234567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderAR FormType="AR6" IssueDate="2011-11-23" SequenceNumber="2021" TaxYearEnd="2012" xmlns="http://www.govtalk.gov.uk/taxation/ReminderAR/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>1234567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+					</EmployerDetails>
+				</ReminderAR>
+				<ReminderARmn FormType="AR2mn" IssueDate="2011-11-10" SequenceNumber="2024" TaxYearEnd="2012" xmlns="http://www.govtalk.gov.uk/taxation/ReminderARmn/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>1234567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+						<LiabilityType>Income Tax PAYE and National Insurance Contributions</LiabilityType>
+						<DueDate>2011-05-19</DueDate>
+					</EmployerDetails>
+				</ReminderARmn>
+			</DPSdata>
+		</DPSretrieveResponse>
+	</env:Body>
+</env:Envelope>

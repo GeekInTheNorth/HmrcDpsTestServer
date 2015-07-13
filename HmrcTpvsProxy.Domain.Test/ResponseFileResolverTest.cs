@@ -17,63 +17,24 @@ namespace HmrcTpvsProxy.Domain.Test
         }
 
         [Test]
-        public void WhenRequestingAP6_ReturnsXmlFileWithADataTypeOfP6()
+        [TestCase(ResponseType.P6)]
+        [TestCase(ResponseType.P9)]
+        [TestCase(ResponseType.SL1)]
+        [TestCase(ResponseType.SL2)]
+        [TestCase(ResponseType.NOT)]
+        [TestCase(ResponseType.AR)]
+        public void ReturnsAMessageWithTheCorrectDataTypeWhenRequestingA(ResponseType responseType)
         {
             var resolver = new ResponseFileResolver();
 
-            var response = resolver.GetResponse(ResponseType.P6);
+            var response = resolver.GetResponse(responseType);
             var datatypes = response.GetElementsByTagName("DataType");
             var dataType = "WRONG";
 
             if (datatypes.Count > 0)
                 dataType = datatypes.Item(0).InnerText;
 
-            Assert.AreEqual("P6", dataType);
-        }
-
-        [Test]
-        public void WhenRequestingAP9_ReturnsXmlFileWithADataTypeOfP9()
-        {
-            var resolver = new ResponseFileResolver();
-
-            var response = resolver.GetResponse(ResponseType.P9);
-            var datatypes = response.GetElementsByTagName("DataType");
-            var dataType = "WRONG";
-
-            if (datatypes.Count > 0)
-                dataType = datatypes.Item(0).InnerText;
-
-            Assert.AreEqual("P9", dataType);
-        }
-
-        [Test]
-        public void WhenRequestingAnSL1_ReturnsXmlFileWithADataTypeOfSL1()
-        {
-            var resolver = new ResponseFileResolver();
-
-            var response = resolver.GetResponse(ResponseType.SL1);
-            var datatypes = response.GetElementsByTagName("DataType");
-            var dataType = "WRONG";
-
-            if (datatypes.Count > 0)
-                dataType = datatypes.Item(0).InnerText;
-
-            Assert.AreEqual("SL1", dataType);
-        }
-
-        [Test]
-        public void WhenRequestingAnSL2_ReturnsXmlFileWithADataTypeOfSL2()
-        {
-            var resolver = new ResponseFileResolver();
-
-            var response = resolver.GetResponse(ResponseType.SL2);
-            var datatypes = response.GetElementsByTagName("DataType");
-            var dataType = "WRONG";
-
-            if (datatypes.Count > 0)
-                dataType = datatypes.Item(0).InnerText;
-
-            Assert.AreEqual("SL2", dataType);
+            Assert.AreEqual(responseType.ToString(), dataType);
         }
     }
 }

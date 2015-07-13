@@ -1,0 +1,587 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<env:Body>
+		<DPSretrieveResponse xmlns="https://tpvs.hmrc.gov.uk/dps">
+			<DPSdata xmlns="http://www.govtalk.gov.uk/taxation/DPSwrapper/1">
+				<DPSheader>
+					<Service>PAYE</Service>
+					<EntityType>EmpRef</EntityType>
+					<Entity>123/A6</Entity>
+					<DataType>NOT</DataType>
+					<Got>0</Got>
+					<NItems>20</NItems>
+					<VendorID>0178</VendorID>
+					<MoreData>false</MoreData>
+					<HighWaterMark>3272</HighWaterMark>
+					<NItemsReturned>14</NItemsReturned>
+					<Timestamp>2015-07-13T10:18:47.455+01:00</Timestamp>
+				</DPSheader>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2008-05-01" SequenceNumber="1222" TaxYearEnd="2008" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House </Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P35Notif FormType="P35" HeaderText="" IssueDate="2008-02-14" SequenceNumber="1225" TaxYearEnd="2008" xmlns="http://www.govtalk.gov.uk/taxation/P35Notif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+					</EmployerDetails>
+					<NotificationText>Employer Notification to complete a PAYE Annual Return. This notice requires you, by law, to send a P35 Employer's Annual Return for the year. According to records you did not use a paper PAYE Annual Return last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper PAYE Annual Return. Instead, you are being sent this notification. This notification requires you, by law, to send a P35 Employer's Annual Return for the year ending 5th April. You can do this by using one of the following methods: * The HMRC Internet Service for P35 Employer Annual Returns, or * An approved substitute Internet Service Annual Return. Go online at www.hmrc.gov.uk for further guidance. Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please contact the Orderline (Link is www.hmrc.gov.uk/employers/orderline.htm) and one will be sent to you. Please make sure your Return (including enclosures) reaches HMRC by 19 May. Penalties are chargeable when a Return is late.</NotificationText>
+				</P35Notif>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2009-05-10" SequenceNumber="1342" TaxYearEnd="2009" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>12 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P35Notif FormType="P35" HeaderText="" IssueDate="2009-02-14" SequenceNumber="1345" TaxYearEnd="2009" xmlns="http://www.govtalk.gov.uk/taxation/P35Notif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadows Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F9</AORef>
+					</EmployerDetails>
+					<NotificationText>Employer Notification to complete a PAYE Annual Return. This notice requires you, by law, to send a P35 Employer's Annual Return for the year. According to records you did not use a paper PAYE Annual Return last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper PAYE Annual Return. Instead, you are being sent this notification. This notification requires you, by law, to send a P35 Employer's Annual Return for the year ending 5th April. You can do this by using one of the following methods: * The HMRC Internet Service for P35 Employer Annual Returns, or * An approved substitute Internet Service Annual Return. Go online at www.hmrc.gov.uk for further guidance. Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please contact the Orderline (Link is www.hmrc.gov.uk/employers/orderline.htm) and one will be sent to you. Please make sure your Return (including enclosures) reaches HMRC by 19 May. Penalties are chargeable when a Return is late.</NotificationText>
+				</P35Notif>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2010-05-10" SequenceNumber="1496" TaxYearEnd="2010" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>12 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P35Notif FormType="P35" HeaderText="" IssueDate="2009-02-01" SequenceNumber="1499" TaxYearEnd="2010" xmlns="http://www.govtalk.gov.uk/taxation/P35Notif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>12 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Meadow Windows</Name>
+						<AgentDetails>
+							<AgentID>106 MW</AgentID>
+							<Name>ONYX</Name>
+							<Address>
+								<Line>258 Beech Grove </Line>
+								<Line>Temple Green</Line>
+								<Line>Kent</Line>
+								<PostCode>ME14 7QF</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>116 Harrogate Lane </Line>
+							<Line>Capstone </Line>
+							<Line>Chatham</Line>
+							<Line>Kent</Line>
+							<PostCode>ME10 8BW</PostCode>
+						</Address>
+						<AORef>123PT3668L8F</AORef>
+					</EmployerDetails>
+					<NotificationText>Notification to complete a PAYE Annual Return. This notice requires you, by law, to send a P35 Employer's Annual Return for the year. According to records you did not use a paper PAYE Annual Return last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper PAYE Annual Return. Instead, you are being sent this notification. This notification requires you, by law, to send a P35 Employer's Annual Return for the year ending 5th April. You can do this by using one of the following methods: * The HMRC Internet Service for P35 Employer Annual Returns, or * An approved substitute Internet Service Annual Return. Go online at www.hmrc.gov.uk for further guidance. Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please contact the Orderline (Link is www.hmrc.gov.uk/employers/orderline.htm) and one will be sent to you. Please make sure your Return (including enclosures) reaches HMRC by 19 May. Penalties are chargeable when a Return is late.</NotificationText>
+				</P35Notif>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2011-05-10" SequenceNumber="1740" TaxYearEnd="2011" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town </Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL567890</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P35Notif FormType="P35" HeaderText="" IssueDate="2010-02-01" SequenceNumber="1743" TaxYearEnd="2011" xmlns="http://www.govtalk.gov.uk/taxation/P35Notif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+					</EmployerDetails>
+					<NotificationText>Notification to complete a PAYE Annual Return. This notice requires you, by law, to send a P35 Employer's Annual Return for the year. According to records you did not use a paper PAYE Annual Return last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper PAYE Annual Return. Instead, you are being sent this notification. This notification requires you, by law, to send a P35 Employer's Annual Return for the year ending 5th April. You can do this by using one of the following methods: * The HMRC Internet Service for P35 Employer Annual Returns, or * An approved substitute Internet Service Annual Return. Go online at www.hmrc.gov.uk for further guidance. Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please contact the Orderline (Link is www.hmrc.gov.uk/employers/orderline.htm) and one will be sent to you. Please make sure your Return (including enclosures) reaches HMRC by 19 May. Penalties are chargeable when a Return is late.</NotificationText>
+				</P35Notif>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2011-05-10" SequenceNumber="2027" TaxYearEnd="2012" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town </Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL567890</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P35Notif FormType="P35" HeaderText="" IssueDate="2011-02-20" SequenceNumber="2030" TaxYearEnd="2012" xmlns="http://www.govtalk.gov.uk/taxation/P35Notif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>1234567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+					</EmployerDetails>
+					<NotificationText>"Notification to complete a PAYE Annual Return. This notice requires you, by law, to send a P35 Employer's Annual Return for the year. According to records you did not use a paper PAYE Annual Return last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper PAYE Annual Return. Instead, you are being sent this notification. This notification requires you, by law, to send a P35 Employer's Annual Return for the year ending 5th April. You can do this by using one of the following methods: * The HMRC Internet Service for P35 Employer Annual Returns, or * An approved substitute Internet Service Annual Return. Go online at www.hmrc.gov.uk for further guidance. Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please contact the Orderline (Link is www.hmrc.gov.uk/employers/orderline.htm) and one will be sent to you. Please make sure your Return (including enclosures) reaches HMRC by 19 May. Penalties are chargeable when a Return is late."</NotificationText>
+				</P35Notif>
+				<P35Notif FormType="P35" HeaderText="PAYE instructions to employers" IssueDate="2013-05-02" SequenceNumber="3227" TaxYearEnd="2014" xmlns="http://www.govtalk.gov.uk/taxation/P35Notif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK8888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town</Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+					</EmployerDetails>
+					<NotificationText>Notification to complete a PAYE Annual Return. This notice requires you, by law, to send a P35 Employer's Annual Return for the year. According to records you did not use a paper PAYE Annual Return last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper PAYE Annual Return. Instead, you are being sent this notification. This notification requires you, by law, to send a P35 Employer's Annual Return for the year ending 5th April. You can do this by using one of the following methods: * The HMRC Internet Service for P35 Employer Annual Returns, or * An approved substitute Internet Service Annual Return. Go online at www.hmrc.gov.uk for further guidance. Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please contact the Orderline (Link is www.hmrc.gov.uk/employers/orderline.htm) and one will be sent to you. Please make sure your Return (including enclosures) reaches HMRC by 19 May. Penalties are chargeable when a Return is late.</NotificationText>
+				</P35Notif>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2013-05-10" SequenceNumber="3230" TaxYearEnd="2014" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town </Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P11DbNotif FormType="P11Db" HeaderText="PAYE instructions to employers" IssueDate="2014-05-10" SequenceNumber="3238" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town </Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+					</EmployerDetails>
+					<NotificationText/>
+				</P11DbNotif>
+				<P11DbNotif FormType="P11Db" HeaderText="Employer Notice to complete a Return of Class 1A National Insurance contributions and expenses and benefits forms P11D. " IssueDate="2015-05-10" SequenceNumber="3272" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/P11DbNotif/2">
+					<EmployerDetails>
+						<EmployerRef>123/A6</EmployerRef>
+						<HMRCoffice>
+							<Number>123</Number>
+							<Reference>A6</Reference>
+							<Name>Preston</Name>
+							<Address>
+								<Line>Flemming House</Line>
+								<Line>10 Watson Court</Line>
+								<Line>East Dene</Line>
+								<Line>Preston</Line>
+								<PostCode>PR1 4AA</PostCode>
+							</Address>
+							<Telephone>
+								<Number>01234 567890</Number>
+								<Extension>4312</Extension>
+							</Telephone>
+						</HMRCoffice>
+						<Name>Oakdale Glazing Ltd</Name>
+						<AgentDetails>
+							<AgentID>OAK888</AgentID>
+							<Name>Opal Accountants</Name>
+							<Address>
+								<Line>33 Any Street</Line>
+								<Line>Any Town</Line>
+								<Line>Any City</Line>
+								<PostCode>BB44 4BB</PostCode>
+							</Address>
+						</AgentDetails>
+						<Address>
+							<Line>66 Any Street</Line>
+							<Line>Any Town </Line>
+							<Line>Any City</Line>
+							<PostCode>DD11 1DD</PostCode>
+						</Address>
+						<AORef>456PL4567890</AORef>
+					</EmployerDetails>
+					<NotificationText>According to records you did not use a paper Return of Class 1A National Insurance Contributions and expenses and benefits last year. Instead you sent your Return over the Internet. It is assumed that you wish to do so again, so you will not be sent a paper Return of Class 1A National Insurance Contributions and expenses and benefits. Instead, you are being sent this Notice.This notice requires you, by law, to send a P11D(b) Return of Class 1A National Insurance Contributions and expenses and benefits for the year.You can do this by using one of the following methods:* HMRC's Internet Service for P11D(b) Return of Class 1A National Insurance Contributions and expenses and benefits, or* an approved substitute Internet Service Return of Class 1A National Insurance Contributions and expenses and benefitsGo on line at www.hmrc.gov.uk for further guidance.Alternatively you may use a paper PAYE Annual Return. If you decide to do so, please telephone your tax office and one will be sent to you.Please make sure your Return (including enclosures) reaches HMRC by 19 July 2006. Penalties are chargeable where a Return is late.</NotificationText>
+				</P11DbNotif>
+			</DPSdata>
+		</DPSretrieveResponse>
+	</env:Body>
+</env:Envelope>

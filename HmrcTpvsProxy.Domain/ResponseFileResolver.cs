@@ -26,6 +26,12 @@ namespace HmrcTpvsProxy.Domain
                 case ResponseType.SL2:
                     response.LoadXml(CascadeEdgeCaseFiles.SL2Data);
                     break;
+                case ResponseType.NOT:
+                    response.LoadXml(CascadeEdgeCaseFiles.NOTData);
+                    break;
+                case ResponseType.AR:
+                    response.LoadXml(CascadeEdgeCaseFiles.ARData);
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException("responseType");
             }

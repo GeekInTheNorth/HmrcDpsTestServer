@@ -61,11 +61,45 @@ namespace HmrcTpvsProxy.Domain {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///	&lt;env:Body&gt;
+        ///		&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;
+        ///			&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;
+        ///				&lt;DPSheader&gt;
+        ///					&lt;Service&gt;PAYE&lt;/Service&gt;
+        ///					&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;
+        ///					&lt;Entity&gt;123/A6&lt;/Entity&gt;
+        ///					&lt;DataType&gt;AR&lt;/DataTy [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ARData {
+            get {
+                return ResourceManager.GetString("ARData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;env:Body&gt;&lt;ns:DPSrequestTokenResponse xmlns:ns=&quot;https://tpvs.hmrc.gov.uk/dpsauthentication&quot;&gt;&lt;ns:DPSrequestTokenResult&gt;&amp;lt;![CDATA[&amp;lt;saml:Assertion xmlns:saml=&quot;urn:oasis:names:tc:SAML:1.0:assertion&quot; xmlns=&quot;urn:oasis:names:tc:SAML:1.0:assertion&quot; xmlns:samlp=&quot;urn:oasis:names:tc:SAML:1.0: [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Authorisation {
             get {
                 return ResourceManager.GetString("Authorisation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///	&lt;env:Body&gt;
+        ///		&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;
+        ///			&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;
+        ///				&lt;DPSheader&gt;
+        ///					&lt;Service&gt;PAYE&lt;/Service&gt;
+        ///					&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;
+        ///					&lt;Entity&gt;123/A6&lt;/Entity&gt;
+        ///					&lt;DataType&gt;NOT&lt;/DataT [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string NOTData {
+            get {
+                return ResourceManager.GetString("NOTData", resourceCulture);
             }
         }
         
