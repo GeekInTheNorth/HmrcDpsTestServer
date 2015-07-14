@@ -6,7 +6,7 @@ using HmrcTpvsProxy.Domain;
 
 namespace TestProxy.Controllers
 {
-    public class HmrcProxyController : ApiController
+    public class TestDataController : ApiController
     {
         [AcceptVerbs("POST")]
         public HttpResponseMessage GetData(HttpRequestMessage request)
