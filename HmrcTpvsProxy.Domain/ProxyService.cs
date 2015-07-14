@@ -3,13 +3,23 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using HmrcTpvsProxy.Domain.Manipulator;
 
 namespace HmrcTpvsProxy.Domain
 {
     public class ProxyService : IProxyService
     {
+        private readonly IHmrcDataManipulator dataManipulator;
+
         private const string AuthorisationUrl = "https://www.tpvs.hmrc.gov.uk/dpsauthentication/dpsauthentication.jws";
         private const string GetMessageUrl = "https://www.tpvs.hmrc.gov.uk/dps/dps.jws";
+
+        public ProxyService(IHmrcDataManipulator dataManipulator)
+        {
+            if (dataManipulator == null) throw new ArgumentNullException(nameof(dataManipulator));
+
+            this.dataManipulator = dataManipulator;
+        }
 
         public HttpResponseMessage GetAuthorisationResponseFor(HttpRequestMessage request)
         {
@@ -29,9 +39,11 @@ namespace HmrcTpvsProxy.Domain
 
             var result = PostXml(requestContent, GetMessageUrl);
 
+            var modifiedResponse = dataManipulator.ApplyEmployeeIdentities(result.Response);
+
             return new HttpResponseMessage
             {
-                Content = new StringContent(result.Response, Encoding.UTF8)
+                Content = new StringContent(modifiedResponse, Encoding.UTF8)
             };
         }
 

@@ -26,6 +26,22 @@ namespace HmrcTpvsProxy.Domain
             return requestType;
         }
 
+        public RequestType GetRequestTypeForResponse(XmlDocument responseXml)
+        {
+            var requestType = RequestType.Unknown;
+
+            var nodes = responseXml.GetElementsByTagName("DataType");
+
+            if (nodes.Count == 0)
+                return RequestType.Unknown;
+
+            var dataTypeString = nodes.Item(0).InnerText;
+
+            Enum.TryParse(dataTypeString, true, out requestType);
+
+            return requestType;
+        }
+
         private bool IsAuthorisation(XmlDocument requestXml)
         {
             var nodes = requestXml.GetElementsByTagName("wsse:Username");

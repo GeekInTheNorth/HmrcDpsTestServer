@@ -2,6 +2,8 @@
 using System.Text;
 using System.Web.Http;
 using HmrcTpvsProxy.Domain;
+using HmrcTpvsProxy.Domain.Manipulator;
+using HmrcTpvsProxy.Domain.Manipulator.Data;
 
 namespace TestProxy.Controllers
 {
@@ -10,7 +12,10 @@ namespace TestProxy.Controllers
         [AcceptVerbs("POST")]
         public HttpResponseMessage GetData(HttpRequestMessage request)
         {
-            var service = new ProxyService();
+            var employeeIdentityRespository = new EmployeeIdentityRepository();
+            var requestTypeResolver = new RequestTypeResolver();
+            var hmrcDataManipulator = new HmrcDataManipulator(employeeIdentityRespository, requestTypeResolver);
+            var service = new ProxyService(hmrcDataManipulator);
 
             return service.GetMessageResponseFor(request);
         }

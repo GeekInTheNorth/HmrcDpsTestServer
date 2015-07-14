@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=3.0.5610.33194, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\TestProxy\packages\NUnit.3.0.0-beta-2\lib\net45\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\TestProxy\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Manipulator\HmrcDataManipulatorTest.cs" />
     <Compile Include="RequestTypeResolverTest.cs" />
     <Compile Include="ResponseFileRetrieverTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,6 +51,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TestRequests.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TestResponses.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestResponses.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +69,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>TestRequests.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TestResponses.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\ARRequest.xml" />
@@ -72,6 +82,7 @@
     <Content Include="Resources\NOTRequest.xml" />
     <Content Include="Resources\P6Request.xml" />
     <Content Include="Resources\P9Request.xml" />
+    <Content Include="Resources\P9Response.xml" />
     <Content Include="Resources\SL1Request.xml" />
     <Content Include="Resources\SL2Request.xml" />
   </ItemGroup>

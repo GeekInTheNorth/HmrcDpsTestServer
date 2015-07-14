@@ -47,6 +47,11 @@ namespace TestProxy.Controllers
             {
                 return RequestType.P6;
             }
+
+            public RequestType GetRequestTypeForResponse(XmlDocument responseXml)
+            {
+                return RequestType.P6;
+            }
         }
     }
 }

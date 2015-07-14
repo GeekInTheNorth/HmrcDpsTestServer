@@ -50,11 +50,16 @@
     <Compile Include="IProxyService.cs" />
     <Compile Include="IRequestTypeResolver.cs" />
     <Compile Include="IResponseFileRetriever.cs" />
+    <Compile Include="Manipulator\Data\EmployeeIdentity.cs" />
+    <Compile Include="Manipulator\Data\EmployeeIdentityRepository.cs" />
+    <Compile Include="Manipulator\Data\IEmployeeIdentityRepository.cs" />
+    <Compile Include="Manipulator\IHmrcDataManipulator.cs" />
     <Compile Include="ProxyService.cs" />
     <Compile Include="RequestTypeResolver.cs" />
     <Compile Include="ResponseFileRetriever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestType.cs" />
+    <Compile Include="Manipulator\HmrcDataManipulator.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CascadeEdgeCaseFiles.resx">
