@@ -44,6 +44,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CascadeEdgeCaseFiles.resx</DependentUpon>
     </Compile>
+    <Compile Include="CascadeEdgeCaseService.cs" />
+    <Compile Include="ICascadeEdgeCaseService.cs" />
     <Compile Include="IRequestTypeResolver.cs" />
     <Compile Include="IResponseFileRetriever.cs" />
     <Compile Include="RequestTypeResolver.cs" />
