@@ -81,10 +81,13 @@
     </Content>
     <Content Include="Resources\NOTRequest.xml" />
     <Content Include="Resources\P6Request.xml" />
+    <Content Include="Resources\P6Response.xml" />
     <Content Include="Resources\P9Request.xml" />
     <Content Include="Resources\P9Response.xml" />
     <Content Include="Resources\SL1Request.xml" />
+    <Content Include="Resources\SL1Response.xml" />
     <Content Include="Resources\SL2Request.xml" />
+    <Content Include="Resources\SL2Response.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

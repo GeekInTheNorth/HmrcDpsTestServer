@@ -61,19 +61,38 @@ namespace HmrcTpvsProxy.Domain.Test {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-        ///&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
-        ///	&lt;env:Body&gt;
-        ///		&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;
-        ///			&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;
-        ///				&lt;DPSheader&gt;
-        ///					&lt;Service&gt;PAYE&lt;/Service&gt;
-        ///					&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;
-        ///					&lt;Entity&gt;12 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;env:Body&gt;&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;&lt;DPSheader&gt;&lt;Service&gt;PAYE&lt;/Service&gt;&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;&lt;Entity&gt;123/A6&lt;/Entity&gt;&lt;DataType&gt;P6&lt;/DataType&gt;&lt;Got&gt; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string P6Response {
+            get {
+                return ResourceManager.GetString("P6Response", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;env:Body&gt;&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;&lt;DPSheader&gt;&lt;Service&gt;PAYE&lt;/Service&gt;&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;&lt;Entity&gt;123/A6&lt;/Entity&gt;&lt;DataType&gt;P9&lt;/DataType&gt;&lt;Got&gt; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string P9Response {
             get {
                 return ResourceManager.GetString("P9Response", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;env:Body&gt;&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;&lt;DPSheader&gt;&lt;Service&gt;PAYE&lt;/Service&gt;&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;&lt;Entity&gt;123/A6&lt;/Entity&gt;&lt;DataType&gt;SL1&lt;/DataType&gt;&lt;Got [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SL1Response {
+            get {
+                return ResourceManager.GetString("SL1Response", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:soapenc=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;env:Body&gt;&lt;DPSretrieveResponse xmlns=&quot;https://tpvs.hmrc.gov.uk/dps&quot;&gt;&lt;DPSdata xmlns=&quot;http://www.govtalk.gov.uk/taxation/DPSwrapper/1&quot;&gt;&lt;DPSheader&gt;&lt;Service&gt;PAYE&lt;/Service&gt;&lt;EntityType&gt;EmpRef&lt;/EntityType&gt;&lt;Entity&gt;123/A6&lt;/Entity&gt;&lt;DataType&gt;SL2&lt;/DataType&gt;&lt;Got [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SL2Response {
+            get {
+                return ResourceManager.GetString("SL2Response", resourceCulture);
             }
         }
     }

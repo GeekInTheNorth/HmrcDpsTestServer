@@ -32,15 +32,29 @@ namespace HmrcTpvsProxy.Domain.Manipulator
             if (!validRequestTypes.Contains(requestType))
                 return response;
 
-            UpdateP6P9Identities(xmlResponse);
+            switch (requestType)
+            {
+                case RequestType.P6:
+                    UpdateIdentities(xmlResponse, "CodingNoticesP6P6B");
+                    break;
+                case RequestType.P9:
+                    UpdateIdentities(xmlResponse, "CodingNoticeP9");
+                    break;
+                case RequestType.SL1:
+                    UpdateIdentities(xmlResponse, "StudentLoanStart");
+                    break;
+                case RequestType.SL2:
+                    UpdateIdentities(xmlResponse, "StudentLoanEnd");
+                    break;
+            }
 
             return GetXmlDocumentAsString(xmlResponse);
         }
 
-        private void UpdateP6P9Identities(XmlDocument xmlResponse)
+        private void UpdateIdentities(XmlDocument xmlResponse, string messageNodeName)
         {
             var identities = repository.Get().ToList();
-            var nodes = xmlResponse.GetElementsByTagName("CodingNoticeP9");
+            var nodes = xmlResponse.GetElementsByTagName(messageNodeName);
 
             for (var loop = 0; loop < nodes.Count; loop++)
             {
