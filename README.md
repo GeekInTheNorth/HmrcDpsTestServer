@@ -20,6 +20,8 @@ Solution 2
 
 - Solution 1
 - Solution 2
+- Added the ability to configure the service urls
+- Added the ability to configure whether data manipulation is on or not
 
 # GLOSSARY
 
