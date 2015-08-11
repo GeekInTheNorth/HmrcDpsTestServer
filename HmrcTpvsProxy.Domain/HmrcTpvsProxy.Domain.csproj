@@ -33,6 +33,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,11 @@
       <DependentUpon>CascadeEdgeCaseFiles.resx</DependentUpon>
     </Compile>
     <Compile Include="CascadeEdgeCaseService.cs" />
+    <Compile Include="ConfigurationData\Configuration.cs" />
+    <Compile Include="ConfigurationData\ConfigurationRepository.cs" />
+    <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
+    <Compile Include="IMessageSender.cs" />
+    <Compile Include="PostResult.cs" />
     <Compile Include="ICascadeEdgeCaseService.cs" />
     <Compile Include="IProxyService.cs" />
     <Compile Include="IRequestTypeResolver.cs" />
@@ -54,6 +60,7 @@
     <Compile Include="Manipulator\Data\EmployeeIdentityRepository.cs" />
     <Compile Include="Manipulator\Data\IEmployeeIdentityRepository.cs" />
     <Compile Include="Manipulator\IHmrcDataManipulator.cs" />
+    <Compile Include="MessageSender.cs" />
     <Compile Include="ProxyService.cs" />
     <Compile Include="RequestTypeResolver.cs" />
     <Compile Include="ResponseFileRetriever.cs" />
