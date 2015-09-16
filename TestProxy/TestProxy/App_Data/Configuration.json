@@ -1,5 +1,4 @@
 ﻿{
   "HmrcAuthenticationServer": "https://www.tpvs.hmrc.gov.uk/dpsauthentication/dpsauthentication.jws",
-  "HmrcGetMessagesServer": "https://www.tpvs.hmrc.gov.uk/dps/dps.jws",
-  "OverrideIdentities": "false"
+  "HmrcGetMessagesServer": "https://www.tpvs.hmrc.gov.uk/dps/dps.jws"
 }

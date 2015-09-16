@@ -51,6 +51,7 @@
     <Compile Include="ConfigurationData\ConfigurationRepository.cs" />
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
     <Compile Include="IMessageSender.cs" />
+    <Compile Include="Models\IdentityCache.cs" />
     <Compile Include="PostResult.cs" />
     <Compile Include="ICascadeEdgeCaseService.cs" />
     <Compile Include="IProxyService.cs" />

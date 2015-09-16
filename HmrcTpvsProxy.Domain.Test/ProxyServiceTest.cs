@@ -4,6 +4,7 @@ using HmrcTpvsProxy.Domain.Manipulator;
 using Moq;
 using Moq.AutoMock;
 using NUnit.Framework;
+using HmrcTpvsProxy.Domain.Models;
 
 namespace HmrcTpvsProxy.Domain.Test
 {
@@ -32,22 +33,22 @@ namespace HmrcTpvsProxy.Domain.Test
         [Test]
         public void WhenConfiguredToOverrideIdentities_ThenTheDataManipulatorWillOverrideIdentities()
         {
-            configRepository.Setup(x => x.GetConfiguration()).Returns(new Configuration { OverrideIdentities = true });
-            dataManipulator.Setup(x => x.ApplyEmployeeIdentities(It.IsAny<string>())).Returns(GetPostResult().Response);
+            configRepository.Setup(x => x.GetConfiguration()).Returns(new Configuration());
+            dataManipulator.Setup(x => x.ApplyEmployeeIdentities(It.IsAny<string>(), It.IsAny<IdentityCache>())).Returns(GetPostResult().Response);
 
-            proxyService.GetMessageResponseFor(GetTestMessage());
+            proxyService.GetMessageResponseFor(GetTestMessage(), new IdentityCache());
 
-            dataManipulator.Verify(x => x.ApplyEmployeeIdentities(It.IsAny<string>()), Times.Once());
+            dataManipulator.Verify(x => x.ApplyEmployeeIdentities(It.IsAny<string>(), It.IsAny<IdentityCache>()), Times.Once());
         }
 
         [Test]
         public void WhenNotConfiguredToOverrideIdentities_ThenTheDataManipulatorWillNotOverrideIdentities()
         {
-            configRepository.Setup(x => x.GetConfiguration()).Returns(new Configuration { OverrideIdentities = false });
+            configRepository.Setup(x => x.GetConfiguration()).Returns(new Configuration());
 
             proxyService.GetMessageResponseFor(GetTestMessage());
 
-            dataManipulator.Verify(x => x.ApplyEmployeeIdentities(It.IsAny<string>()), Times.Never());
+            dataManipulator.Verify(x => x.ApplyEmployeeIdentities(It.IsAny<string>(), It.IsAny<IdentityCache>()), Times.Never());
         }
 
         private HttpRequestMessage GetTestMessage()
