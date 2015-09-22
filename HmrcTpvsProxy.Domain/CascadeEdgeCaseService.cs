@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 using System.Xml;
 
 namespace HmrcTpvsProxy.Domain
@@ -39,15 +40,33 @@ namespace HmrcTpvsProxy.Domain
 
         private string GetXmlDocumentAsString(XmlDocument xml)
         {
-            using (var stringWriter = new StringWriter())
+            var xmlString = string.Empty;
+
+            using (var stream = new MemoryStream())
             {
-                using (var xmlTextWriter = XmlWriter.Create(stringWriter))
+                using (var streamWriter = new StreamWriter(stream))
                 {
-                    xml.WriteTo(xmlTextWriter);
-                    xmlTextWriter.Flush();
-                    return stringWriter.GetStringBuilder().ToString();
+                    var xmlWriterSettings = new XmlWriterSettings();
+                    xmlWriterSettings.Encoding = Encoding.UTF8;
+                    xmlWriterSettings.Indent = true;
+
+                    using (var xmlWriter = XmlWriter.Create(streamWriter, xmlWriterSettings))
+                    {
+                        xml.WriteTo(xmlWriter);
+                        xmlWriter.Flush();
+                        xmlWriter.Close();
+                    }
+
+                    using (var streamReader = new StreamReader(stream))
+                    {
+                        stream.Position = 0;
+                        xmlString = streamReader.ReadToEnd();
+                        streamReader.Close();
+                    }
                 }
             }
+
+            return xmlString;
         }
     }
 }
