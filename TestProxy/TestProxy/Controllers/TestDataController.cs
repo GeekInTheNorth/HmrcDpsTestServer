@@ -27,17 +27,20 @@ namespace TestProxy.Controllers
         }
 
         [AcceptVerbs("GET")]
-        public HttpResponseMessage Test()
+        public HttpResponseMessage GetTestMessage()
         {
-            var requestTypeResolver = new RequestTypeFaker();
-            var responseFileRetriever = new ResponseFileRetriever();
-            var service = new CascadeEdgeCaseService(requestTypeResolver, responseFileRetriever);
-
-            var message = service.GetResponseFor(string.Empty);
+            var stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine("You have successfully reached the Test Data service using a GET method.  Messages will be returned using a POST method.");
+            stringBuilder.AppendLine(string.Empty);
+            stringBuilder.AppendLine("For RTI NVR Messages in Payroll (Windows), run this script first against your database:");
+            stringBuilder.AppendLine("UPDATE PYBASIC SET NINumber = 'AA' + DBO.PAD(EmployeeNumber, '0', 6) + 'A'");
+            stringBuilder.AppendLine(string.Empty);
+            stringBuilder.AppendLine("For RTI NVR Messages in Payroll (Web), run this script first against your database:");
+            stringBuilder.AppendLine("UPDATE Employee SET NationalInsuranceNo = 'AA' + DBO.PAD(DisplayEmployeeID,'0',6)+'A' WHERE ISNUMERIC(DisplayEmployeeID) = 1");
 
             return new HttpResponseMessage
             {
-                Content = new StringContent(message, Encoding.UTF8, "application/xml")
+                Content = new StringContent(stringBuilder.ToString(), Encoding.UTF8)
             };
         }
 

@@ -32,6 +32,9 @@ namespace HmrcTpvsProxy.Domain
                 case RequestType.AR:
                     response.LoadXml(CascadeEdgeCaseFiles.ARData);
                     break;
+                case RequestType.RTI:
+                    response.LoadXml(CascadeEdgeCaseFiles.NVRData);
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException("requestType");
             }

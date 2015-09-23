@@ -127,6 +127,9 @@
   <data name="NOTData" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\NOTData.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="NVRData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NVRData.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="P6Data" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\P6Data.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>

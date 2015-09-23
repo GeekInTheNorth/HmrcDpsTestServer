@@ -9,6 +9,7 @@
         SL1,
         SL2,
         AR,
-        NOT
+        NOT,
+        RTI
     }
 }
