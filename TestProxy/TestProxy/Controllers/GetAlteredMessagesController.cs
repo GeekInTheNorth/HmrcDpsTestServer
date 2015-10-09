@@ -2,11 +2,13 @@
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
+using WebApp.Filters;
 
 namespace TestProxy.Controllers
 {
     public class GetAlteredMessagesController : HmrcProxyControllerBase
     {
+        [ForceHttps]
         [AcceptVerbs("POST")]
         public HttpResponseMessage GetData(HttpRequestMessage request)
         {
@@ -27,7 +29,7 @@ namespace TestProxy.Controllers
         {
             return new HttpResponseMessage
             {
-                Content = new StringContent("You have successfully reached the Get Messages Proxy which overrides the identities in the test data provided by the HMRC using a GET method.  Messages will be returned using a POST method.", Encoding.UTF8)
+                Content = new StringContent("You have successfully reached the Get Messages Proxy which overrides the identities in the test data provided by the HMRC using a GET method.  Messages will only be returned using a POST method over HTTPS.", Encoding.UTF8)
             };
         }
     }

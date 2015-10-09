@@ -3,11 +3,13 @@ using System.Text;
 using System.Web.Http;
 using System.Xml;
 using HmrcTpvsProxy.Domain;
+using WebApp.Filters;
 
 namespace TestProxy.Controllers
 {
     public class TestDataController : ApiController
     {
+        [ForceHttps]
         [AcceptVerbs("POST")]
         public HttpResponseMessage GetData(HttpRequestMessage request)
         {
@@ -30,7 +32,7 @@ namespace TestProxy.Controllers
         public HttpResponseMessage GetTestMessage()
         {
             var stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine("You have successfully reached the Test Data service using a GET method.  Messages will be returned using a POST method.");
+            stringBuilder.AppendLine("You have successfully reached the Test Data service using a GET method.  Messages will only be returned using a POST method over HTTPS.");
             stringBuilder.AppendLine(string.Empty);
             stringBuilder.AppendLine("For RTI NVR Messages in Payroll (Windows), run this script first against your database:");
             stringBuilder.AppendLine("UPDATE PYBASIC SET NINumber = 'AA' + DBO.PAD(EmployeeNumber, '0', 6) + 'A'");
