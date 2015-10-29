@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AuthorisationProxyController.cs" />
+    <Compile Include="Controllers\ClearCacheController.cs" />
     <Compile Include="Controllers\GetAlteredMessagesController.cs" />
     <Compile Include="Controllers\GetMessagesProxyController.cs" />
     <Compile Include="Controllers\HmrcProxyControllerBase.cs" />
