@@ -52,6 +52,7 @@
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
     <Compile Include="IMessageSender.cs" />
     <Compile Include="Models\IdentityCache.cs" />
+    <Compile Include="Models\StudentLoanNotice.cs" />
     <Compile Include="PostResult.cs" />
     <Compile Include="ICascadeEdgeCaseService.cs" />
     <Compile Include="IProxyService.cs" />
@@ -68,6 +69,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestType.cs" />
     <Compile Include="Manipulator\HmrcDataManipulator.cs" />
+    <Compile Include="TestDataTransformer\IStudentLoanNoticeTransformer.cs" />
+    <Compile Include="TestDataTransformer\StudentLoanNoticeTransformer.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CascadeEdgeCaseFiles.resx">

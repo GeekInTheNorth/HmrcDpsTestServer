@@ -1,0 +1,44 @@
+﻿body {
+}
+
+table.message-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.text-cell, th.numeric-cell {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.text-cell, .numeric-cell {
+    border: solid 1px blue;
+    padding: 3px;
+}
+
+.text-cell {
+    text-align: left;
+}
+
+.numeric-cell {
+    text-align: right;
+}
+
+.message-list-alt-row {
+    background-color: lightsteelblue;
+}
+
+.message-list-row {
+    background-color: white;
+}
+
+div.centralised {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.body-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

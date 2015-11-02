@@ -73,6 +73,7 @@
     <Compile Include="RequestTypeResolverTest.cs" />
     <Compile Include="ResponseFileRetrieverTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestDataTransformer\StudentLoanNoticeTransformerTest.cs" />
     <Compile Include="TestRequests.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

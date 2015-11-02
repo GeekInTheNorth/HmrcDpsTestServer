@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <table class="message-list">
+        <tr>
+            <th class="text-cell">Name</th>
+            <th class="text-cell">NINO</th>
+            <th class="numeric-cell">Work's Number</th>
+            <th class="numeric-cell">Issued</th>
+            <th class="numeric-cell">Effective</th>
+            <th class="numeric-cell">Sequence No.</th>
+            <th class="text-cell">Message Type</th>
+            <th class="text-cell">Plan Type</th>
+        </tr>
+        @{
+            var rowClass = "message-list-alt-row";
+            foreach (HmrcTpvsProxy.Domain.Models.StudentLoanNotice modelItem in Model)
+            {
+                rowClass = rowClass == "message-list-row" ? "message-list-alt-row" : "message-list-row";
+                <tr class="@rowClass">
+                    <td class="text-cell">@modelItem.Name</td>
+                    <td class="text-cell">@modelItem.NationalInsuranceNo</td>
+                    <td class="numeric-cell">@modelItem.WorksNumber</td>
+                    <td class="numeric-cell">@modelItem.IssueDate.ToString("dd/MM/yyyy")</td>
+                    <td class="numeric-cell">@modelItem.EffectiveDate.ToString("dd/MM/yyyy")</td>
+                    <td class="numeric-cell">@modelItem.SequenceNumber</td>
+                    <td class="text-cell">@modelItem.MessageType</td>
+                    <td class="text-cell">@modelItem.PlanType</td>
+                </tr>
+            }
+        }
+    </table>
+</div>
