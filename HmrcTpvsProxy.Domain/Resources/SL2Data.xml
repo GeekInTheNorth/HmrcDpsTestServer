@@ -15,7 +15,7 @@
 					<NItemsReturned>7</NItemsReturned>
 					<Timestamp>2015-04-30T11:14:43.345+01:00</Timestamp>
 				</DPSheader>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="1" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="1" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>JS123454A</NINO>
 					<Name>
@@ -25,7 +25,7 @@
 					<WorksNumber>3314446</WorksNumber>
 					<StopDate>2015-06-30</StopDate>
 				</StudentLoanEnd>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="2" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="2" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>WE785789D</NINO>
 					<Name>
@@ -35,7 +35,7 @@
 					<WorksNumber>33082</WorksNumber>
 					<StopDate>2015-07-01</StopDate>
 				</StudentLoanEnd>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="3" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="3" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>WP904239A</NINO>
 					<Name>
@@ -45,7 +45,7 @@
 					<WorksNumber>33058</WorksNumber>
 					<StopDate>2015-09-30</StopDate>
 				</StudentLoanEnd>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="4" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="4" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>NW440030B</NINO>
 					<Name>
@@ -55,7 +55,7 @@
 					<WorksNumber>1670</WorksNumber>
 					<StopDate>2016-03-31</StopDate>
 				</StudentLoanEnd>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="5" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="5" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>JC678437D</NINO>
 					<Name>
@@ -65,7 +65,7 @@
 					<WorksNumber>33063</WorksNumber>
 					<StopDate>2015-02-28</StopDate>
 				</StudentLoanEnd>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="6" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="6" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>KS694280B</NINO>
 					<Name>
@@ -75,7 +75,7 @@
 					<WorksNumber>33060</WorksNumber>
 					<StopDate>2015-04-15</StopDate>
 				</StudentLoanEnd>
-				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="7" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+				<StudentLoanEnd IssueDate="2015-04-01" SequenceNumber="7" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
 					<EmployerRef>123/A6</EmployerRef>
 					<NINO>ZM370199A</NINO>
 					<Name>
@@ -84,6 +84,46 @@
 					</Name>
 					<WorksNumber>460</WorksNumber>
 					<StopDate>2015-05-30</StopDate>
+				</StudentLoanEnd>
+				<StudentLoanEnd IssueDate="2016-03-01" SequenceNumber="8" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+					<EmployerRef>123/A6</EmployerRef>
+					<NINO>NY199397D</NINO>
+					<Name>
+						<Forename>Dukes</Forename>
+						<Surname>Martin</Surname>
+					</Name>
+					<WorksNumber>147</WorksNumber>
+					<StopDate>2016-05-15</StopDate>
+				</StudentLoanEnd>
+				<StudentLoanEnd IssueDate="2016-03-01" SequenceNumber="9" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+					<EmployerRef>123/A6</EmployerRef>
+					<NINO>JK756428A</NINO>
+					<Name>
+						<Forename>Avril</Forename>
+						<Surname>Lawlor</Surname>
+					</Name>
+					<WorksNumber>158</WorksNumber>
+					<StopDate>2016-05-15</StopDate>
+				</StudentLoanEnd>
+				<StudentLoanEnd IssueDate="2016-03-01" SequenceNumber="10" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+					<EmployerRef>123/A6</EmployerRef>
+					<NINO>JP984454D</NINO>
+					<Name>
+						<Forename>Richard</Forename>
+						<Surname>Brown</Surname>
+					</Name>
+					<WorksNumber>172</WorksNumber>
+					<StopDate>2016-06-15</StopDate>
+				</StudentLoanEnd>
+				<StudentLoanEnd IssueDate="2016-03-01" SequenceNumber="11" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2">
+					<EmployerRef>123/A6</EmployerRef>
+					<NINO>OS358512B</NINO>
+					<Name>
+						<Forename>Aaron</Forename>
+						<Surname>Tingle</Surname>
+					</Name>
+					<WorksNumber>173</WorksNumber>
+					<StopDate>2016-06-15</StopDate>
 				</StudentLoanEnd>
 			</DPSdata>
 		</DPSretrieveResponse>
