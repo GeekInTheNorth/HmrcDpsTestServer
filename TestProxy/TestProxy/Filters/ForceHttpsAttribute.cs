@@ -11,8 +11,9 @@ namespace WebApp.Filters
         public override void OnAuthorization(System.Web.Http.Controllers.HttpActionContext actionContext)
         {
             var request = actionContext.Request;
+            var isInTest = string.Equals(request.RequestUri.Host, "localhost", StringComparison.CurrentCultureIgnoreCase);
 
-            if (request.RequestUri.Scheme != Uri.UriSchemeHttps)
+            if (!isInTest && request.RequestUri.Scheme != Uri.UriSchemeHttps)
             {
                 var html = "<p>Requests to this service must be made over HTTPS.</p>";
 
