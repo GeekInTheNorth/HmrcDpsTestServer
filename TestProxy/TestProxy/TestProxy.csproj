@@ -138,14 +138,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AuthorisationProxyController.cs" />
-    <Compile Include="Controllers\ClearCacheController.cs" />
-    <Compile Include="Controllers\GetAlteredMessagesController.cs" />
-    <Compile Include="Controllers\GetMessagesProxyController.cs" />
-    <Compile Include="Controllers\HmrcProxyControllerBase.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\StudentLoanEdgeCasesController.cs" />
-    <Compile Include="Controllers\TestDataController.cs" />
+    <Compile Include="Controllers\API\AuthorisationProxyController.cs" />
+    <Compile Include="Controllers\API\ClearCacheController.cs" />
+    <Compile Include="Controllers\API\GetAlteredMessagesController.cs" />
+    <Compile Include="Controllers\API\GetMessagesProxyController.cs" />
+    <Compile Include="Controllers\API\HmrcProxyControllerBase.cs" />
+    <Compile Include="Controllers\MVC\HomeController.cs" />
+    <Compile Include="Controllers\MVC\StudentLoanEdgeCasesController.cs" />
+    <Compile Include="Controllers\API\TestDataController.cs" />
     <Compile Include="Filters\ForceHttpsAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

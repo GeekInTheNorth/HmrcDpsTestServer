@@ -3,7 +3,7 @@ using System.Web.Mvc;
 using HmrcTpvsProxy.Domain;
 using HmrcTpvsProxy.Domain.TestDataTransformer;
 
-namespace TestProxy.Controllers
+namespace TestProxy.Controllers.MVC
 {
     public class StudentLoanEdgeCasesController : Controller
     {

@@ -4,7 +4,7 @@ using System.Text;
 using System.Web.Http;
 using WebApp.Filters;
 
-namespace TestProxy.Controllers
+namespace TestProxy.Controllers.API
 {
     public class GetAlteredMessagesController : HmrcProxyControllerBase
     {

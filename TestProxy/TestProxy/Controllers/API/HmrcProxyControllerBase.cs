@@ -7,7 +7,7 @@ using System;
 using System.Web;
 using HmrcTpvsProxy.Domain.Models;
 
-namespace TestProxy.Controllers
+namespace TestProxy.Controllers.API
 {
     public class HmrcProxyControllerBase : ApiController
     {

@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace TestProxy.Controllers
+namespace TestProxy.Controllers.MVC
 {
     public class HomeController : Controller
     {

@@ -2,7 +2,7 @@
 using System.Text;
 using System.Web.Http;
 
-namespace TestProxy.Controllers
+namespace TestProxy.Controllers.API
 {
     public class ClearCacheController : HmrcProxyControllerBase
     {

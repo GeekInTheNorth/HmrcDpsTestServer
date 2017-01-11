@@ -5,7 +5,7 @@ using System.Xml;
 using HmrcTpvsProxy.Domain;
 using WebApp.Filters;
 
-namespace TestProxy.Controllers
+namespace TestProxy.Controllers.API
 {
     public class TestDataController : ApiController
     {
