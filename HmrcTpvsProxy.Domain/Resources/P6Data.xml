@@ -15,11 +15,11 @@
           <NItemsReturned>145</NItemsReturned>
           <Timestamp>2015-04-28T11:47:14.775+01:00</Timestamp>
         </DPSheader>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-01-01" SequenceNumber="1" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-01-01" SequenceNumber="1" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Houghton</Forename>
-            <Surname>Cara Houghton</Surname>
+            <Forename>Cara</Forename>
+            <Surname>Houghton</Surname>
           </Name>
           <NINO>WE785789D</NINO>
           <WorksNumber>180</WorksNumber>
@@ -30,11 +30,11 @@
             <TotalPreviousTax>3028</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="2" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="2" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>135</WorksNumber>
@@ -43,11 +43,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="3" TaxYearEnd="406L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="3" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>136</WorksNumber>
@@ -58,11 +58,11 @@
             <TotalPreviousTax>12.41</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="4" TaxYearEnd="139P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="4" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>137</WorksNumber>
@@ -73,11 +73,11 @@
             <TotalPreviousTax>494.52</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="5" TaxYearEnd="K2000" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="5" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>138</WorksNumber>
@@ -88,11 +88,11 @@
             <TotalPreviousTax>4512.22</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="6" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="6" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>139</WorksNumber>
@@ -101,11 +101,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="7" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-03-03" SequenceNumber="7" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>140</WorksNumber>
@@ -114,11 +114,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-04-01" SequenceNumber="8" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-04-01" SequenceNumber="8" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>NZ497307C</NINO>
           <WorksNumber>142</WorksNumber>
@@ -127,11 +127,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-04-11" SequenceNumber="9" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-04-11" SequenceNumber="9" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Leaver</Forename>
-            <Surname>NiChg Leaver</Surname>
+            <Forename>NiChg</Forename>
+            <Surname>Leaver</Surname>
           </Name>
           <NINO>JH987643A</NINO>
           <WorksNumber>143</WorksNumber>
@@ -140,11 +140,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-05-01" SequenceNumber="10" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-05-01" SequenceNumber="10" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Hamilton</Forename>
-            <Surname>Pamela Hamilton</Surname>
+            <Forename>Pamela</Forename>
+            <Surname>Hamilton</Surname>
           </Name>
           <NINO>JC678437D</NINO>
           <WorksNumber>145</WorksNumber>
@@ -153,11 +153,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-06-30" SequenceNumber="11" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-06-30" SequenceNumber="11" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Before Tax</Forename>
-            <Surname>Pensions Before Tax</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>Before Tax</Surname>
           </Name>
           <NINO>JS123458A</NINO>
           <WorksNumber>146</WorksNumber>
@@ -166,11 +166,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-01" SequenceNumber="12" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-01" SequenceNumber="12" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>BR</Forename>
-            <Surname>Pensions BR</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>BR</Surname>
           </Name>
           <NINO>NY199397D</NINO>
           <WorksNumber>147</WorksNumber>
@@ -179,11 +179,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-01" SequenceNumber="13" TaxYearEnd="99L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-01" SequenceNumber="13" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Herbert</Forename>
-            <Surname>Frank Herbert</Surname>
+            <Forename>Frank</Forename>
+            <Surname>Herbert</Surname>
           </Name>
           <NINO>AB157834D</NINO>
           <WorksNumber>148</WorksNumber>
@@ -194,11 +194,11 @@
             <TotalPreviousTax>3304</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-01" SequenceNumber="14" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-01" SequenceNumber="14" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Bridget Jones</Surname>
+            <Forename>Bridget</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>SW755701A</NINO>
           <WorksNumber>156</WorksNumber>
@@ -207,11 +207,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="15" TaxYearEnd="89P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="15" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Bennett</Forename>
-            <Surname>Victoria Bennett</Surname>
+            <Forename>Victoria</Forename>
+            <Surname>Bennett</Surname>
           </Name>
           <NINO>JN180014A</NINO>
           <WorksNumber>157</WorksNumber>
@@ -220,11 +220,11 @@
             <TaxCode>89P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="16" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="16" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lawlor</Forename>
-            <Surname>Avril Lawlor</Surname>
+            <Forename>Avril</Forename>
+            <Surname>Lawlor</Surname>
           </Name>
           <NINO>JK756428A</NINO>
           <WorksNumber>158</WorksNumber>
@@ -235,11 +235,11 @@
             <TotalPreviousTax>1592</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="17" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="17" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>King</Forename>
-            <Surname>Richard King</Surname>
+            <Forename>Richard</Forename>
+            <Surname>King</Surname>
           </Name>
           <NINO>JK436587D</NINO>
           <WorksNumber>159</WorksNumber>
@@ -248,11 +248,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="18" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-07-10" SequenceNumber="18" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cat D</Forename>
-            <Surname>SMP Cat D</Surname>
+            <Forename>SMP</Forename>
+            <Surname>Cat D</Surname>
           </Name>
           <NINO>JS123452A</NINO>
           <WorksNumber>160</WorksNumber>
@@ -261,11 +261,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-08-01" SequenceNumber="19" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-08-01" SequenceNumber="19" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Thomas Jackson</Surname>
+            <Forename>Thomas</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>YK123456A</NINO>
           <WorksNumber>161</WorksNumber>
@@ -274,11 +274,11 @@
             <TaxCode Week1Month1Indicator="X">D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-08-01" SequenceNumber="20" TaxYearEnd="99L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-08-01" SequenceNumber="20" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>O'Donnell</Forename>
-            <Surname>Simon O'Donnell</Surname>
+            <Forename>Simon</Forename>
+            <Surname>O'Donnell</Surname>
           </Name>
           <NINO>NW440030B</NINO>
           <WorksNumber>168</WorksNumber>
@@ -289,11 +289,11 @@
             <TotalPreviousTax>3304</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-01" SequenceNumber="21" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-01" SequenceNumber="21" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Mantle</Forename>
-            <Surname>Tracy Mantle</Surname>
+            <Forename>Tracy</Forename>
+            <Surname>Mantle</Surname>
           </Name>
           <NINO>JZ844018C</NINO>
           <WorksNumber>169</WorksNumber>
@@ -302,11 +302,11 @@
             <TaxCode Week1Month1Indicator="X">647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-16" SequenceNumber="22" TaxYearEnd="89P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-16" SequenceNumber="22" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Directorson</Forename>
-            <Surname>Director Directorson</Surname>
+            <Forename>Director</Forename>
+            <Surname>Directorson</Surname>
           </Name>
           <NINO>JS123457A</NINO>
           <WorksNumber>170</WorksNumber>
@@ -315,11 +315,11 @@
             <TaxCode>89P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-16" SequenceNumber="23" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-16" SequenceNumber="23" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>Richard Brown</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JP984454D</NINO>
           <WorksNumber>172</WorksNumber>
@@ -328,11 +328,11 @@
             <TaxCode>647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-19" SequenceNumber="24" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-09-19" SequenceNumber="24" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tingle</Forename>
-            <Surname>Aaron Tingle</Surname>
+            <Forename>Aaron</Forename>
+            <Surname>Tingle</Surname>
           </Name>
           <NINO>OS358512B</NINO>
           <WorksNumber>173</WorksNumber>
@@ -341,11 +341,11 @@
             <TaxCode>647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-10-01" SequenceNumber="25" TaxYearEnd="12L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-10-01" SequenceNumber="25" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Symons</Forename>
-            <Surname>Rick Symons</Surname>
+            <Forename>Rick</Forename>
+            <Surname>Symons</Surname>
           </Name>
           <NINO>ZT344793C</NINO>
           <WorksNumber>174</WorksNumber>
@@ -354,11 +354,11 @@
             <TaxCode Week1Month1Indicator="X">12L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-10-10" SequenceNumber="26" TaxYearEnd="85P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-10-10" SequenceNumber="26" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lewis</Forename>
-            <Surname>Sophie Lewis</Surname>
+            <Forename>Sophie</Forename>
+            <Surname>Lewis</Surname>
           </Name>
           <NINO>WP904239A</NINO>
           <WorksNumber>175</WorksNumber>
@@ -369,11 +369,11 @@
             <TotalPreviousTax>11148</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-10-30" SequenceNumber="27" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-10-30" SequenceNumber="27" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Williamson</Forename>
-            <Surname>Gemma Williamson</Surname>
+            <Forename>Gemma</Forename>
+            <Surname>Williamson</Surname>
           </Name>
           <NINO>RE675674D</NINO>
           <WorksNumber>176</WorksNumber>
@@ -384,11 +384,11 @@
             <TotalPreviousTax>2205</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-11-01" SequenceNumber="28" TaxYearEnd="65L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-11-01" SequenceNumber="28" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Khan</Forename>
-            <Surname>Hakam Khan</Surname>
+            <Forename>Hakam</Forename>
+            <Surname>Khan</Surname>
           </Name>
           <NINO>LL918712C</NINO>
           <WorksNumber>177</WorksNumber>
@@ -397,11 +397,11 @@
             <TaxCode Week1Month1Indicator="X">65L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-11-01" SequenceNumber="29" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-11-01" SequenceNumber="29" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Wyatt</Forename>
-            <Surname>Richard Wyatt</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Wyatt</Surname>
           </Name>
           <NINO>ZM370199A</NINO>
           <WorksNumber>178</WorksNumber>
@@ -410,11 +410,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-12-01" SequenceNumber="30" TaxYearEnd="546L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-12-01" SequenceNumber="30" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Lloyd Jones</Surname>
+            <Forename>Lloyd</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>BM802103D</NINO>
           <WorksNumber>181</WorksNumber>
@@ -425,11 +425,11 @@
             <TotalPreviousTax>3725</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-12-01" SequenceNumber="31" TaxYearEnd="708Y" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-12-01" SequenceNumber="31" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Washington</Forename>
-            <Surname>Rachael Washington</Surname>
+            <Forename>Rachael</Forename>
+            <Surname>Washington</Surname>
           </Name>
           <NINO>KS694280B</NINO>
           <WorksNumber>182</WorksNumber>
@@ -440,11 +440,11 @@
             <TotalPreviousTax>154.2</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-12-22" SequenceNumber="32" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2014-12-22" SequenceNumber="32" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Goodrich</Forename>
-            <Surname>Ellie Goodrich</Surname>
+            <Forename>Ellie</Forename>
+            <Surname>Goodrich</Surname>
           </Name>
           <NINO>KE995536</NINO>
           <WorksNumber>218</WorksNumber>
@@ -453,11 +453,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-01-01" SequenceNumber="33" TaxYearEnd="503L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-01-01" SequenceNumber="33" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Burns</Forename>
-            <Surname>Montgomery Burns</Surname>
+            <Forename>Montgomery</Forename>
+            <Surname>Burns</Surname>
           </Name>
           <NINO>SG314720A</NINO>
           <WorksNumber>219</WorksNumber>
@@ -468,11 +468,11 @@
             <TotalPreviousTax>654.75</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-01-01" SequenceNumber="34" TaxYearEnd="K75" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-01-01" SequenceNumber="34" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Fountain</Forename>
-            <Surname>David Fountain</Surname>
+            <Forename>David</Forename>
+            <Surname>Fountain</Surname>
           </Name>
           <NINO>NE994944C</NINO>
           <WorksNumber>220</WorksNumber>
@@ -481,11 +481,11 @@
             <TaxCode>K75</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-01-01" SequenceNumber="35" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-01-01" SequenceNumber="35" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>236</WorksNumber>
@@ -494,11 +494,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="36" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="36" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Boothman</Forename>
-            <Surname>James Boothman</Surname>
+            <Forename>James</Forename>
+            <Surname>Boothman</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>1236</WorksNumber>
@@ -507,11 +507,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="37" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="37" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Paul</Forename>
-            <Surname>Aman Paul</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Paul</Surname>
           </Name>
           <NINO>JX283761A</NINO>
           <WorksNumber>1237</WorksNumber>
@@ -520,11 +520,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="38" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="38" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Payroll</Forename>
-            <Surname>Aman Payroll</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Payroll</Surname>
           </Name>
           <NINO>JX434332A</NINO>
           <WorksNumber>1238</WorksNumber>
@@ -533,11 +533,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="39" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="39" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Pensioner</Forename>
-            <Surname>New Pensioner</Surname>
+            <Forename>New</Forename>
+            <Surname>Pensioner</Surname>
           </Name>
           <NINO>JK123456A</NINO>
           <WorksNumber>1240</WorksNumber>
@@ -546,11 +546,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="40" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-02-01" SequenceNumber="40" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter Eea</Forename>
-            <Surname>New Starter Eea</Surname>
+            <Forename>New</Forename>
+            <Surname>Starter Eea</Surname>
           </Name>
           <NINO>JS123454A</NINO>
           <WorksNumber>1241</WorksNumber>
@@ -559,11 +559,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="41" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="41" TaxYearEnd="2015" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter</Forename>
-            <Surname>New  Starter</Surname>
+            <Forename>New </Forename>
+            <Surname>Starter</Surname>
           </Name>
           <NINO>JS123453A</NINO>
           <WorksNumber>1239</WorksNumber>
@@ -572,11 +572,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="42" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="42" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>135</WorksNumber>
@@ -585,11 +585,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="43" TaxYearEnd="77L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="43" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>136</WorksNumber>
@@ -598,11 +598,11 @@
             <TaxCode>77L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="44" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="44" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>137</WorksNumber>
@@ -611,11 +611,11 @@
             <TaxCode Week1Month1Indicator="X">BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="45" TaxYearEnd="514L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="45" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>138</WorksNumber>
@@ -624,11 +624,11 @@
             <TaxCode Week1Month1Indicator="X">514L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="46" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="46" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>139</WorksNumber>
@@ -637,11 +637,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="47" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="47" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>137</WorksNumber>
@@ -650,11 +650,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="48" TaxYearEnd="D1" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="48" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>138</WorksNumber>
@@ -663,11 +663,11 @@
             <TaxCode Week1Month1Indicator="X">D1</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="49" TaxYearEnd="514L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="49" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>139</WorksNumber>
@@ -676,11 +676,11 @@
             <TaxCode Week1Month1Indicator="X">514L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="50" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="50" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>140</WorksNumber>
@@ -691,11 +691,11 @@
             <TotalPreviousTax>2138</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="51" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="51" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>138</WorksNumber>
@@ -704,11 +704,11 @@
             <TaxCode Week1Month1Indicator="X">BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="52" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="52" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>139</WorksNumber>
@@ -717,11 +717,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="53" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="53" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>140</WorksNumber>
@@ -730,11 +730,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="54" TaxYearEnd="D1" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="54" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>NZ497307C</NINO>
           <WorksNumber>142</WorksNumber>
@@ -743,11 +743,11 @@
             <TaxCode>D1</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="55" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-03-01" SequenceNumber="55" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>NZ497307C</NINO>
           <WorksNumber>142</WorksNumber>
@@ -758,11 +758,11 @@
             <TotalPreviousTax>3925</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="56" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="56" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Leaver</Forename>
-            <Surname>NiChg Leaver</Surname>
+            <Forename>NiChg</Forename>
+            <Surname>Leaver</Surname>
           </Name>
           <NINO>JH987643A</NINO>
           <WorksNumber>143</WorksNumber>
@@ -771,11 +771,11 @@
             <TaxCode Week1Month1Indicator="X">BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="57" TaxYearEnd="754L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="57" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Hamilton</Forename>
-            <Surname>Pamela Hamilton</Surname>
+            <Forename>Pamela</Forename>
+            <Surname>Hamilton</Surname>
           </Name>
           <NINO>JC678437D</NINO>
           <WorksNumber>145</WorksNumber>
@@ -786,11 +786,11 @@
             <TotalPreviousTax>268</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="58" TaxYearEnd="563P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="58" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Before Tax</Forename>
-            <Surname>Pensions Before Tax</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>Before Tax</Surname>
           </Name>
           <NINO>JS123458A</NINO>
           <WorksNumber>146</WorksNumber>
@@ -801,11 +801,11 @@
             <TotalPreviousTax>958</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="59" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="59" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>BR</Forename>
-            <Surname>Pensions BR</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>BR</Surname>
           </Name>
           <NINO>NY199397D</NINO>
           <WorksNumber>147</WorksNumber>
@@ -814,11 +814,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="60" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="60" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Bridget Jones</Surname>
+            <Forename>Bridget</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>SW755701A</NINO>
           <WorksNumber>156</WorksNumber>
@@ -829,11 +829,11 @@
             <TotalPreviousTax>344</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="61" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="61" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Herbert</Forename>
-            <Surname>Frank Herbert</Surname>
+            <Forename>Frank</Forename>
+            <Surname>Herbert</Surname>
           </Name>
           <NINO>AB157834D</NINO>
           <WorksNumber>148</WorksNumber>
@@ -842,11 +842,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="62" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="62" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Bennett</Forename>
-            <Surname>Victoria Bennett</Surname>
+            <Forename>Victoria</Forename>
+            <Surname>Bennett</Surname>
           </Name>
           <NINO>JN180014A</NINO>
           <WorksNumber>157</WorksNumber>
@@ -855,11 +855,11 @@
             <TaxCode Week1Month1Indicator="X">BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="63" TaxYearEnd="112L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-04-10" SequenceNumber="63" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lawlor</Forename>
-            <Surname>Avril Lawlor</Surname>
+            <Forename>Avril</Forename>
+            <Surname>Lawlor</Surname>
           </Name>
           <NINO>JK756428A</NINO>
           <WorksNumber>158</WorksNumber>
@@ -868,11 +868,11 @@
             <TaxCode Week1Month1Indicator="X">112L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="64" TaxYearEnd="76L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="64" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>King</Forename>
-            <Surname>Richard King</Surname>
+            <Forename>Richard</Forename>
+            <Surname>King</Surname>
           </Name>
           <NINO>JK436587D</NINO>
           <WorksNumber>159</WorksNumber>
@@ -881,11 +881,11 @@
             <TaxCode Week1Month1Indicator="X">76L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="65" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="65" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cat D</Forename>
-            <Surname>SMP Cat D</Surname>
+            <Forename>SMP</Forename>
+            <Surname>Cat D</Surname>
           </Name>
           <NINO>JS123452A</NINO>
           <WorksNumber>160</WorksNumber>
@@ -894,11 +894,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="66" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="66" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Thomas Jackson</Surname>
+            <Forename>Thomas</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>YK123456A</NINO>
           <WorksNumber>161</WorksNumber>
@@ -907,11 +907,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="67" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="67" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cat D</Forename>
-            <Surname>SMP Cat D</Surname>
+            <Forename>SMP</Forename>
+            <Surname>Cat D</Surname>
           </Name>
           <NINO>JS123452A</NINO>
           <WorksNumber>160</WorksNumber>
@@ -920,11 +920,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="68" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-05-29" SequenceNumber="68" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Thomas Jackson</Surname>
+            <Forename>Thomas</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>YK123456A</NINO>
           <WorksNumber>161</WorksNumber>
@@ -933,11 +933,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="69" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="69" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>O'Donnell</Forename>
-            <Surname>Simon O'Donnell</Surname>
+            <Forename>Simon</Forename>
+            <Surname>O'Donnell</Surname>
           </Name>
           <NINO>NW440030B</NINO>
           <WorksNumber>168</WorksNumber>
@@ -946,11 +946,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="70" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="70" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Mantle</Forename>
-            <Surname>Tracy Mantle</Surname>
+            <Forename>Tracy</Forename>
+            <Surname>Mantle</Surname>
           </Name>
           <NINO>JZ844018C</NINO>
           <WorksNumber>169</WorksNumber>
@@ -959,11 +959,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="71" TaxYearEnd="522L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="71" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Directorson</Forename>
-            <Surname>Director Directorson</Surname>
+            <Forename>Director</Forename>
+            <Surname>Directorson</Surname>
           </Name>
           <NINO>JS123457A</NINO>
           <WorksNumber>170</WorksNumber>
@@ -974,11 +974,11 @@
             <TotalPreviousTax>9999</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="72" TaxYearEnd="79T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-07-01" SequenceNumber="72" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>Richard Brown</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JP984454D</NINO>
           <WorksNumber>172</WorksNumber>
@@ -987,11 +987,11 @@
             <TaxCode>79T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-08-15" SequenceNumber="73" TaxYearEnd="522L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-08-15" SequenceNumber="73" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tingle</Forename>
-            <Surname>Aaron Tingle</Surname>
+            <Forename>Aaron</Forename>
+            <Surname>Tingle</Surname>
           </Name>
           <NINO>OS358512B</NINO>
           <WorksNumber>173</WorksNumber>
@@ -1000,11 +1000,11 @@
             <TaxCode>522L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-08-15" SequenceNumber="74" TaxYearEnd="522L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-08-15" SequenceNumber="74" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Symons</Forename>
-            <Surname>Rick Symons</Surname>
+            <Forename>Rick</Forename>
+            <Surname>Symons</Surname>
           </Name>
           <NINO>ZT344793C</NINO>
           <WorksNumber>174</WorksNumber>
@@ -1013,11 +1013,11 @@
             <TaxCode>522L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-08-15" SequenceNumber="75" TaxYearEnd="543L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-08-15" SequenceNumber="75" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lewis</Forename>
-            <Surname>Sophie Lewis</Surname>
+            <Forename>Sophie</Forename>
+            <Surname>Lewis</Surname>
           </Name>
           <NINO>WP904239A</NINO>
           <WorksNumber>175</WorksNumber>
@@ -1026,11 +1026,11 @@
             <TaxCode>543L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="76" TaxYearEnd="79T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="76" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Williamson</Forename>
-            <Surname>Gemma Williamson</Surname>
+            <Forename>Gemma</Forename>
+            <Surname>Williamson</Surname>
           </Name>
           <NINO>RE675674D</NINO>
           <WorksNumber>176</WorksNumber>
@@ -1039,11 +1039,11 @@
             <TaxCode>79T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="77" TaxYearEnd="543L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="77" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Khan</Forename>
-            <Surname>Hakam Khan</Surname>
+            <Forename>Hakam</Forename>
+            <Surname>Khan</Surname>
           </Name>
           <NINO>LL918712C</NINO>
           <WorksNumber>177</WorksNumber>
@@ -1052,11 +1052,11 @@
             <TaxCode>543L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="78" TaxYearEnd="543L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="78" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Wyatt</Forename>
-            <Surname>Richard Wyatt</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Wyatt</Surname>
           </Name>
           <NINO>ZM370199A</NINO>
           <WorksNumber>178</WorksNumber>
@@ -1065,11 +1065,11 @@
             <TaxCode>543L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="79" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="79" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Houghton</Forename>
-            <Surname>Cara Houghton</Surname>
+            <Forename>Cara</Forename>
+            <Surname>Houghton</Surname>
           </Name>
           <NINO>WE785789D</NINO>
           <WorksNumber>180</WorksNumber>
@@ -1078,11 +1078,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="80" TaxYearEnd="79T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-09-15" SequenceNumber="80" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Lloyd Jones</Surname>
+            <Forename>Lloyd</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>BM802103D</NINO>
           <WorksNumber>181</WorksNumber>
@@ -1091,11 +1091,11 @@
             <TaxCode>79T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="81" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="81" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Washington</Forename>
-            <Surname>Rachael Washington</Surname>
+            <Forename>Rachael</Forename>
+            <Surname>Washington</Surname>
           </Name>
           <NINO>KS694280B</NINO>
           <WorksNumber>182</WorksNumber>
@@ -1104,11 +1104,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="82" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="82" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Goodrich</Forename>
-            <Surname>Ellie Goodrich</Surname>
+            <Forename>Ellie</Forename>
+            <Surname>Goodrich</Surname>
           </Name>
           <NINO>KE995536</NINO>
           <WorksNumber>218</WorksNumber>
@@ -1117,11 +1117,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="83" TaxYearEnd="678L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="83" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Burns</Forename>
-            <Surname>Montgomery Burns</Surname>
+            <Forename>Montgomery</Forename>
+            <Surname>Burns</Surname>
           </Name>
           <NINO>SG314720A</NINO>
           <WorksNumber>219</WorksNumber>
@@ -1132,11 +1132,11 @@
             <TotalPreviousTax>3454</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="84" TaxYearEnd="43P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="84" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Fountain</Forename>
-            <Surname>David Fountain</Surname>
+            <Forename>David</Forename>
+            <Surname>Fountain</Surname>
           </Name>
           <NINO>NE994944C</NINO>
           <WorksNumber>220</WorksNumber>
@@ -1145,11 +1145,11 @@
             <TaxCode Week1Month1Indicator="X">43P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="85" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-10-12" SequenceNumber="85" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>236</WorksNumber>
@@ -1160,11 +1160,11 @@
             <TotalPreviousTax>3787</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="86" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="86" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Boothman</Forename>
-            <Surname>James Boothman</Surname>
+            <Forename>James</Forename>
+            <Surname>Boothman</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>1236</WorksNumber>
@@ -1173,11 +1173,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="87" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="87" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Paul</Forename>
-            <Surname>Aman Paul</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Paul</Surname>
           </Name>
           <NINO>JX283761A</NINO>
           <WorksNumber>1237</WorksNumber>
@@ -1186,11 +1186,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="88" TaxYearEnd="54L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="88" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Payroll</Forename>
-            <Surname>Aman Payroll</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Payroll</Surname>
           </Name>
           <NINO>JX434332A</NINO>
           <WorksNumber>1238</WorksNumber>
@@ -1201,11 +1201,11 @@
             <TotalPreviousTax>2138</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="89" TaxYearEnd="67P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2015-12-01" SequenceNumber="89" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter</Forename>
-            <Surname>New  Starter</Surname>
+            <Forename>New </Forename>
+            <Surname>Starter</Surname>
           </Name>
           <NINO>JS123453A</NINO>
           <WorksNumber>1239</WorksNumber>
@@ -1216,11 +1216,11 @@
             <TotalPreviousTax>1925</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-01-01" SequenceNumber="90" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-01-01" SequenceNumber="90" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Pensioner</Forename>
-            <Surname>New Pensioner</Surname>
+            <Forename>New</Forename>
+            <Surname>Pensioner</Surname>
           </Name>
           <NINO>JK123456A</NINO>
           <WorksNumber>1240</WorksNumber>
@@ -1229,11 +1229,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-01-01" SequenceNumber="91" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-01-01" SequenceNumber="91" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter Eea</Forename>
-            <Surname>New Starter Eea</Surname>
+            <Forename>New</Forename>
+            <Surname>Starter Eea</Surname>
           </Name>
           <NINO>JS123454A</NINO>
           <WorksNumber>1241</WorksNumber>
@@ -1244,11 +1244,11 @@
             <TotalPreviousTax>3454</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-01-01" SequenceNumber="92" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-01-01" SequenceNumber="92" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter Eea</Forename>
-            <Surname>New Starter Eea</Surname>
+            <Forename>New</Forename>
+            <Surname>Starter Eea</Surname>
           </Name>
           <NINO>JS123454A</NINO>
           <WorksNumber>1241</WorksNumber>
@@ -1259,11 +1259,11 @@
             <TotalPreviousTax>3454</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="93" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="93" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>33143</WorksNumber>
@@ -1272,11 +1272,11 @@
             <TaxCode Week1Month1Indicator="X">NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="94" TaxYearEnd="2000L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="94" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>33144</WorksNumber>
@@ -1285,11 +1285,11 @@
             <TaxCode>2000L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="95" TaxYearEnd="15L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="95" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>1262</WorksNumber>
@@ -1298,11 +1298,11 @@
             <TaxCode Week1Month1Indicator="X">15L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="96" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="96" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>33099</WorksNumber>
@@ -1311,11 +1311,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="97" TaxYearEnd="1L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="97" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>2359</WorksNumber>
@@ -1324,11 +1324,11 @@
             <TaxCode Week1Month1Indicator="X">1L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="98" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="98" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>2515</WorksNumber>
@@ -1337,11 +1337,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="99" TaxYearEnd="D1" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="99" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>NZ497307C</NINO>
           <WorksNumber>652</WorksNumber>
@@ -1350,11 +1350,11 @@
             <TaxCode Week1Month1Indicator="X">D1</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="100" TaxYearEnd="K56" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="100" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Leaver</Forename>
-            <Surname>NiChg Leaver</Surname>
+            <Forename>NiChg</Forename>
+            <Surname>Leaver</Surname>
           </Name>
           <NINO>JH987643A</NINO>
           <WorksNumber>1264</WorksNumber>
@@ -1363,11 +1363,11 @@
             <TaxCode>K56</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="101" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="101" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Hamilton</Forename>
-            <Surname>Pamela Hamilton</Surname>
+            <Forename>Pamela</Forename>
+            <Surname>Hamilton</Surname>
           </Name>
           <NINO>JC678437D</NINO>
           <WorksNumber>33063</WorksNumber>
@@ -1378,11 +1378,11 @@
             <TotalPreviousTax>2138</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="102" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="102" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Before Tax</Forename>
-            <Surname>Pensions Before Tax</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>Before Tax</Surname>
           </Name>
           <NINO>JS123458A</NINO>
           <WorksNumber>33100</WorksNumber>
@@ -1393,11 +1393,11 @@
             <TotalPreviousTax>3925</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="103" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="103" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>BR</Forename>
-            <Surname>Pensions BR</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>BR</Surname>
           </Name>
           <NINO>NY199397D</NINO>
           <WorksNumber>1012</WorksNumber>
@@ -1406,11 +1406,11 @@
             <TaxCode Week1Month1Indicator="X">BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="104" TaxYearEnd="754L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="104" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Herbert</Forename>
-            <Surname>Frank Herbert</Surname>
+            <Forename>Frank</Forename>
+            <Surname>Herbert</Surname>
           </Name>
           <NINO>AB157834D</NINO>
           <WorksNumber>33084</WorksNumber>
@@ -1421,11 +1421,11 @@
             <TotalPreviousTax>268</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="105" TaxYearEnd="563P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="105" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Bridget Jones</Surname>
+            <Forename>Bridget</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>SW755701A</NINO>
           <WorksNumber>33057</WorksNumber>
@@ -1436,11 +1436,11 @@
             <TotalPreviousTax>958</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="106" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-01" SequenceNumber="106" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Bennett</Forename>
-            <Surname>Victoria Bennett</Surname>
+            <Forename>Victoria</Forename>
+            <Surname>Bennett</Surname>
           </Name>
           <NINO>JN180014A</NINO>
           <WorksNumber>1881</WorksNumber>
@@ -1449,11 +1449,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-03" SequenceNumber="107" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-03" SequenceNumber="107" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Paul</Forename>
-            <Surname>Aman Paul</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Paul</Surname>
           </Name>
           <NINO>JX283761A</NINO>
           <WorksNumber>1237</WorksNumber>
@@ -1462,11 +1462,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-03" SequenceNumber="108" TaxYearEnd="54L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-03-03" SequenceNumber="108" TaxYearEnd="2016" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Payroll</Forename>
-            <Surname>Aman Payroll</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Payroll</Surname>
           </Name>
           <NINO>JX434332A</NINO>
           <WorksNumber>1238</WorksNumber>
@@ -1477,11 +1477,11 @@
             <TotalPreviousTax>2138</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="109" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="109" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lawlor</Forename>
-            <Surname>Avril Lawlor</Surname>
+            <Forename>Avril</Forename>
+            <Surname>Lawlor</Surname>
           </Name>
           <NINO>JK756428A</NINO>
           <WorksNumber>33091</WorksNumber>
@@ -1490,11 +1490,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="110" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="110" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>King</Forename>
-            <Surname>Richard King</Surname>
+            <Forename>Richard</Forename>
+            <Surname>King</Surname>
           </Name>
           <NINO>JK436587D</NINO>
           <WorksNumber>33093</WorksNumber>
@@ -1505,11 +1505,11 @@
             <TotalPreviousTax>344</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="111" TaxYearEnd="75T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="111" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cat D</Forename>
-            <Surname>SMP Cat D</Surname>
+            <Forename>SMP</Forename>
+            <Surname>Cat D</Surname>
           </Name>
           <NINO>JS123452A</NINO>
           <WorksNumber>2166</WorksNumber>
@@ -1518,11 +1518,11 @@
             <TaxCode Week1Month1Indicator="X">75T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="112" TaxYearEnd="785P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="112" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Thomas Jackson</Surname>
+            <Forename>Thomas</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>YK123456A</NINO>
           <WorksNumber>33053</WorksNumber>
@@ -1531,11 +1531,11 @@
             <TaxCode>785P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="113" TaxYearEnd="89T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="113" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>O'Donnell</Forename>
-            <Surname>Simon O'Donnell</Surname>
+            <Forename>Simon</Forename>
+            <Surname>O'Donnell</Surname>
           </Name>
           <NINO>NW440030B</NINO>
           <WorksNumber>1670</WorksNumber>
@@ -1544,11 +1544,11 @@
             <TaxCode Week1Month1Indicator="X">89T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="114" TaxYearEnd="1050L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="114" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Mantle</Forename>
-            <Surname>Tracy Mantle</Surname>
+            <Forename>Tracy</Forename>
+            <Surname>Mantle</Surname>
           </Name>
           <NINO>JZ844018C</NINO>
           <WorksNumber>2196</WorksNumber>
@@ -1557,11 +1557,11 @@
             <TaxCode>1050L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="115" TaxYearEnd="1060L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="115" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Directorson</Forename>
-            <Surname>Director Directorson</Surname>
+            <Forename>Director</Forename>
+            <Surname>Directorson</Surname>
           </Name>
           <NINO>JS123457A</NINO>
           <WorksNumber>513</WorksNumber>
@@ -1570,11 +1570,11 @@
             <TaxCode Week1Month1Indicator="X">1060L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="116" TaxYearEnd="K56" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-04-10" SequenceNumber="116" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>Richard Brown</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JP984454D</NINO>
           <WorksNumber>33098</WorksNumber>
@@ -1583,11 +1583,11 @@
             <TaxCode>K56</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="117" TaxYearEnd="K96" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="117" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tingle</Forename>
-            <Surname>Aaron Tingle</Surname>
+            <Forename>Aaron</Forename>
+            <Surname>Tingle</Surname>
           </Name>
           <NINO>OS358512B</NINO>
           <WorksNumber>33026</WorksNumber>
@@ -1596,11 +1596,11 @@
             <TaxCode Week1Month1Indicator="X">K96</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="118" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="118" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Symons</Forename>
-            <Surname>Rick Symons</Surname>
+            <Forename>Rick</Forename>
+            <Surname>Symons</Surname>
           </Name>
           <NINO>ZT344793C</NINO>
           <WorksNumber>565</WorksNumber>
@@ -1609,11 +1609,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="119" TaxYearEnd="678L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="119" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lewis</Forename>
-            <Surname>Sophie Lewis</Surname>
+            <Forename>Sophie</Forename>
+            <Surname>Lewis</Surname>
           </Name>
           <NINO>WP904239A</NINO>
           <WorksNumber>33058</WorksNumber>
@@ -1623,11 +1623,11 @@
             <TotalPreviousPay>182</TotalPreviousPay>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="120" TaxYearEnd="43P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="120" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Williamson</Forename>
-            <Surname>Gemma Williamson</Surname>
+            <Forename>Gemma</Forename>
+            <Surname>Williamson</Surname>
           </Name>
           <NINO>RE675674D</NINO>
           <WorksNumber>33081</WorksNumber>
@@ -1636,11 +1636,11 @@
             <TaxCode Week1Month1Indicator="X">43P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="121" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-05-29" SequenceNumber="121" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Khan</Forename>
-            <Surname>Hakam Khan</Surname>
+            <Forename>Hakam</Forename>
+            <Surname>Khan</Surname>
           </Name>
           <NINO>LL918712C</NINO>
           <WorksNumber>1888</WorksNumber>
@@ -1649,11 +1649,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="122" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="122" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Wyatt</Forename>
-            <Surname>Richard Wyatt</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Wyatt</Surname>
           </Name>
           <NINO>ZM370199A</NINO>
           <WorksNumber>460</WorksNumber>
@@ -1662,11 +1662,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="123" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="123" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Houghton</Forename>
-            <Surname>Cara Houghton</Surname>
+            <Forename>Cara</Forename>
+            <Surname>Houghton</Surname>
           </Name>
           <NINO>WE785789D</NINO>
           <WorksNumber>33082</WorksNumber>
@@ -1675,11 +1675,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="124" TaxYearEnd="54L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="124" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Lloyd Jones</Surname>
+            <Forename>Lloyd</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>BM802103D</NINO>
           <WorksNumber>33015</WorksNumber>
@@ -1688,11 +1688,11 @@
             <TaxCode>54L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="125" TaxYearEnd="67P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-07-01" SequenceNumber="125" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Washington</Forename>
-            <Surname>Rachael Washington</Surname>
+            <Forename>Rachael</Forename>
+            <Surname>Washington</Surname>
           </Name>
           <NINO>KS694280B</NINO>
           <WorksNumber>33060</WorksNumber>
@@ -1703,11 +1703,11 @@
             <TotalPreviousTax>200</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-08-15" SequenceNumber="126" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-08-15" SequenceNumber="126" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Goodrich</Forename>
-            <Surname>Ellie Goodrich</Surname>
+            <Forename>Ellie</Forename>
+            <Surname>Goodrich</Surname>
           </Name>
           <NINO>KE995536</NINO>
           <WorksNumber>33062</WorksNumber>
@@ -1716,11 +1716,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-08-15" SequenceNumber="127" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-08-15" SequenceNumber="127" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Burns</Forename>
-            <Surname>Montgomery Burns</Surname>
+            <Forename>Montgomery</Forename>
+            <Surname>Burns</Surname>
           </Name>
           <NINO>SG314720A</NINO>
           <WorksNumber>1</WorksNumber>
@@ -1731,11 +1731,11 @@
             <TotalPreviousTax>3454</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-08-15" SequenceNumber="128" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-08-15" SequenceNumber="128" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Fountain</Forename>
-            <Surname>David Fountain</Surname>
+            <Forename>David</Forename>
+            <Surname>Fountain</Surname>
           </Name>
           <NINO>NE994944C</NINO>
           <WorksNumber>1467</WorksNumber>
@@ -1746,11 +1746,11 @@
             <TotalPreviousTax>3454</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="129" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="129" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>33135</WorksNumber>
@@ -1759,11 +1759,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="130" TaxYearEnd="54L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="130" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Boothman</Forename>
-            <Surname>James Boothman</Surname>
+            <Forename>James</Forename>
+            <Surname>Boothman</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>33136</WorksNumber>
@@ -1774,11 +1774,11 @@
             <TotalPreviousTax>2138</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="131" TaxYearEnd="500L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="131" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Paul</Forename>
-            <Surname>Aman Paul</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Paul</Surname>
           </Name>
           <NINO>JX283761A</NINO>
           <WorksNumber>33143</WorksNumber>
@@ -1787,11 +1787,11 @@
             <TaxCode Week1Month1Indicator="X">500L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="132" TaxYearEnd="10P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="132" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Payroll</Forename>
-            <Surname>Aman Payroll</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Payroll</Surname>
           </Name>
           <NINO>JX434332A</NINO>
           <WorksNumber>33144</WorksNumber>
@@ -1800,11 +1800,11 @@
             <TaxCode Week1Month1Indicator="X">10P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="133" TaxYearEnd="564L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-09-15" SequenceNumber="133" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter</Forename>
-            <Surname>New  Starter</Surname>
+            <Forename>New </Forename>
+            <Surname>Starter</Surname>
           </Name>
           <NINO>JS123453A</NINO>
           <WorksNumber>3314444</WorksNumber>
@@ -1813,11 +1813,11 @@
             <TaxCode Week1Month1Indicator="X">564L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="134" TaxYearEnd="K50" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="134" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Pensioner</Forename>
-            <Surname>New Pensioner</Surname>
+            <Forename>New</Forename>
+            <Surname>Pensioner</Surname>
           </Name>
           <NINO>JK123456A</NINO>
           <WorksNumber>3314445</WorksNumber>
@@ -1828,11 +1828,11 @@
             <TotalPreviousTax>3000</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="135" TaxYearEnd="K500" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="135" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter Eea</Forename>
-            <Surname>New Starter Eea</Surname>
+            <Forename>New</Forename>
+            <Surname>Starter Eea</Surname>
           </Name>
           <NINO>JS123454A</NINO>
           <WorksNumber>3314446</WorksNumber>
@@ -1841,11 +1841,11 @@
             <TaxCode>K500</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="136" TaxYearEnd="K10" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="136" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>33097</WorksNumber>
@@ -1854,11 +1854,11 @@
             <TaxCode>K10</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="137" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="137" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>1625</WorksNumber>
@@ -1869,11 +1869,11 @@
             <TotalPreviousTax>200</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="138" TaxYearEnd="1060L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-10-12" SequenceNumber="138" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>1262</WorksNumber>
@@ -1882,11 +1882,11 @@
             <TaxCode Week1Month1Indicator="X">1060L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="139" TaxYearEnd="1080L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="139" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>33099</WorksNumber>
@@ -1895,11 +1895,11 @@
             <TaxCode Week1Month1Indicator="X">1080L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="140" TaxYearEnd="1090L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="140" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>2359</WorksNumber>
@@ -1908,11 +1908,11 @@
             <TaxCode>1090L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="141" TaxYearEnd="2000L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="141" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>2515</WorksNumber>
@@ -1923,11 +1923,11 @@
             <TotalPreviousTax>10000</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="142" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2016-12-01" SequenceNumber="142" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>NZ497307C</NINO>
           <WorksNumber>652</WorksNumber>
@@ -1936,11 +1936,11 @@
             <TaxCode Week1Month1Indicator="X">NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="143" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="143" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Houghton</Forename>
-            <Surname>Cara Houghton</Surname>
+            <Forename>Cara</Forename>
+            <Surname>Houghton</Surname>
           </Name>
           <NINO>WE785789D</NINO>
           <WorksNumber>180</WorksNumber>
@@ -1951,11 +1951,11 @@
             <TotalPreviousTax>3028</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="144" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="144" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Houghton</Forename>
-            <Surname>Cara Houghton</Surname>
+            <Forename>Cara</Forename>
+            <Surname>Houghton</Surname>
           </Name>
           <NINO>WE785789D</NINO>
           <WorksNumber>180</WorksNumber>
@@ -1966,11 +1966,11 @@
             <TotalPreviousTax>3028</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="145" TaxYearEnd="503L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="145" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Burns</Forename>
-            <Surname>Montgomery Burns</Surname>
+            <Forename>Montgomery</Forename>
+            <Surname>Burns</Surname>
           </Name>
           <NINO>SG314720A</NINO>
           <WorksNumber>219</WorksNumber>
@@ -1981,11 +1981,11 @@
             <TotalPreviousTax>654.75</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="146" TaxYearEnd="K75" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="146" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Fountain</Forename>
-            <Surname>David Fountain</Surname>
+            <Forename>David</Forename>
+            <Surname>Fountain</Surname>
           </Name>
           <NINO>NE994944C</NINO>
           <WorksNumber>220</WorksNumber>
@@ -1994,11 +1994,11 @@
             <TaxCode>K75</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="147" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-01-01" SequenceNumber="147" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>236</WorksNumber>
@@ -2007,11 +2007,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="148" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="148" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Boothman</Forename>
-            <Surname>James Boothman</Surname>
+            <Forename>James</Forename>
+            <Surname>Boothman</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>1236</WorksNumber>
@@ -2020,11 +2020,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="149" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="149" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Paul</Forename>
-            <Surname>Aman Paul</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Paul</Surname>
           </Name>
           <NINO>JX283761A</NINO>
           <WorksNumber>1237</WorksNumber>
@@ -2033,11 +2033,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="150" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="150" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Payroll</Forename>
-            <Surname>Aman Payroll</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Payroll</Surname>
           </Name>
           <NINO>JX434332A</NINO>
           <WorksNumber>1238</WorksNumber>
@@ -2046,11 +2046,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="151" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="151" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Pensioner</Forename>
-            <Surname>New Pensioner</Surname>
+            <Forename>New</Forename>
+            <Surname>Pensioner</Surname>
           </Name>
           <NINO>JK123456A</NINO>
           <WorksNumber>1240</WorksNumber>
@@ -2059,11 +2059,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="152" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-02-01" SequenceNumber="152" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter Eea</Forename>
-            <Surname>New Starter Eea</Surname>
+            <Forename>New</Forename>
+            <Surname>Starter Eea</Surname>
           </Name>
           <NINO>JS123454A</NINO>
           <WorksNumber>1241</WorksNumber>
@@ -2072,11 +2072,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-01" SequenceNumber="153" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-01" SequenceNumber="153" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter</Forename>
-            <Surname>New  Starter</Surname>
+            <Forename>New </Forename>
+            <Surname>Starter</Surname>
           </Name>
           <NINO>JS123453A</NINO>
           <WorksNumber>1239</WorksNumber>
@@ -2085,11 +2085,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="154" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="154" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>135</WorksNumber>
@@ -2098,11 +2098,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="155" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="155" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cameron</Forename>
-            <Surname>Fiona Cameron</Surname>
+            <Forename>Fiona</Forename>
+            <Surname>Cameron</Surname>
           </Name>
           <NINO>JK258147D</NINO>
           <WorksNumber>135</WorksNumber>
@@ -2111,11 +2111,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="156" TaxYearEnd="406L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="156" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>136</WorksNumber>
@@ -2126,11 +2126,11 @@
             <TotalPreviousTax>12.41</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="157" TaxYearEnd="406L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="157" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Raymond Jackson</Surname>
+            <Forename>Raymond</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>ZB394740B</NINO>
           <WorksNumber>136</WorksNumber>
@@ -2141,11 +2141,11 @@
             <TotalPreviousTax>12.41</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="158" TaxYearEnd="139P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="158" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>137</WorksNumber>
@@ -2156,11 +2156,11 @@
             <TotalPreviousTax>494.52</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="159" TaxYearEnd="139P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="159" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Woman</Forename>
-            <Surname>Pay ID Woman</Surname>
+            <Forename>Pay ID</Forename>
+            <Surname>Woman</Surname>
           </Name>
           <NINO>JS123459A</NINO>
           <WorksNumber>137</WorksNumber>
@@ -2171,11 +2171,11 @@
             <TotalPreviousTax>494.52</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="160" TaxYearEnd="K2000" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="160" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>138</WorksNumber>
@@ -2186,11 +2186,11 @@
             <TotalPreviousTax>4512.22</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="161" TaxYearEnd="K2000" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="161" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>James Brown</Surname>
+            <Forename>James</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JC998763A</NINO>
           <WorksNumber>138</WorksNumber>
@@ -2201,11 +2201,11 @@
             <TotalPreviousTax>4512.22</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="162" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="162" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>139</WorksNumber>
@@ -2214,11 +2214,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="163" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="163" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Chang</Forename>
-            <Surname>Jung Chang</Surname>
+            <Forename>Jung</Forename>
+            <Surname>Chang</Surname>
           </Name>
           <NINO>ZR437494D</NINO>
           <WorksNumber>139</WorksNumber>
@@ -2227,11 +2227,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="164" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="164" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>140</WorksNumber>
@@ -2240,11 +2240,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="165" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-03-03" SequenceNumber="165" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Tony Jones</Surname>
+            <Forename>Tony</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>JB662203</NINO>
           <WorksNumber>140</WorksNumber>
@@ -2253,11 +2253,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-01" SequenceNumber="166" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-01" SequenceNumber="166" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>KC497307C</NINO>
           <WorksNumber>142</WorksNumber>
@@ -2266,11 +2266,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-01" SequenceNumber="167" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-01" SequenceNumber="167" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Martin</Forename>
-            <Surname>Sean Martin</Surname>
+            <Forename>Sean</Forename>
+            <Surname>Martin</Surname>
           </Name>
           <NINO>KC497307C</NINO>
           <WorksNumber>142</WorksNumber>
@@ -2279,11 +2279,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-06" SequenceNumber="168" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-06" SequenceNumber="168" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>236</WorksNumber>
@@ -2292,11 +2292,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-06" SequenceNumber="169" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-06" SequenceNumber="169" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>236</WorksNumber>
@@ -2305,11 +2305,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-11" SequenceNumber="170" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-11" SequenceNumber="170" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Leaver</Forename>
-            <Surname>NiChg Leaver</Surname>
+            <Forename>NiChg</Forename>
+            <Surname>Leaver</Surname>
           </Name>
           <NINO>JH987643A</NINO>
           <WorksNumber>143</WorksNumber>
@@ -2318,11 +2318,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-11" SequenceNumber="171" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-04-11" SequenceNumber="171" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Leaver</Forename>
-            <Surname>NiChg Leaver</Surname>
+            <Forename>NiChg</Forename>
+            <Surname>Leaver</Surname>
           </Name>
           <NINO>JH987643A</NINO>
           <WorksNumber>143</WorksNumber>
@@ -2331,11 +2331,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-05-01" SequenceNumber="172" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-05-01" SequenceNumber="172" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Hamilton</Forename>
-            <Surname>Pamela Hamilton</Surname>
+            <Forename>Pamela</Forename>
+            <Surname>Hamilton</Surname>
           </Name>
           <NINO>KC678437D</NINO>
           <WorksNumber>145</WorksNumber>
@@ -2344,11 +2344,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-05-01" SequenceNumber="173" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-05-01" SequenceNumber="173" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Hamilton</Forename>
-            <Surname>Pamela Hamilton</Surname>
+            <Forename>Pamela</Forename>
+            <Surname>Hamilton</Surname>
           </Name>
           <NINO>KC678437D</NINO>
           <WorksNumber>145</WorksNumber>
@@ -2357,11 +2357,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-06-30" SequenceNumber="174" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-06-30" SequenceNumber="174" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Before Tax</Forename>
-            <Surname>Pensions Before Tax</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>Before Tax</Surname>
           </Name>
           <NINO>JS123458A</NINO>
           <WorksNumber>146</WorksNumber>
@@ -2370,11 +2370,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-06-30" SequenceNumber="175" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-06-30" SequenceNumber="175" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Before Tax</Forename>
-            <Surname>Pensions Before Tax</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>Before Tax</Surname>
           </Name>
           <NINO>JS123458A</NINO>
           <WorksNumber>146</WorksNumber>
@@ -2383,11 +2383,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="176" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="176" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>BR</Forename>
-            <Surname>Pensions BR</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>BR</Surname>
           </Name>
           <NINO>NY199397D</NINO>
           <WorksNumber>147</WorksNumber>
@@ -2396,11 +2396,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="177" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="177" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>BR</Forename>
-            <Surname>Pensions BR</Surname>
+            <Forename>Pensions</Forename>
+            <Surname>BR</Surname>
           </Name>
           <NINO>NY199397D</NINO>
           <WorksNumber>147</WorksNumber>
@@ -2409,11 +2409,11 @@
             <TaxCode>D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="178" TaxYearEnd="99L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="178" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Herbert</Forename>
-            <Surname>Frank Herbert</Surname>
+            <Forename>Frank</Forename>
+            <Surname>Herbert</Surname>
           </Name>
           <NINO>AB157834D</NINO>
           <WorksNumber>148</WorksNumber>
@@ -2424,11 +2424,11 @@
             <TotalPreviousTax>3304</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="179" TaxYearEnd="99L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="179" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Herbert</Forename>
-            <Surname>Frank Herbert</Surname>
+            <Forename>Frank</Forename>
+            <Surname>Herbert</Surname>
           </Name>
           <NINO>AB157834D</NINO>
           <WorksNumber>148</WorksNumber>
@@ -2439,11 +2439,11 @@
             <TotalPreviousTax>3304</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="180" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="180" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Bridget Jones</Surname>
+            <Forename>Bridget</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>SW755701A</NINO>
           <WorksNumber>156</WorksNumber>
@@ -2452,11 +2452,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="181" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-01" SequenceNumber="181" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Bridget Jones</Surname>
+            <Forename>Bridget</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>SW755701A</NINO>
           <WorksNumber>156</WorksNumber>
@@ -2465,11 +2465,11 @@
             <TaxCode Week1Month1Indicator="X">603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="182" TaxYearEnd="89P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="182" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Bennett</Forename>
-            <Surname>Victoria Bennett</Surname>
+            <Forename>Victoria</Forename>
+            <Surname>Bennett</Surname>
           </Name>
           <NINO>JN180014A</NINO>
           <WorksNumber>157</WorksNumber>
@@ -2478,11 +2478,11 @@
             <TaxCode>89P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="183" TaxYearEnd="89P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="183" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Bennett</Forename>
-            <Surname>Victoria Bennett</Surname>
+            <Forename>Victoria</Forename>
+            <Surname>Bennett</Surname>
           </Name>
           <NINO>JN180014A</NINO>
           <WorksNumber>157</WorksNumber>
@@ -2491,11 +2491,11 @@
             <TaxCode>89P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="184" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="184" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lawlor</Forename>
-            <Surname>Avril Lawlor</Surname>
+            <Forename>Avril</Forename>
+            <Surname>Lawlor</Surname>
           </Name>
           <NINO>JK756428A</NINO>
           <WorksNumber>158</WorksNumber>
@@ -2506,11 +2506,11 @@
             <TotalPreviousTax>1592</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="185" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="185" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lawlor</Forename>
-            <Surname>Avril Lawlor</Surname>
+            <Forename>Avril</Forename>
+            <Surname>Lawlor</Surname>
           </Name>
           <NINO>JK756428A</NINO>
           <WorksNumber>158</WorksNumber>
@@ -2521,11 +2521,11 @@
             <TotalPreviousTax>1592</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="186" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="186" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>King</Forename>
-            <Surname>Richard King</Surname>
+            <Forename>Richard</Forename>
+            <Surname>King</Surname>
           </Name>
           <NINO>JK436587D</NINO>
           <WorksNumber>159</WorksNumber>
@@ -2534,11 +2534,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="187" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="187" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>King</Forename>
-            <Surname>Richard King</Surname>
+            <Forename>Richard</Forename>
+            <Surname>King</Surname>
           </Name>
           <NINO>JK436587D</NINO>
           <WorksNumber>159</WorksNumber>
@@ -2547,11 +2547,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="188" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="188" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cat D</Forename>
-            <Surname>SMP Cat D</Surname>
+            <Forename>SMP</Forename>
+            <Surname>Cat D</Surname>
           </Name>
           <NINO>JS123452A</NINO>
           <WorksNumber>160</WorksNumber>
@@ -2560,11 +2560,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="189" TaxYearEnd="603L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-07-10" SequenceNumber="189" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Cat D</Forename>
-            <Surname>SMP Cat D</Surname>
+            <Forename>SMP</Forename>
+            <Surname>Cat D</Surname>
           </Name>
           <NINO>JS123452A</NINO>
           <WorksNumber>160</WorksNumber>
@@ -2573,11 +2573,11 @@
             <TaxCode>603L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="190" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="190" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Thomas Jackson</Surname>
+            <Forename>Thomas</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>YK123456A</NINO>
           <WorksNumber>161</WorksNumber>
@@ -2586,11 +2586,11 @@
             <TaxCode Week1Month1Indicator="X">D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="191" TaxYearEnd="D0" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="191" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jackson</Forename>
-            <Surname>Thomas Jackson</Surname>
+            <Forename>Thomas</Forename>
+            <Surname>Jackson</Surname>
           </Name>
           <NINO>YK123456A</NINO>
           <WorksNumber>161</WorksNumber>
@@ -2599,11 +2599,11 @@
             <TaxCode Week1Month1Indicator="X">D0</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="192" TaxYearEnd="99L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="192" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>O'Donnell</Forename>
-            <Surname>Simon O'Donnell</Surname>
+            <Forename>Simon</Forename>
+            <Surname>O'Donnell</Surname>
           </Name>
           <NINO>NW440030B</NINO>
           <WorksNumber>168</WorksNumber>
@@ -2614,11 +2614,11 @@
             <TotalPreviousTax>3304</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="193" TaxYearEnd="99L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-08-01" SequenceNumber="193" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>O'Donnell</Forename>
-            <Surname>Simon O'Donnell</Surname>
+            <Forename>Simon</Forename>
+            <Surname>O'Donnell</Surname>
           </Name>
           <NINO>NW440030B</NINO>
           <WorksNumber>168</WorksNumber>
@@ -2629,11 +2629,11 @@
             <TotalPreviousTax>3304</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-01" SequenceNumber="194" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-01" SequenceNumber="194" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Mantle</Forename>
-            <Surname>Tracy Mantle</Surname>
+            <Forename>Tracy</Forename>
+            <Surname>Mantle</Surname>
           </Name>
           <NINO>JZ844018C</NINO>
           <WorksNumber>169</WorksNumber>
@@ -2642,11 +2642,11 @@
             <TaxCode Week1Month1Indicator="X">647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-01" SequenceNumber="195" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-01" SequenceNumber="195" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Mantle</Forename>
-            <Surname>Tracy Mantle</Surname>
+            <Forename>Tracy</Forename>
+            <Surname>Mantle</Surname>
           </Name>
           <NINO>JZ844018C</NINO>
           <WorksNumber>169</WorksNumber>
@@ -2655,11 +2655,11 @@
             <TaxCode Week1Month1Indicator="X">647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="196" TaxYearEnd="89P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="196" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Directorson</Forename>
-            <Surname>Director Directorson</Surname>
+            <Forename>Director</Forename>
+            <Surname>Directorson</Surname>
           </Name>
           <NINO>JS123457A</NINO>
           <WorksNumber>170</WorksNumber>
@@ -2668,11 +2668,11 @@
             <TaxCode>89P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="197" TaxYearEnd="89P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="197" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Directorson</Forename>
-            <Surname>Director Directorson</Surname>
+            <Forename>Director</Forename>
+            <Surname>Directorson</Surname>
           </Name>
           <NINO>JS123457A</NINO>
           <WorksNumber>170</WorksNumber>
@@ -2681,11 +2681,11 @@
             <TaxCode>89P</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="198" TaxYearEnd="S647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="198" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>Richard Brown</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JP984454D</NINO>
           <WorksNumber>172</WorksNumber>
@@ -2694,11 +2694,11 @@
             <TaxCode TaxRegime="S">647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="199" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-16" SequenceNumber="199" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Brown</Forename>
-            <Surname>Richard Brown</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Brown</Surname>
           </Name>
           <NINO>JP984454D</NINO>
           <WorksNumber>172</WorksNumber>
@@ -2707,11 +2707,11 @@
             <TaxCode>647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-19" SequenceNumber="200" TaxYearEnd="S647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-19" SequenceNumber="200" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tingle</Forename>
-            <Surname>Aaron Tingle</Surname>
+            <Forename>Aaron</Forename>
+            <Surname>Tingle</Surname>
           </Name>
           <NINO>OS358512B</NINO>
           <WorksNumber>173</WorksNumber>
@@ -2720,11 +2720,11 @@
             <TaxCode TaxRegime="S">647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-19" SequenceNumber="201" TaxYearEnd="647L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-09-19" SequenceNumber="201" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tingle</Forename>
-            <Surname>Aaron Tingle</Surname>
+            <Forename>Aaron</Forename>
+            <Surname>Tingle</Surname>
           </Name>
           <NINO>OS358512B</NINO>
           <WorksNumber>173</WorksNumber>
@@ -2733,11 +2733,11 @@
             <TaxCode>647L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-01" SequenceNumber="202" TaxYearEnd="S12L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-01" SequenceNumber="202" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Symons</Forename>
-            <Surname>Rick Symons</Surname>
+            <Forename>Rick</Forename>
+            <Surname>Symons</Surname>
           </Name>
           <NINO>ZT344793C</NINO>
           <WorksNumber>174</WorksNumber>
@@ -2746,11 +2746,11 @@
             <TaxCode TaxRegime="S" Week1Month1Indicator="X">12L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-01" SequenceNumber="203" TaxYearEnd="12L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-01" SequenceNumber="203" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Symons</Forename>
-            <Surname>Rick Symons</Surname>
+            <Forename>Rick</Forename>
+            <Surname>Symons</Surname>
           </Name>
           <NINO>ZT344793C</NINO>
           <WorksNumber>174</WorksNumber>
@@ -2759,11 +2759,11 @@
             <TaxCode Week1Month1Indicator="X">12L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-10" SequenceNumber="204" TaxYearEnd="85P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-10" SequenceNumber="204" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lewis</Forename>
-            <Surname>Sophie Lewis</Surname>
+            <Forename>Sophie</Forename>
+            <Surname>Lewis</Surname>
           </Name>
           <NINO>WP904239A</NINO>
           <WorksNumber>175</WorksNumber>
@@ -2774,11 +2774,11 @@
             <TotalPreviousTax>11148</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-10" SequenceNumber="205" TaxYearEnd="85P" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-10" SequenceNumber="205" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Lewis</Forename>
-            <Surname>Sophie Lewis</Surname>
+            <Forename>Sophie</Forename>
+            <Surname>Lewis</Surname>
           </Name>
           <NINO>WP904239A</NINO>
           <WorksNumber>175</WorksNumber>
@@ -2789,11 +2789,11 @@
             <TotalPreviousTax>11148</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-30" SequenceNumber="206" TaxYearEnd="SBR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-30" SequenceNumber="206" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Williamson</Forename>
-            <Surname>Gemma Williamson</Surname>
+            <Forename>Gemma</Forename>
+            <Surname>Williamson</Surname>
           </Name>
           <NINO>RE675674D</NINO>
           <WorksNumber>176</WorksNumber>
@@ -2804,11 +2804,11 @@
             <TotalPreviousTax>2205</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-30" SequenceNumber="207" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-10-30" SequenceNumber="207" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Williamson</Forename>
-            <Surname>Gemma Williamson</Surname>
+            <Forename>Gemma</Forename>
+            <Surname>Williamson</Surname>
           </Name>
           <NINO>RE675674D</NINO>
           <WorksNumber>176</WorksNumber>
@@ -2819,11 +2819,11 @@
             <TotalPreviousTax>2205</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="208" TaxYearEnd="65L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="208" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Khan</Forename>
-            <Surname>Hakam Khan</Surname>
+            <Forename>Hakam</Forename>
+            <Surname>Khan</Surname>
           </Name>
           <NINO>LL918712C</NINO>
           <WorksNumber>177</WorksNumber>
@@ -2832,11 +2832,11 @@
             <TaxCode Week1Month1Indicator="X">65L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="209" TaxYearEnd="S65L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="209" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Khan</Forename>
-            <Surname>Hakam Khan</Surname>
+            <Forename>Hakam</Forename>
+            <Surname>Khan</Surname>
           </Name>
           <NINO>LL918712C</NINO>
           <WorksNumber>177</WorksNumber>
@@ -2845,11 +2845,11 @@
             <TaxCode TaxRegime="S" Week1Month1Indicator="X">65L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="210" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="210" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Wyatt</Forename>
-            <Surname>Richard Wyatt</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Wyatt</Surname>
           </Name>
           <NINO>ZM370199A</NINO>
           <WorksNumber>178</WorksNumber>
@@ -2858,11 +2858,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="211" TaxYearEnd="920L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-11-01" SequenceNumber="211" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Wyatt</Forename>
-            <Surname>Richard Wyatt</Surname>
+            <Forename>Richard</Forename>
+            <Surname>Wyatt</Surname>
           </Name>
           <NINO>ZM370199A</NINO>
           <WorksNumber>178</WorksNumber>
@@ -2871,11 +2871,11 @@
             <TaxCode Week1Month1Indicator="X">920L</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="212" TaxYearEnd="546L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="212" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Lloyd Jones</Surname>
+            <Forename>Lloyd</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>BM802103D</NINO>
           <WorksNumber>181</WorksNumber>
@@ -2886,11 +2886,11 @@
             <TotalPreviousTax>3725</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="213" TaxYearEnd="546L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="213" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Jones</Forename>
-            <Surname>Lloyd Jones</Surname>
+            <Forename>Lloyd</Forename>
+            <Surname>Jones</Surname>
           </Name>
           <NINO>BM802103D</NINO>
           <WorksNumber>181</WorksNumber>
@@ -2901,11 +2901,11 @@
             <TotalPreviousTax>3725</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="214" TaxYearEnd="S708Y" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="214" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Washington</Forename>
-            <Surname>Rachael Washington</Surname>
+            <Forename>Rachael</Forename>
+            <Surname>Washington</Surname>
           </Name>
           <NINO>KS694280B</NINO>
           <WorksNumber>182</WorksNumber>
@@ -2916,11 +2916,11 @@
             <TotalPreviousTax>154.2</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="215" TaxYearEnd="708Y" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-01" SequenceNumber="215" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Washington</Forename>
-            <Surname>Rachael Washington</Surname>
+            <Forename>Rachael</Forename>
+            <Surname>Washington</Surname>
           </Name>
           <NINO>KS694280B</NINO>
           <WorksNumber>182</WorksNumber>
@@ -2931,11 +2931,11 @@
             <TotalPreviousTax>154.2</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-22" SequenceNumber="216" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-22" SequenceNumber="216" TaxYearEnd="2017" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Goodrich</Forename>
-            <Surname>Ellie Goodrich</Surname>
+            <Forename>Ellie</Forename>
+            <Surname>Goodrich</Surname>
           </Name>
           <NINO>KE995536</NINO>
           <WorksNumber>218</WorksNumber>
@@ -2944,11 +2944,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-22" SequenceNumber="217" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2017-12-22" SequenceNumber="217" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Goodrich</Forename>
-            <Surname>Ellie Goodrich</Surname>
+            <Forename>Ellie</Forename>
+            <Surname>Goodrich</Surname>
           </Name>
           <NINO>KE995536</NINO>
           <WorksNumber>218</WorksNumber>
@@ -2957,11 +2957,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-01-01" SequenceNumber="218" TaxYearEnd="503L" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-01-01" SequenceNumber="218" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Burns</Forename>
-            <Surname>Montgomery Burns</Surname>
+            <Forename>Montgomery</Forename>
+            <Surname>Burns</Surname>
           </Name>
           <NINO>SG314720A</NINO>
           <WorksNumber>219</WorksNumber>
@@ -2972,11 +2972,11 @@
             <TotalPreviousTax>654.75</TotalPreviousTax>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-01-01" SequenceNumber="219" TaxYearEnd="K75" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-01-01" SequenceNumber="219" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Fountain</Forename>
-            <Surname>David Fountain</Surname>
+            <Forename>David</Forename>
+            <Surname>Fountain</Surname>
           </Name>
           <NINO>NE994944C</NINO>
           <WorksNumber>220</WorksNumber>
@@ -2985,11 +2985,11 @@
             <TaxCode>K75</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-01-01" SequenceNumber="220" TaxYearEnd="SBR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-01-01" SequenceNumber="220" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Tribbiani</Forename>
-            <Surname>Joey Tribbiani</Surname>
+            <Forename>Joey</Forename>
+            <Surname>Tribbiani</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>236</WorksNumber>
@@ -2998,11 +2998,11 @@
             <TaxCode TaxRegime="S">BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="221" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="221" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Boothman</Forename>
-            <Surname>James Boothman</Surname>
+            <Forename>James</Forename>
+            <Surname>Boothman</Surname>
           </Name>
           <NINO>JN123456D</NINO>
           <WorksNumber>1236</WorksNumber>
@@ -3011,11 +3011,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="222" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="222" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Paul</Forename>
-            <Surname>Aman Paul</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Paul</Surname>
           </Name>
           <NINO>JX283761A</NINO>
           <WorksNumber>1237</WorksNumber>
@@ -3024,11 +3024,11 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="223" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="223" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Payroll</Forename>
-            <Surname>Aman Payroll</Surname>
+            <Forename>Aman</Forename>
+            <Surname>Payroll</Surname>
           </Name>
           <NINO>JX434332A</NINO>
           <WorksNumber>1238</WorksNumber>
@@ -3037,11 +3037,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="224" TaxYearEnd="NT" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="224" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Pensioner</Forename>
-            <Surname>New Pensioner</Surname>
+            <Forename>New</Forename>
+            <Surname>Pensioner</Surname>
           </Name>
           <NINO>JK123456A</NINO>
           <WorksNumber>1240</WorksNumber>
@@ -3050,11 +3050,11 @@
             <TaxCode>NT</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="225" TaxYearEnd="0T" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-02-01" SequenceNumber="225" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter Eea</Forename>
-            <Surname>New Starter Eea</Surname>
+            <Forename>New</Forename>
+            <Surname>Starter Eea</Surname>
           </Name>
           <NINO>JS123454A</NINO>
           <WorksNumber>1241</WorksNumber>
@@ -3063,11 +3063,11 @@
             <TaxCode>0T</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-03-01" SequenceNumber="226" TaxYearEnd="BR" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
+        <CodingNoticesP6P6B FormType="P6" IssueDate="2018-03-01" SequenceNumber="226" TaxYearEnd="2018" xmlns="http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2">
           <EmployerRef>123/A6</EmployerRef>
           <Name>
-            <Forename>Starter</Forename>
-            <Surname>New  Starter</Surname>
+            <Forename>New </Forename>
+            <Surname>Starter</Surname>
           </Name>
           <NINO>JS123453A</NINO>
           <WorksNumber>1239</WorksNumber>
@@ -3076,7 +3076,6 @@
             <TaxCode>BR</TaxCode>
           </CodingUpdate>
         </CodingNoticesP6P6B>
-
       </DPSdata>
     </DPSretrieveResponse>
   </env:Body>
