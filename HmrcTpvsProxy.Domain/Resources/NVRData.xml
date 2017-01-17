@@ -1003,7 +1003,7 @@
           <NINOToUse>JX434332A</NINOToUse>
           <MessageID>1</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-10" SequenceNumber="477" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-10" SequenceNumber="600" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
@@ -1013,199 +1013,187 @@
           <NINOProvided>NS194373B</NINOProvided>
           <PayId>33100</PayId>
           <NINOToUse>KC194373B</NINOToUse>
-          <MessageID>1</MessageID>
+          <MessageID>600</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-10" SequenceNumber="478" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
-          <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
-          <EmployerRef>123/A6</EmployerRef>
-          <Name>
-            <Fore>Dawn</Fore>
-            <Sur>Barker</Sur>
-          </Name>
-          <NINOProvided>KC194373B</NINOProvided>
-          <PayId>33100</PayId>
-          <NINOToUse>42804</NINOToUse>
-          <MessageID>1</MessageID>
-        </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-11" SequenceNumber="479" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-11" SequenceNumber="601" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Dawn</Fore>
             <Sur>Beeby</Sur>
           </Name>
-          <NINOProvided>KC334943B</NINOProvided>
+          <NINOProvided>NR334943B</NINOProvided>
           <PayId>1406</PayId>
-          <NINOToUse>42805</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC334943B</NINOToUse>
+          <MessageID>601</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-12" SequenceNumber="480" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-12" SequenceNumber="602" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Vicky</Fore>
             <Sur>Bennett</Sur>
           </Name>
-          <NINOProvided>KC180014A</NINOProvided>
+          <NINOProvided>JN180014A</NINOProvided>
           <PayId>1881</PayId>
-          <NINOToUse>42806</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC180014A</NINOToUse>
+          <MessageID>602</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-13" SequenceNumber="481" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-13" SequenceNumber="603" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Richard</Fore>
             <Sur>Brown</Sur>
           </Name>
-          <NINOProvided>KC123456D</NINOProvided>
+          <NINOProvided>JN123456D</NINOProvided>
           <PayId>33098</PayId>
-          <NINOToUse>42807</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC123456D</NINOToUse>
+          <MessageID>603</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-14" SequenceNumber="482" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-14" SequenceNumber="604" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Monty</Fore>
             <Sur>Burns</Sur>
           </Name>
-          <NINOProvided>JC998763A</NINOProvided>
+          <NINOProvided>KC998763A</NINOProvided>
           <PayId>1</PayId>
-          <NINOToUse>42808</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>JC998763A</NINOToUse>
+          <MessageID>604</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-15" SequenceNumber="483" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-15" SequenceNumber="605" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>SMP</Fore>
             <Sur>CAT D</Sur>
           </Name>
-          <NINOProvided>JP984454D</NINOProvided>
+          <NINOProvided>KC984454D</NINOProvided>
           <PayId>2166</PayId>
-          <NINOToUse>42809</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>JP984454D</NINOToUse>
+          <MessageID>605</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-16" SequenceNumber="484" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-16" SequenceNumber="606" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Jane</Fore>
             <Sur>Gould</Sur>
           </Name>
-          <NINOProvided>SG314720A</NINOProvided>
+          <NINOProvided>KC314720A</NINOProvided>
           <PayId>3314449</PayId>
-          <NINOToUse>42810</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>SG314720A</NINOToUse>
+          <MessageID>606</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-03-17" SequenceNumber="485" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-03-17" SequenceNumber="607" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Pam</Fore>
             <Sur>Hamilton</Sur>
           </Name>
-          <NINOProvided>JS123452A</NINOProvided>
+          <NINOProvided>KC123452A</NINOProvided>
           <PayId>33063</PayId>
-          <NINOToUse>42811</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>JS123452A</NINOToUse>
+          <MessageID>607</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-10" SequenceNumber="486" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-10" SequenceNumber="608" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Cara</Fore>
             <Sur>Houghton</Sur>
           </Name>
-          <NINOProvided>KC785789D</NINOProvided>
+          <NINOProvided>WE785789D</NINOProvided>
           <PayId>33082</PayId>
-          <NINOToUse>42835</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC785789D</NINOToUse>
+          <MessageID>608</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-11" SequenceNumber="487" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-11" SequenceNumber="609" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Raymond</Fore>
             <Sur>Jackson</Sur>
           </Name>
-          <NINOProvided>KC394740B</NINOProvided>
+          <NINOProvided>ZB394740B</NINOProvided>
           <PayId>1625</PayId>
-          <NINOToUse>42836</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC394740B</NINOToUse>
+          <MessageID>609</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-12" SequenceNumber="488" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-12" SequenceNumber="610" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Tom</Fore>
             <Sur>Jackson</Sur>
           </Name>
-          <NINOProvided>KC123456A</NINOProvided>
+          <NINOProvided>YK123456A</NINOProvided>
           <PayId>33053</PayId>
-          <NINOToUse>42837</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC123456A</NINOToUse>
+          <MessageID>610</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-13" SequenceNumber="489" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-13" SequenceNumber="611" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Bridget</Fore>
             <Sur>Jones</Sur>
           </Name>
-          <NINOProvided>KC755701A</NINOProvided>
+          <NINOProvided>SW755701A</NINOProvided>
           <PayId>33057</PayId>
-          <NINOToUse>42838</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>KC755701A</NINOToUse>
+          <MessageID>611</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-14" SequenceNumber="490" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-14" SequenceNumber="612" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Lloyd</Fore>
             <Sur>Jones</Sur>
           </Name>
-          <NINOProvided>BM802103D</NINOProvided>
+          <NINOProvided>KC802103D</NINOProvided>
           <PayId>33015</PayId>
-          <NINOToUse>42839</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>BM802103D</NINOToUse>
+          <MessageID>612</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-15" SequenceNumber="491" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-15" SequenceNumber="613" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Tony</Fore>
             <Sur>Jones</Sur>
           </Name>
-          <NINOProvided>JB662203A</NINOProvided>
+          <NINOProvided>KC662203A</NINOProvided>
           <PayId>2515</PayId>
-          <NINOToUse>42840</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>JB662203A</NINOToUse>
+          <MessageID>613</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-16" SequenceNumber="492" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-16" SequenceNumber="614" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Hakam</Fore>
             <Sur>Khan</Sur>
           </Name>
-          <NINOProvided>LL918712C</NINOProvided>
+          <NINOProvided>KC918712C</NINOProvided>
           <PayId>1888</PayId>
-          <NINOToUse>42841</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>LL918712C</NINOToUse>
+          <MessageID>614</MessageID>
         </RTINot>
-        <RTINot FormType="NOT" IssueDate="2017-04-17" SequenceNumber="493" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
+        <RTINot FormType="NOT" IssueDate="2017-04-17" SequenceNumber="615" xmlns="http://www.govtalk.gov.uk/taxation/RTInotification/1">
           <CorrelationID>1A7EDDB8CC3B4F8A8B06F1BA8B48D400</CorrelationID>
           <EmployerRef>123/A6</EmployerRef>
           <Name>
             <Fore>Rich</Fore>
             <Sur>King</Sur>
           </Name>
-          <NINOProvided>JK436587D</NINOProvided>
+          <NINOProvided>KC436587D</NINOProvided>
           <PayId>33093</PayId>
-          <NINOToUse>42842</NINOToUse>
-          <MessageID>1</MessageID>
+          <NINOToUse>JK436587D</NINOToUse>
+          <MessageID>615</MessageID>
         </RTINot>
       </DPSdata>
     </DPSretrieveResponse>
