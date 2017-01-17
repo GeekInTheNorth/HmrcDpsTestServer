@@ -51,6 +51,17 @@
     <Compile Include="ConfigurationData\ConfigurationRepository.cs" />
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
     <Compile Include="IMessageSender.cs" />
+    <Compile Include="Messages\Nodes\CodingNoticesP6P6B.cs" />
+    <Compile Include="Messages\Nodes\CodingUpdate.cs" />
+    <Compile Include="Messages\Nodes\DPSData.cs" />
+    <Compile Include="Messages\Nodes\DPSheader.cs" />
+    <Compile Include="Messages\Nodes\DPSretrieveResponse.cs" />
+    <Compile Include="Messages\Nodes\EnvelopeBody.cs" />
+    <Compile Include="Messages\Nodes\Name.cs" />
+    <Compile Include="Messages\Nodes\Envelope.cs" />
+    <Compile Include="Messages\Nodes\TaxCode.cs" />
+    <Compile Include="Messages\Serialization\ISerializer.cs" />
+    <Compile Include="Messages\Serialization\Serializer.cs" />
     <Compile Include="Models\IdentityCache.cs" />
     <Compile Include="Models\StudentLoanNotice.cs" />
     <Compile Include="PostResult.cs" />
