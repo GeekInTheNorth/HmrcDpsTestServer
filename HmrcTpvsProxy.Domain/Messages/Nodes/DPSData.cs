@@ -14,9 +14,11 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
     {
         public DPSheader DPSheader { get; set; }
 
-        /// <remarks/>
         [XmlElement("CodingNoticesP6P6B", Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2")]
         public List<CodingNoticesP6P6B> CodingNoticesP6P6B { get; set; }
+
+        [XmlElement("CodingNoticesP9", Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2")]
+        public List<CodingNoticesP9> CodingNoticesP9 { get; set; }
 
         public DPSdata()
         {
@@ -26,6 +28,11 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
         public bool ShouldSerializeCodingNoticesP6P6B()
         {
             return CodingNoticesP6P6B != null && CodingNoticesP6P6B.Any();
+        }
+
+        public bool ShouldSerializeCodingNoticesP9()
+        {
+            return CodingNoticesP9 != null && CodingNoticesP9.Any();
         }
     }
 }

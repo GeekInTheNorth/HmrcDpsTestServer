@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="Manipulator\HmrcDataManipulatorTest.cs" />
     <Compile Include="Messages\P6SerializationTest.cs" />
+    <Compile Include="Messages\P9SerializationTest.cs" />
     <Compile Include="ProxyServiceTest.cs" />
     <Compile Include="RequestTypeResolverTest.cs" />
     <Compile Include="ResponseFileRetrieverTest.cs" />

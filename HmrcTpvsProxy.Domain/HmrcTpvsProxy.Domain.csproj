@@ -52,6 +52,7 @@
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
     <Compile Include="IMessageSender.cs" />
     <Compile Include="Messages\Nodes\CodingNoticesP6P6B.cs" />
+    <Compile Include="Messages\Nodes\CodingNoticesP9.cs" />
     <Compile Include="Messages\Nodes\CodingUpdate.cs" />
     <Compile Include="Messages\Nodes\DPSData.cs" />
     <Compile Include="Messages\Nodes\DPSheader.cs" />

@@ -1,21 +1,42 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Xml.Serialization;
 
 namespace HmrcTpvsProxy.Domain.Messages.Nodes
 {
-    [Serializable()]
-    [DesignerCategoryAttribute("code")]
-    [XmlType(AnonymousType = true, Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2")]
+    [Serializable]
     public class TaxCode
     {
-        [XmlAttribute()]
-        public string Week1Month1Indicator { get; set; }
+        [XmlIgnore]
+        public bool Week1Month1 { get; set; }
 
         [XmlAttribute()]
-        public string TaxRegime { get; set; }
+        public string Week1Month1Indicator
+        {
+            get { return Week1Month1 ? "X" : null; }
+            set { Week1Month1 = value == "X"; }
+        }
+
+        [XmlIgnore]
+        public bool IsScottishEmployee { get; set; }
+
+        [XmlAttribute()]
+        public string TaxRegime
+        {
+            get { return IsScottishEmployee ? "S" : null; }
+            set { IsScottishEmployee = value == "S"; }
+        }
 
         [XmlText()]
         public string Value { get; set; }
+
+        public bool ShouldSerializeWeek1Month1Indicator()
+        {
+            return Week1Month1;
+        }
+
+        public bool ShouldSerializeTaxRegime()
+        {
+            return IsScottishEmployee;           
+        }
     }
 }

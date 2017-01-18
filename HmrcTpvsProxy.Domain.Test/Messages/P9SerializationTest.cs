@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace HmrcTpvsProxy.Domain.Test.Messages
 {
     [TestFixture]
-    public class P6SerializationTest
+    public class P9SerializationTest
     {
         [Test]
         public void CorrectlySerializesAMessageWithASingleP6Notice()
@@ -53,7 +53,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
             stringBuilder.Append("<Service>PAYE</Service>");
             stringBuilder.Append("<EntityType>EmpRef</EntityType>");
             stringBuilder.Append("<Entity>123/A6</Entity>");
-            stringBuilder.Append("<DataType>P6</DataType>");
+            stringBuilder.Append("<DataType>P9</DataType>");
             stringBuilder.Append(string.Format("<Got>{0}</Got>", numberOfMessages));
             stringBuilder.Append(string.Format("<NItems>{0}</NItems>", numberOfMessages));
             stringBuilder.Append("<VendorID>0178</VendorID>");
@@ -65,57 +65,53 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             if (numberOfMessages >= 1)
             {
-                stringBuilder.Append("<CodingNoticesP6P6B FormType=\"P6\" IssueDate=\"2014-01-01\" SequenceNumber=\"1\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2\">");
+                stringBuilder.Append("<CodingNoticesP9 FormType=\"P9\" IssueDate=\"2014-01-01\" SequenceNumber=\"227\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
                 stringBuilder.Append("<Name>");
-                stringBuilder.Append("<Forename>Cara</Forename>");
-                stringBuilder.Append("<Surname>Houghton</Surname>");
+                stringBuilder.Append("<Forename>NiChg</Forename>");
+                stringBuilder.Append("<Surname>Leaver</Surname>");
                 stringBuilder.Append("</Name>");
-                stringBuilder.Append("<NINO>WE785789D</NINO>");
-                stringBuilder.Append("<WorksNumber>180</WorksNumber>");
-                stringBuilder.Append("<EffectiveDate>2014-11-11</EffectiveDate>");
+                stringBuilder.Append("<NINO>JH987643A</NINO>");
+                stringBuilder.Append("<WorksNumber>1264</WorksNumber>");
+                stringBuilder.Append("<EffectiveDate>2014-04-06</EffectiveDate>");
                 stringBuilder.Append("<CodingUpdate>");
-                stringBuilder.Append("<TaxCode>920L</TaxCode>");
-                stringBuilder.Append("<TotalPreviousPay>22624</TotalPreviousPay>");
-                stringBuilder.Append("<TotalPreviousTax>3028</TotalPreviousTax>");
+                stringBuilder.Append("<TaxCode TaxRegime=\"S\">647L</TaxCode>");
                 stringBuilder.Append("</CodingUpdate>");
-                stringBuilder.Append("</CodingNoticesP6P6B>");
+                stringBuilder.Append("</CodingNoticesP9>");
             }
 
             if (numberOfMessages >= 2)
             {
-                stringBuilder.Append("<CodingNoticesP6P6B FormType=\"P6\" IssueDate=\"2014-03-03\" SequenceNumber=\"2\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2\">");
+                stringBuilder.Append("<CodingNoticesP9 FormType=\"P9\" IssueDate=\"2014-01-01\" SequenceNumber=\"228\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
                 stringBuilder.Append("<Name>");
-                stringBuilder.Append("<Forename>Fiona</Forename>");
-                stringBuilder.Append("<Surname>Cameron</Surname>");
+                stringBuilder.Append("<Forename>NiChg</Forename>");
+                stringBuilder.Append("<Surname>Leaver</Surname>");
                 stringBuilder.Append("</Name>");
-                stringBuilder.Append("<NINO>JK258147D</NINO>");
-                stringBuilder.Append("<WorksNumber>135</WorksNumber>");
-                stringBuilder.Append("<EffectiveDate>2014-04-01</EffectiveDate>");
+                stringBuilder.Append("<NINO>JH987643A</NINO>");
+                stringBuilder.Append("<WorksNumber>1264</WorksNumber>");
+                stringBuilder.Append("<EffectiveDate>2014-04-06</EffectiveDate>");
                 stringBuilder.Append("<CodingUpdate>");
-                stringBuilder.Append("<TaxCode>BR</TaxCode>");
+                stringBuilder.Append("<TaxCode>647L</TaxCode>");
                 stringBuilder.Append("</CodingUpdate>");
-                stringBuilder.Append("</CodingNoticesP6P6B>");
+                stringBuilder.Append("</CodingNoticesP9>");
             }
 
             if (numberOfMessages >= 3)
             {
-                stringBuilder.Append("<CodingNoticesP6P6B FormType=\"P6\" IssueDate=\"2014-03-03\" SequenceNumber=\"3\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2\">");
+                stringBuilder.Append("<CodingNoticesP9 FormType=\"P9\" IssueDate=\"2014-03-03\" SequenceNumber=\"229\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
                 stringBuilder.Append("<Name>");
-                stringBuilder.Append("<Forename>Raymond</Forename>");
-                stringBuilder.Append("<Surname>Jackson</Surname>");
+                stringBuilder.Append("<Forename>Pamela</Forename>");
+                stringBuilder.Append("<Surname>Hamilton</Surname>");
                 stringBuilder.Append("</Name>");
-                stringBuilder.Append("<NINO>ZB394740B</NINO>");
-                stringBuilder.Append("<WorksNumber>136</WorksNumber>");
-                stringBuilder.Append("<EffectiveDate>2014-04-01</EffectiveDate>");
+                stringBuilder.Append("<NINO>JC678437D</NINO>");
+                stringBuilder.Append("<WorksNumber>33063</WorksNumber>");
+                stringBuilder.Append("<EffectiveDate>2014-04-06</EffectiveDate>");
                 stringBuilder.Append("<CodingUpdate>");
-                stringBuilder.Append("<TaxCode>406L</TaxCode>");
-                stringBuilder.Append("<TotalPreviousPay>980</TotalPreviousPay>");
-                stringBuilder.Append("<TotalPreviousTax>12.41</TotalPreviousTax>");
+                stringBuilder.Append("<TaxCode Week1Month1Indicator=\"X\">609L</TaxCode>");
                 stringBuilder.Append("</CodingUpdate>");
-                stringBuilder.Append("</CodingNoticesP6P6B>");
+                stringBuilder.Append("</CodingNoticesP9>");
             }
 
             stringBuilder.Append("</DPSdata>");
@@ -128,9 +124,9 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
         private Envelope GetMessages(int numberOfMessages)
         {
-            var messages = new List<CodingNoticesP6P6B>();
+            var messages = new List<CodingNoticesP9>();
             var envelope = new Envelope();
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = RequestType.P6.ToString();
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = RequestType.P9.ToString();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.VendorID = "0178";
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity = "123/A6";
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Got = numberOfMessages;
@@ -142,55 +138,54 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             if (numberOfMessages >= 1)
             {
-                messages.Add(new CodingNoticesP6P6B
+                messages.Add(new CodingNoticesP9
                 {
-                    FormType = RequestType.P6.ToString(),
+                    FormType = RequestType.P9.ToString(),
                     IssueDate = new DateTime(2014, 1, 1),
-                    SequenceNumber = 1,
+                    SequenceNumber = 227,
                     TaxYearEnd = 2015,
                     EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
                     Name = new Name
                     {
-                        Forename = "Cara",
-                        Surname = "Houghton"
+                        Forename = "NiChg",
+                        Surname = "Leaver"
                     },
-                    NINO = "WE785789D",
-                    WorksNumber = "180",
-                    EffectiveDate = new DateTime(2014, 11, 11),
+                    NINO = "JH987643A",
+                    WorksNumber = "1264",
+                    EffectiveDate = new DateTime(2014, 04, 06),
                     CodingUpdate = new CodingUpdate
                     {
                         TaxCode = new TaxCode
                         {
-                            Value = "920L"
-                        },
-                        TotalPreviousPay = 22624,
-                        TotalPreviousTax = 3028
+                            Value = "647L",
+                            IsScottishEmployee = true
+                        }
                     }
                 });
             }
 
             if (numberOfMessages >= 2)
             {
-                messages.Add(new CodingNoticesP6P6B
+                messages.Add(new CodingNoticesP9
                 {
-                    FormType = RequestType.P6.ToString(),
-                    IssueDate = new DateTime(2014, 3, 3),
-                    SequenceNumber = 2,
+                    FormType = RequestType.P9.ToString(),
+                    IssueDate = new DateTime(2014, 1, 1),
+                    SequenceNumber = 228,
                     TaxYearEnd = 2015,
                     EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
                     Name = new Name
                     {
-                        Forename = "Fiona",
-                        Surname = "Cameron"
+                        Forename = "NiChg",
+                        Surname = "Leaver"
                     },
-                    NINO = "JK258147D",
-                    WorksNumber = "135",
-                    EffectiveDate = new DateTime(2014, 4, 1),
+                    NINO = "JH987643A",
+                    WorksNumber = "1264",
+                    EffectiveDate = new DateTime(2014, 4, 6),
                     CodingUpdate = new CodingUpdate
                     {
                         TaxCode = new TaxCode
                         {
-                            Value = "BR"
+                            Value = "647L"
                         }
                     }
                 });
@@ -198,34 +193,33 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             if (numberOfMessages >= 3)
             {
-                messages.Add(new CodingNoticesP6P6B
+                messages.Add(new CodingNoticesP9
                 {
-                    FormType = RequestType.P6.ToString(),
+                    FormType = RequestType.P9.ToString(),
                     IssueDate = new DateTime(2014, 3, 3),
-                    SequenceNumber = 3,
+                    SequenceNumber = 229,
                     TaxYearEnd = 2015,
                     EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
                     Name = new Name
                     {
-                        Forename = "Raymond",
-                        Surname = "Jackson"
+                        Forename = "Pamela",
+                        Surname = "Hamilton"
                     },
-                    NINO = "ZB394740B",
-                    WorksNumber = "136",
-                    EffectiveDate = new DateTime(2014, 4, 1),
+                    NINO = "JC678437D",
+                    WorksNumber = "33063",
+                    EffectiveDate = new DateTime(2014, 4, 6),
                     CodingUpdate = new CodingUpdate
                     {
                         TaxCode = new TaxCode
                         {
-                            Value = "406L"
-                        },
-                        TotalPreviousPay = 980,
-                        TotalPreviousTax = 12.41M
+                            Value = "609L",
+                            Week1Month1 = true
+                        }
                     }
                 });
             }
 
-            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP6P6B = messages;
+            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9 = messages;
 
             return envelope;
         }
