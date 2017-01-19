@@ -71,6 +71,7 @@
     <Compile Include="Manipulator\HmrcDataManipulatorTest.cs" />
     <Compile Include="Messages\MessagesServiceTest.cs" />
     <Compile Include="Messages\RequestDataResolverTest.cs" />
+    <Compile Include="Messages\ResponseBuilderTest.cs" />
     <Compile Include="Messages\Serilization\P6SerializationTest.cs" />
     <Compile Include="Messages\Serilization\P9SerializationTest.cs" />
     <Compile Include="Messages\Serilization\StudentLoanEndSerializationTest.cs" />

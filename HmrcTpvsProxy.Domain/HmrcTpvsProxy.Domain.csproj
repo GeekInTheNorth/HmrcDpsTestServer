@@ -54,6 +54,7 @@
     <Compile Include="Messages\IMessagesRepository.cs" />
     <Compile Include="Messages\IMessagesService.cs" />
     <Compile Include="Messages\IRequestDataResolver.cs" />
+    <Compile Include="Messages\IResponseBuilder.cs" />
     <Compile Include="Messages\MessagesService.cs" />
     <Compile Include="Messages\Nodes\CodingNoticesP6P6B.cs" />
     <Compile Include="Messages\Nodes\CodingNoticesP9.cs" />
@@ -62,12 +63,14 @@
     <Compile Include="Messages\Nodes\DPSheader.cs" />
     <Compile Include="Messages\Nodes\DPSretrieveResponse.cs" />
     <Compile Include="Messages\Nodes\EnvelopeBody.cs" />
+    <Compile Include="Messages\Nodes\INotice.cs" />
     <Compile Include="Messages\Nodes\Name.cs" />
     <Compile Include="Messages\Nodes\Envelope.cs" />
     <Compile Include="Messages\Nodes\StudentLoanEnd.cs" />
     <Compile Include="Messages\Nodes\TaxCode.cs" />
     <Compile Include="Messages\RequestData.cs" />
     <Compile Include="Messages\RequestDataResolver.cs" />
+    <Compile Include="Messages\ResponseBuilder.cs" />
     <Compile Include="Messages\Serialization\ISerializer.cs" />
     <Compile Include="Messages\Serialization\Serializer.cs" />
     <Compile Include="Models\IdentityCache.cs" />

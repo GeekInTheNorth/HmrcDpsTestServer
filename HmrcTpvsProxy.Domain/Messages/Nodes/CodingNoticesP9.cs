@@ -8,7 +8,7 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2")]
     [XmlRoot(Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2", IsNullable = false)]
-    public class CodingNoticesP9
+    public class CodingNoticesP9 : INotice
     {
         public string EmployerRef { get; set; }
 

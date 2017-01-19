@@ -144,7 +144,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                     },
                     NINO = "BM802103D",
                     WorksNumber = "33015",
-                    LoanStartDate = new DateTime(2016, 02, 28),
+                    EffectiveDate = new DateTime(2016, 02, 28),
                     PlanType = "01"
                 });
             }
@@ -164,7 +164,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                     },
                     NINO = "JC678437D",
                     WorksNumber = "33063",
-                    LoanStartDate = new DateTime(2015, 10, 01),
+                    EffectiveDate = new DateTime(2015, 10, 01),
                     PlanType = "02"
                 });
             }
@@ -184,7 +184,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                     },
                     NINO = "JN123456D",
                     WorksNumber = "33136",
-                    LoanStartDate = new DateTime(2015, 3, 31)
+                    EffectiveDate = new DateTime(2015, 3, 31)
                 });
             }
 

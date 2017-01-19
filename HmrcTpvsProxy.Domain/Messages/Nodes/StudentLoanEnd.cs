@@ -8,7 +8,7 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2")]
     [XmlRoot(Namespace = "http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2", IsNullable = false)]
-    public class StudentLoanEnd
+    public class StudentLoanEnd : INotice
     {
         [XmlAttribute(DataType = "date")]
         public DateTime IssueDate { get; set; }
