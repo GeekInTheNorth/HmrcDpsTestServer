@@ -51,6 +51,10 @@
     <Compile Include="ConfigurationData\ConfigurationRepository.cs" />
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
     <Compile Include="IMessageSender.cs" />
+    <Compile Include="Messages\IMessagesRepository.cs" />
+    <Compile Include="Messages\IMessagesService.cs" />
+    <Compile Include="Messages\IRequestDataResolver.cs" />
+    <Compile Include="Messages\MessagesService.cs" />
     <Compile Include="Messages\Nodes\CodingNoticesP6P6B.cs" />
     <Compile Include="Messages\Nodes\CodingNoticesP9.cs" />
     <Compile Include="Messages\Nodes\CodingUpdate.cs" />
@@ -62,6 +66,8 @@
     <Compile Include="Messages\Nodes\Envelope.cs" />
     <Compile Include="Messages\Nodes\StudentLoanEnd.cs" />
     <Compile Include="Messages\Nodes\TaxCode.cs" />
+    <Compile Include="Messages\RequestData.cs" />
+    <Compile Include="Messages\RequestDataResolver.cs" />
     <Compile Include="Messages\Serialization\ISerializer.cs" />
     <Compile Include="Messages\Serialization\Serializer.cs" />
     <Compile Include="Models\IdentityCache.cs" />

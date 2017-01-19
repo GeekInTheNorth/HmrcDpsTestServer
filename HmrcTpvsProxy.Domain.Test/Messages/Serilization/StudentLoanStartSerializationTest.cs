@@ -5,7 +5,7 @@ using HmrcTpvsProxy.Domain.Messages.Nodes;
 using HmrcTpvsProxy.Domain.Messages.Serialization;
 using NUnit.Framework;
 
-namespace HmrcTpvsProxy.Domain.Test.Messages
+namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 {
     [TestFixture]
     public class StudentLoanStartSerializationTest

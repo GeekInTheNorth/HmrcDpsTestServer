@@ -5,10 +5,10 @@ using HmrcTpvsProxy.Domain.Messages.Nodes;
 using HmrcTpvsProxy.Domain.Messages.Serialization;
 using NUnit.Framework;
 
-namespace HmrcTpvsProxy.Domain.Test.Messages
+namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 {
     [TestFixture]
-    public class StudentLoanEndSerializationTest
+    public class P6SerializationTest
     {
         [Test]
         public void CorrectlySerializesAMessageWithASingleP6Notice()
@@ -53,7 +53,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
             stringBuilder.Append("<Service>PAYE</Service>");
             stringBuilder.Append("<EntityType>EmpRef</EntityType>");
             stringBuilder.Append("<Entity>123/A6</Entity>");
-            stringBuilder.Append("<DataType>SL2</DataType>");
+            stringBuilder.Append("<DataType>P6</DataType>");
             stringBuilder.Append(string.Format("<Got>{0}</Got>", numberOfMessages));
             stringBuilder.Append(string.Format("<NItems>{0}</NItems>", numberOfMessages));
             stringBuilder.Append("<VendorID>0178</VendorID>");
@@ -65,44 +65,57 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             if (numberOfMessages >= 1)
             {
-                stringBuilder.Append("<StudentLoanEnd IssueDate=\"2015-04-01\" SequenceNumber=\"466\" TaxYearEnd=\"2016\" xmlns=\"http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2\">");
+                stringBuilder.Append("<CodingNoticesP6P6B FormType=\"P6\" IssueDate=\"2014-01-01\" SequenceNumber=\"1\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
-                stringBuilder.Append("<NINO>NW440030B</NINO>");
-                stringBuilder.Append("<Name>");
-                stringBuilder.Append("<Forename>Simon</Forename>");
-                stringBuilder.Append("<Surname>O'Donnell</Surname>");
-                stringBuilder.Append("</Name>");
-                stringBuilder.Append("<WorksNumber>1670</WorksNumber>");
-                stringBuilder.Append("<StopDate>2016-03-31</StopDate>");
-                stringBuilder.Append("</StudentLoanEnd>");
-            }
-
-            if (numberOfMessages >= 2)
-            {
-                stringBuilder.Append("<StudentLoanEnd IssueDate=\"2015-04-01\" SequenceNumber=\"467\" TaxYearEnd=\"2016\" xmlns=\"http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2\">");
-                stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
-                stringBuilder.Append("<NINO>WE785789D</NINO>");
                 stringBuilder.Append("<Name>");
                 stringBuilder.Append("<Forename>Cara</Forename>");
                 stringBuilder.Append("<Surname>Houghton</Surname>");
                 stringBuilder.Append("</Name>");
-                stringBuilder.Append("<WorksNumber>33082</WorksNumber>");
-                stringBuilder.Append("<StopDate>2015-07-01</StopDate>");
-                stringBuilder.Append("</StudentLoanEnd>");
+                stringBuilder.Append("<NINO>WE785789D</NINO>");
+                stringBuilder.Append("<WorksNumber>180</WorksNumber>");
+                stringBuilder.Append("<EffectiveDate>2014-11-11</EffectiveDate>");
+                stringBuilder.Append("<CodingUpdate>");
+                stringBuilder.Append("<TaxCode>920L</TaxCode>");
+                stringBuilder.Append("<TotalPreviousPay>22624</TotalPreviousPay>");
+                stringBuilder.Append("<TotalPreviousTax>3028</TotalPreviousTax>");
+                stringBuilder.Append("</CodingUpdate>");
+                stringBuilder.Append("</CodingNoticesP6P6B>");
+            }
+
+            if (numberOfMessages >= 2)
+            {
+                stringBuilder.Append("<CodingNoticesP6P6B FormType=\"P6\" IssueDate=\"2014-03-03\" SequenceNumber=\"2\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2\">");
+                stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
+                stringBuilder.Append("<Name>");
+                stringBuilder.Append("<Forename>Fiona</Forename>");
+                stringBuilder.Append("<Surname>Cameron</Surname>");
+                stringBuilder.Append("</Name>");
+                stringBuilder.Append("<NINO>JK258147D</NINO>");
+                stringBuilder.Append("<WorksNumber>135</WorksNumber>");
+                stringBuilder.Append("<EffectiveDate>2014-04-01</EffectiveDate>");
+                stringBuilder.Append("<CodingUpdate>");
+                stringBuilder.Append("<TaxCode>BR</TaxCode>");
+                stringBuilder.Append("</CodingUpdate>");
+                stringBuilder.Append("</CodingNoticesP6P6B>");
             }
 
             if (numberOfMessages >= 3)
             {
-                stringBuilder.Append("<StudentLoanEnd IssueDate=\"2015-04-01\" SequenceNumber=\"468\" TaxYearEnd=\"2016\" xmlns=\"http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2\">");
+                stringBuilder.Append("<CodingNoticesP6P6B FormType=\"P6\" IssueDate=\"2014-03-03\" SequenceNumber=\"3\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
-                stringBuilder.Append("<NINO>WP904239A</NINO>");
                 stringBuilder.Append("<Name>");
-                stringBuilder.Append("<Forename>Sophie</Forename>");
-                stringBuilder.Append("<Surname>Lewis</Surname>");
+                stringBuilder.Append("<Forename>Raymond</Forename>");
+                stringBuilder.Append("<Surname>Jackson</Surname>");
                 stringBuilder.Append("</Name>");
-                stringBuilder.Append("<WorksNumber>33058</WorksNumber>");
-                stringBuilder.Append("<StopDate>2015-09-30</StopDate>");
-                stringBuilder.Append("</StudentLoanEnd>");
+                stringBuilder.Append("<NINO>ZB394740B</NINO>");
+                stringBuilder.Append("<WorksNumber>136</WorksNumber>");
+                stringBuilder.Append("<EffectiveDate>2014-04-01</EffectiveDate>");
+                stringBuilder.Append("<CodingUpdate>");
+                stringBuilder.Append("<TaxCode>406L</TaxCode>");
+                stringBuilder.Append("<TotalPreviousPay>980</TotalPreviousPay>");
+                stringBuilder.Append("<TotalPreviousTax>12.41</TotalPreviousTax>");
+                stringBuilder.Append("</CodingUpdate>");
+                stringBuilder.Append("</CodingNoticesP6P6B>");
             }
 
             stringBuilder.Append("</DPSdata>");
@@ -115,9 +128,9 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
         private Envelope GetMessages(int numberOfMessages)
         {
-            var messages = new List<StudentLoanEnd>();
+            var messages = new List<CodingNoticesP6P6B>();
             var envelope = new Envelope();
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = RequestType.SL2.ToString();
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = RequestType.P6.ToString();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.VendorID = "0178";
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity = "123/A6";
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Got = numberOfMessages;
@@ -129,30 +142,12 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             if (numberOfMessages >= 1)
             {
-                messages.Add(new StudentLoanEnd
+                messages.Add(new CodingNoticesP6P6B
                 {
-                    IssueDate = new DateTime(2015, 4, 1),
-                    SequenceNumber = 466,
-                    TaxYearEnd = 2016,
-                    EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
-                    Name = new Name
-                    {
-                        Forename = "Simon",
-                        Surname = "O'Donnell"
-                    },
-                    NINO = "NW440030B",
-                    WorksNumber = "1670",
-                    EffectiveDate = new DateTime(2016, 03, 31)
-                });
-            }
-
-            if (numberOfMessages >= 2)
-            {
-                messages.Add(new StudentLoanEnd
-                {
-                    IssueDate = new DateTime(2015, 4, 1),
-                    SequenceNumber = 467,
-                    TaxYearEnd = 2016,
+                    FormType = RequestType.P6.ToString(),
+                    IssueDate = new DateTime(2014, 1, 1),
+                    SequenceNumber = 1,
+                    TaxYearEnd = 2015,
                     EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
                     Name = new Name
                     {
@@ -160,31 +155,77 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
                         Surname = "Houghton"
                     },
                     NINO = "WE785789D",
-                    WorksNumber = "33082",
-                    EffectiveDate = new DateTime(2015, 07, 01)
+                    WorksNumber = "180",
+                    EffectiveDate = new DateTime(2014, 11, 11),
+                    CodingUpdate = new CodingUpdate
+                    {
+                        TaxCode = new TaxCode
+                        {
+                            Value = "920L"
+                        },
+                        TotalPreviousPay = 22624,
+                        TotalPreviousTax = 3028
+                    }
+                });
+            }
+
+            if (numberOfMessages >= 2)
+            {
+                messages.Add(new CodingNoticesP6P6B
+                {
+                    FormType = RequestType.P6.ToString(),
+                    IssueDate = new DateTime(2014, 3, 3),
+                    SequenceNumber = 2,
+                    TaxYearEnd = 2015,
+                    EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
+                    Name = new Name
+                    {
+                        Forename = "Fiona",
+                        Surname = "Cameron"
+                    },
+                    NINO = "JK258147D",
+                    WorksNumber = "135",
+                    EffectiveDate = new DateTime(2014, 4, 1),
+                    CodingUpdate = new CodingUpdate
+                    {
+                        TaxCode = new TaxCode
+                        {
+                            Value = "BR"
+                        }
+                    }
                 });
             }
 
             if (numberOfMessages >= 3)
             {
-                messages.Add(new StudentLoanEnd
+                messages.Add(new CodingNoticesP6P6B
                 {
-                    IssueDate = new DateTime(2015, 4, 1),
-                    SequenceNumber = 468,
-                    TaxYearEnd = 2016,
+                    FormType = RequestType.P6.ToString(),
+                    IssueDate = new DateTime(2014, 3, 3),
+                    SequenceNumber = 3,
+                    TaxYearEnd = 2015,
                     EmployerRef = envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity,
                     Name = new Name
                     {
-                        Forename = "Sophie",
-                        Surname = "Lewis"
+                        Forename = "Raymond",
+                        Surname = "Jackson"
                     },
-                    NINO = "WP904239A",
-                    WorksNumber = "33058",
-                    EffectiveDate = new DateTime(2015, 9, 30)
+                    NINO = "ZB394740B",
+                    WorksNumber = "136",
+                    EffectiveDate = new DateTime(2014, 4, 1),
+                    CodingUpdate = new CodingUpdate
+                    {
+                        TaxCode = new TaxCode
+                        {
+                            Value = "406L"
+                        },
+                        TotalPreviousPay = 980,
+                        TotalPreviousTax = 12.41M
+                    }
                 });
             }
 
-            envelope.Body.DPSretrieveResponse.DPSdata.StudentLoanEnd = messages;
+            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP6P6B = messages;
 
             return envelope;
         }
