@@ -23,6 +23,9 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
         [XmlElement("StudentLoanStart", Namespace = "http://www.govtalk.gov.uk/taxation/StudentLoanStart/2")]
         public List<StudentLoanStart> StudentLoanStart { get; set; }
 
+        [XmlElement("StudentLoanEnd", Namespace = "http://www.govtalk.gov.uk/taxation/StudentLoanEnd/2")]
+        public List<StudentLoanEnd> StudentLoanEnd { get; set; }
+
         public DPSdata()
         {
             DPSheader = new DPSheader();
@@ -41,6 +44,11 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
         public bool ShouldSerializeStudentLoanStart()
         {
             return StudentLoanStart != null && StudentLoanStart.Any();
+        }
+
+        public bool ShouldSerializeStudentLoanEnd()
+        {
+            return StudentLoanEnd != null && StudentLoanEnd.Any();
         }
     }
 }

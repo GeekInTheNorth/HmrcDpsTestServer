@@ -30,8 +30,8 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [TestCase(3)]
         public void CorrectlySerializesAMessageWithAMultipleP6Notices(int numberOfMessages)
         {
-            var expectedXml = GetExpectedXml(1);
-            var messages = GetMessages(1);
+            var expectedXml = GetExpectedXml(numberOfMessages);
+            var messages = GetMessages(numberOfMessages);
 
             var serializer = new Serializer();
             var actualXml = serializer.Serialize(messages);
