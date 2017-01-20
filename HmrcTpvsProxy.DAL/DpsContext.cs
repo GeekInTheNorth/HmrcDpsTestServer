@@ -14,7 +14,7 @@ namespace HmrcTpvsProxy.DAL
 
         public DbSet<CodingNotice> CodingNotices { get; set; }
 
-        public DbSet<StudentLoanNotice> StudentLoanNotice { get; set; }
+        public DbSet<StudentLoanNotice> StudentLoanNotices { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

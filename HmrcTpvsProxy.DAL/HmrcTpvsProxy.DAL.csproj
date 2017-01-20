@@ -53,9 +53,9 @@
     <Compile Include="Entities\CodingNotice.cs" />
     <Compile Include="Entities\Dataset.cs" />
     <Compile Include="Entities\StudentLoanNotice.cs" />
-    <Compile Include="Migrations\201701200831111_AddMessageDatasets.cs" />
-    <Compile Include="Migrations\201701200831111_AddMessageDatasets.Designer.cs">
-      <DependentUpon>201701200831111_AddMessageDatasets.cs</DependentUpon>
+    <Compile Include="Migrations\201701200908461_AddMessageDatasets.cs" />
+    <Compile Include="Migrations\201701200908461_AddMessageDatasets.Designer.cs">
+      <DependentUpon>201701200908461_AddMessageDatasets.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +74,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701200831111_AddMessageDatasets.resx">
-      <DependentUpon>201701200831111_AddMessageDatasets.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201701200908461_AddMessageDatasets.resx">
+      <DependentUpon>201701200908461_AddMessageDatasets.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

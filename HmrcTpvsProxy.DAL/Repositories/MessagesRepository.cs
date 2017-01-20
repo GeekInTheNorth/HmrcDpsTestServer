@@ -77,7 +77,7 @@ namespace HmrcTpvsProxy.DAL.Repositories
 
         public IEnumerable<StudentLoanEnd> GetStudentLoanEndNotices(int datasourceId)
         {
-            return (from notice in context.StudentLoanNotice
+            return (from notice in context.StudentLoanNotices
                     join dataset in context.Datasets on notice.DatasetID equals dataset.ID
                     where notice.DatasetID == datasourceId && notice.MessageType == "SL2"
                     select new StudentLoanEnd
@@ -99,7 +99,7 @@ namespace HmrcTpvsProxy.DAL.Repositories
 
         public IEnumerable<StudentLoanStart> GetStudentLoanStartNotices(int datasourceId)
         {
-            return (from notice in context.StudentLoanNotice
+            return (from notice in context.StudentLoanNotices
                     join dataset in context.Datasets on notice.DatasetID equals dataset.ID
                     where notice.DatasetID == datasourceId && notice.MessageType == "SL1"
                     select new StudentLoanStart

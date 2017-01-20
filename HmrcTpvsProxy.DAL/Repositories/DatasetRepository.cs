@@ -19,7 +19,7 @@ namespace HmrcTpvsProxy.DAL.Repositories
                                           Count = groupedMessages.Count()
                                       }).ToList();
 
-            var studentLoanCounts = (from studentLoan in context.StudentLoanNotice
+            var studentLoanCounts = (from studentLoan in context.StudentLoanNotices
                                      group studentLoan by new { studentLoan.DatasetID, studentLoan.MessageType } into groupedMessages
                                      select new MessageCount
                                      {
