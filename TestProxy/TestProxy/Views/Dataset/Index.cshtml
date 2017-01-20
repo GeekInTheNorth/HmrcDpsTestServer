@@ -16,6 +16,7 @@
                     {
                         <th class="numeric-cell">@messageType</th>
                     }
+                    <th class="text-cell">API Path</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,6 +30,7 @@
                             var count = dataset.MessageCounts.ContainsKey(messageType) ? dataset.MessageCounts[messageType] : 0;
                             <td class="numeric-cell">@count</td>
                         }
+                        <td class="text-cell">@string.Format(Model.ApiUrl, dataset.Id)</td>
                     </tr>
                 }
             </tbody>

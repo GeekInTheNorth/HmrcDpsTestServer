@@ -10,8 +10,11 @@ namespace TestProxy.Models.Dataset
 
         public IEnumerable<string> MessageTypes { get; private set; }
 
-        public DatasetModel(IEnumerable<DatasetSummary> summaries)
+        public string ApiUrl { get; private set; }
+
+        public DatasetModel(IEnumerable<DatasetSummary> summaries, string apiUrl)
         {
+            ApiUrl = apiUrl;
             Summaries = summaries;
             MessageTypes = summaries.SelectMany(x => x.MessageCounts.Select(y => y.Key)).Distinct();
         }

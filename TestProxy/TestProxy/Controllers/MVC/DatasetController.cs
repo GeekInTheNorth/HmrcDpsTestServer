@@ -17,8 +17,11 @@ namespace TestProxy.Controllers.MVC
         // GET: Dataset
         public ActionResult Index()
         {
+            var apiPath = Request.Url.AbsoluteUri.Replace("/Index", string.Empty);
+            apiPath = apiPath.Replace("Dataset", "api/Dataset/{0}");
+
             var summaries = service.GetDatasetSummaries();
-            var model = new DatasetModel(summaries);
+            var model = new DatasetModel(summaries, apiPath);
 
             return View(model);
         }
