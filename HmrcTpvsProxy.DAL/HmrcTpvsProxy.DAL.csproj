@@ -53,9 +53,9 @@
     <Compile Include="Entities\CodingNotice.cs" />
     <Compile Include="Entities\Dataset.cs" />
     <Compile Include="Entities\StudentLoanNotice.cs" />
-    <Compile Include="Migrations\201701111534214_AddMessageDatasets.cs" />
-    <Compile Include="Migrations\201701111534214_AddMessageDatasets.Designer.cs">
-      <DependentUpon>201701111534214_AddMessageDatasets.cs</DependentUpon>
+    <Compile Include="Migrations\201701200831111_AddMessageDatasets.cs" />
+    <Compile Include="Migrations\201701200831111_AddMessageDatasets.Designer.cs">
+      <DependentUpon>201701200831111_AddMessageDatasets.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,15 +67,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701111534214_AddMessageDatasets.resx">
-      <DependentUpon>201701111534214_AddMessageDatasets.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\HmrcTpvsProxy.Domain\HmrcTpvsProxy.Domain.csproj">
       <Project>{431FF976-C1C6-4D97-A584-ED1E6F0EB0AE}</Project>
       <Name>HmrcTpvsProxy.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201701200831111_AddMessageDatasets.resx">
+      <DependentUpon>201701200831111_AddMessageDatasets.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

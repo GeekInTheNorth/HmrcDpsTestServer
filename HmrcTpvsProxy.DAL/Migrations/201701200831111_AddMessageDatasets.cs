@@ -8,15 +8,6 @@ namespace HmrcTpvsProxy.DAL.Migrations
         public override void Up()
         {
             CreateTable(
-                "dbo.Dataset",
-                c => new
-                    {
-                        ID = c.Int(nullable: false, identity: true),
-                        Name = c.String(),
-                    })
-                .PrimaryKey(t => t.ID);
-            
-            CreateTable(
                 "dbo.CodingNotice",
                 c => new
                     {
@@ -40,6 +31,16 @@ namespace HmrcTpvsProxy.DAL.Migrations
                 .PrimaryKey(t => t.ID)
                 .ForeignKey("dbo.Dataset", t => t.DatasetID, cascadeDelete: true)
                 .Index(t => t.DatasetID);
+            
+            CreateTable(
+                "dbo.Dataset",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        Name = c.String(),
+                        PayeReference = c.String(),
+                    })
+                .PrimaryKey(t => t.ID);
             
             CreateTable(
                 "dbo.StudentLoanNotice",
@@ -71,8 +72,8 @@ namespace HmrcTpvsProxy.DAL.Migrations
             DropIndex("dbo.StudentLoanNotice", new[] { "DatasetID" });
             DropIndex("dbo.CodingNotice", new[] { "DatasetID" });
             DropTable("dbo.StudentLoanNotice");
-            DropTable("dbo.CodingNotice");
             DropTable("dbo.Dataset");
+            DropTable("dbo.CodingNotice");
         }
     }
 }
