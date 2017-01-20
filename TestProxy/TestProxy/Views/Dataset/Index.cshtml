@@ -1,0 +1,41 @@
+﻿@model TestProxy.Models.Dataset.DatasetModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="centralised">
+    @if (Model.Summaries != null && Model.Summaries.Any())
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    @foreach (var messageType in Model.MessageTypes)
+                    {
+                        <th>@messageType</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var dataset in Model.Summaries)
+                {
+                    <tr>
+                        <td>@dataset.Id</td>
+                        <td>@dataset.Name</td>
+                        @foreach (var messageType in Model.MessageTypes)
+                        {
+                            var count = dataset.MessageCounts.ContainsKey(messageType) ? dataset.MessageCounts[messageType] : 0;
+                            <td>@count</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <span>There are currently no Datasets.</span>
+    }
+</div>
