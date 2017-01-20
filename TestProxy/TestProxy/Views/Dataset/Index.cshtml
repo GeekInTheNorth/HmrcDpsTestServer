@@ -7,14 +7,14 @@
 <div class="centralised">
     @if (Model.Summaries != null && Model.Summaries.Any())
     {
-        <table>
+        <table class="message-list">
             <thead>
                 <tr>
-                    <th>Id</th>
-                    <th>Name</th>
+                    <th class="text-cell">Id</th>
+                    <th class="text-cell">Name</th>
                     @foreach (var messageType in Model.MessageTypes)
                     {
-                        <th>@messageType</th>
+                        <th class="numeric-cell">@messageType</th>
                     }
                 </tr>
             </thead>
@@ -22,12 +22,12 @@
                 @foreach (var dataset in Model.Summaries)
                 {
                     <tr>
-                        <td>@dataset.Id</td>
-                        <td>@dataset.Name</td>
+                        <td class="text-cell">@dataset.Id</td>
+                        <td class="text-cell">@dataset.Name</td>
                         @foreach (var messageType in Model.MessageTypes)
                         {
                             var count = dataset.MessageCounts.ContainsKey(messageType) ? dataset.MessageCounts[messageType] : 0;
-                            <td>@count</td>
+                            <td class="numeric-cell">@count</td>
                         }
                     </tr>
                 }
