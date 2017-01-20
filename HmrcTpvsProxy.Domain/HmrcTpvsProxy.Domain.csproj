@@ -50,6 +50,10 @@
     <Compile Include="ConfigurationData\Configuration.cs" />
     <Compile Include="ConfigurationData\ConfigurationRepository.cs" />
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
+    <Compile Include="Datasets\DatasetService.cs" />
+    <Compile Include="Datasets\DatasetSummary.cs" />
+    <Compile Include="Datasets\IDatasetRepository.cs" />
+    <Compile Include="Datasets\IDatasetService.cs" />
     <Compile Include="IMessageSender.cs" />
     <Compile Include="Messages\IMessagesRepository.cs" />
     <Compile Include="Messages\IMessagesService.cs" />

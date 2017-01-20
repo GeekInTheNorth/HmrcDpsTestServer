@@ -60,6 +60,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\DatasetRepository.cs" />
     <Compile Include="Repositories\MessagesRepository.cs" />
   </ItemGroup>
   <ItemGroup>
