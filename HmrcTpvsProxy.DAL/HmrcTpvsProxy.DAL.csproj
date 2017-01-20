@@ -59,6 +59,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\MessagesRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -68,6 +70,12 @@
     <EmbeddedResource Include="Migrations\201701111534214_AddMessageDatasets.resx">
       <DependentUpon>201701111534214_AddMessageDatasets.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HmrcTpvsProxy.Domain\HmrcTpvsProxy.Domain.csproj">
+      <Project>{431FF976-C1C6-4D97-A584-ED1E6F0EB0AE}</Project>
+      <Name>HmrcTpvsProxy.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

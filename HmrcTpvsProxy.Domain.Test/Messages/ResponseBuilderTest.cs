@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using HmrcTpvsProxy.Domain.Messages;
-using HmrcTpvsProxy.Domain.Messages.Nodes;
 using NUnit.Framework;
 
 namespace HmrcTpvsProxy.Domain.Test.Messages
@@ -11,17 +8,19 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
     public class ResponseBuilderTest
     {
         private ResponseBuilder responseBuilder;
+        private TestDataBuilder testData;
 
         [SetUp]
         public void Setup()
         {
             responseBuilder = new ResponseBuilder();
+            testData = new TestDataBuilder();
         }
 
         [Test]
         public void GivenIHaveMoreThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenOnlyTwentyMessagesShouldBeReturned()
         {
-            var messages = GetCodingNoticesP9(21);
+            var messages = testData.GetCodingNoticesP9(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -39,7 +38,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsMoreData()
         {
-            var messages = GetCodingNoticesP9(21);
+            var messages = testData.GetCodingNoticesP9(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -56,7 +55,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenAllMessagesShouldBeReturned()
         {
-            var messages = GetCodingNoticesP9(19);
+            var messages = testData.GetCodingNoticesP9(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -74,7 +73,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsNoMoreData()
         {
-            var messages = GetCodingNoticesP9(19);
+            var messages = testData.GetCodingNoticesP9(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -93,7 +92,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [TestCase(10)]
         public void GivenIHaveAlreadyRecievedP9Messages_WhenIBuildAResponse_ThenOnlyNewMessagesShouldBeReturned(int lastSequenceNumber)
         {
-            var messages = GetCodingNoticesP9(30);
+            var messages = testData.GetCodingNoticesP9(30);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -110,7 +109,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingP6Messages_WhenIBuildAResponse_ThenOnlyTwentyMessagesShouldBeReturned()
         {
-            var messages = GetCodingNoticesP6(21);
+            var messages = testData.GetCodingNoticesP6(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P6,
@@ -128,7 +127,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingP6Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsMoreData()
         {
-            var messages = GetCodingNoticesP6(21);
+            var messages = testData.GetCodingNoticesP6(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P6,
@@ -145,7 +144,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingP6Messages_WhenIBuildAResponse_ThenAllMessagesShouldBeReturned()
         {
-            var messages = GetCodingNoticesP6(19);
+            var messages = testData.GetCodingNoticesP6(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P6,
@@ -163,7 +162,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingP6Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsNoMoreData()
         {
-            var messages = GetCodingNoticesP6(19);
+            var messages = testData.GetCodingNoticesP6(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P6,
@@ -182,7 +181,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [TestCase(10)]
         public void GivenIHaveAlreadyRecievedP6Messages_WhenIBuildAResponse_ThenOnlyNewMessagesShouldBeReturned(int lastSequenceNumber)
         {
-            var messages = GetCodingNoticesP6(30);
+            var messages = testData.GetCodingNoticesP6(30);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P6,
@@ -199,7 +198,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingSL1Messages_WhenIBuildAResponse_ThenOnlyTwentyMessagesShouldBeReturned()
         {
-            var messages = GetStudentLoanStartNotices(21);
+            var messages = testData.GetStudentLoanStartNotices(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL1,
@@ -217,7 +216,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingSL1Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsMoreData()
         {
-            var messages = GetStudentLoanStartNotices(21);
+            var messages = testData.GetStudentLoanStartNotices(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL1,
@@ -234,7 +233,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingSL1Messages_WhenIBuildAResponse_ThenAllMessagesShouldBeReturned()
         {
-            var messages = GetStudentLoanStartNotices(19);
+            var messages = testData.GetStudentLoanStartNotices(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL1,
@@ -252,7 +251,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingSL1Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsNoMoreData()
         {
-            var messages = GetStudentLoanStartNotices(19);
+            var messages = testData.GetStudentLoanStartNotices(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL1,
@@ -271,7 +270,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [TestCase(10)]
         public void GivenIHaveAlreadyRecievedSL1Messages_WhenIBuildAResponse_ThenOnlyNewMessagesShouldBeReturned(int lastSequenceNumber)
         {
-            var messages = GetStudentLoanStartNotices(30);
+            var messages = testData.GetStudentLoanStartNotices(30);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL1,
@@ -288,7 +287,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingSL2Messages_WhenIBuildAResponse_ThenOnlyTwentyMessagesShouldBeReturned()
         {
-            var messages = GetStudentLoanEndNotices(21);
+            var messages = testData.GetStudentLoanEndNotices(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL2,
@@ -306,7 +305,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingSL2Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsMoreData()
         {
-            var messages = GetStudentLoanEndNotices(21);
+            var messages = testData.GetStudentLoanEndNotices(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL2,
@@ -323,7 +322,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingSL2Messages_WhenIBuildAResponse_ThenAllMessagesShouldBeReturned()
         {
-            var messages = GetStudentLoanEndNotices(19);
+            var messages = testData.GetStudentLoanEndNotices(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL2,
@@ -341,7 +340,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingSL2Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsNoMoreData()
         {
-            var messages = GetStudentLoanEndNotices(19);
+            var messages = testData.GetStudentLoanEndNotices(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL2,
@@ -360,7 +359,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [TestCase(10)]
         public void GivenIHaveAlreadyRecievedSL2Messages_WhenIBuildAResponse_ThenOnlyNewMessagesShouldBeReturned(int lastSequenceNumber)
         {
-            var messages = GetStudentLoanEndNotices(30);
+            var messages = testData.GetStudentLoanEndNotices(30);
             var requestData = new RequestData
             {
                 RequestType = RequestType.SL2,
@@ -372,126 +371,6 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
             var response = responseBuilder.Build(requestData, messages);
 
             Assert.That(response.Body.DPSretrieveResponse.DPSdata.StudentLoanEnd.Any(x => x.SequenceNumber <= lastSequenceNumber), Is.False);
-        }
-
-        private IEnumerable<CodingNoticesP9> GetCodingNoticesP9(int numberOfNotices)
-        {
-            var notices = new List<CodingNoticesP9>();
-
-            for(var loop = 1; loop <= numberOfNotices; loop++)
-            {
-                notices.Add(new CodingNoticesP9
-                {
-                    FormType = RequestType.P9.ToString(),
-                    IssueDate = new DateTime(2016, 4, 1).AddDays(loop),
-                    SequenceNumber = 229,
-                    TaxYearEnd = 2015,
-                    EmployerRef = "123/ABC",
-                    Name = new Name
-                    {
-                        Forename = "Joe",
-                        Surname = "Bloggs"
-                    },
-                    NINO = string.Format("AA{0}A", (100000 + loop)),
-                    WorksNumber = loop.ToString(),
-                    EffectiveDate = new DateTime(2016, 5, 1).AddDays(loop),
-                    CodingUpdate = new CodingUpdate
-                    {
-                        TaxCode = new TaxCode
-                        {
-                            Value = "1100L"
-                        }
-                    }
-                });
-            }
-
-            return notices;
-        }
-
-        private IEnumerable<CodingNoticesP6P6B> GetCodingNoticesP6(int numberOfNotices)
-        {
-            var notices = new List<CodingNoticesP6P6B>();
-
-            for (var loop = 1; loop <= numberOfNotices; loop++)
-            {
-                notices.Add(new CodingNoticesP6P6B
-                {
-                    FormType = RequestType.P9.ToString(),
-                    IssueDate = new DateTime(2016, 4, 1).AddDays(loop),
-                    SequenceNumber = 229,
-                    TaxYearEnd = 2015,
-                    EmployerRef = "123/ABC",
-                    Name = new Name
-                    {
-                        Forename = "Joe",
-                        Surname = "Bloggs"
-                    },
-                    NINO = string.Format("AA{0}A", (100000 + loop)),
-                    WorksNumber = loop.ToString(),
-                    EffectiveDate = new DateTime(2016, 5, 1).AddDays(loop),
-                    CodingUpdate = new CodingUpdate
-                    {
-                        TaxCode = new TaxCode
-                        {
-                            Value = "1100L"
-                        }
-                    }
-                });
-            }
-
-            return notices;
-        }
-
-        private IEnumerable<StudentLoanStart> GetStudentLoanStartNotices(int numberOfNotices)
-        {
-            var notices = new List<StudentLoanStart>();
-
-            for (var loop = 1; loop <= numberOfNotices; loop++)
-            {
-                notices.Add(new StudentLoanStart
-                {
-                    IssueDate = new DateTime(2016, 4, 1).AddDays(loop),
-                    SequenceNumber = 229,
-                    TaxYearEnd = 2015,
-                    EmployerRef = "123/ABC",
-                    Name = new Name
-                    {
-                        Forename = "Joe",
-                        Surname = "Bloggs"
-                    },
-                    NINO = string.Format("AA{0}A", (100000 + loop)),
-                    WorksNumber = loop.ToString(),
-                    EffectiveDate = new DateTime(2016, 5, 1).AddDays(loop)
-                });
-            }
-
-            return notices;
-        }
-
-        private IEnumerable<StudentLoanEnd> GetStudentLoanEndNotices(int numberOfNotices)
-        {
-            var notices = new List<StudentLoanEnd>();
-
-            for (var loop = 1; loop <= numberOfNotices; loop++)
-            {
-                notices.Add(new StudentLoanEnd
-                {
-                    IssueDate = new DateTime(2016, 4, 1).AddDays(loop),
-                    SequenceNumber = 229,
-                    TaxYearEnd = 2015,
-                    EmployerRef = "123/ABC",
-                    Name = new Name
-                    {
-                        Forename = "Joe",
-                        Surname = "Bloggs"
-                    },
-                    NINO = string.Format("AA{0}A", (100000 + loop)),
-                    WorksNumber = loop.ToString(),
-                    EffectiveDate = new DateTime(2016, 5, 1).AddDays(loop)
-                });
-            }
-
-            return notices;
         }
     }
 }

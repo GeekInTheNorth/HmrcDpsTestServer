@@ -12,6 +12,10 @@ namespace HmrcTpvsProxy.DAL
 
         public DbSet<Dataset> Datasets { get; set; }
 
+        public DbSet<CodingNotice> CodingNotices { get; set; }
+
+        public DbSet<StudentLoanNotice> StudentLoanNotice { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

@@ -76,6 +76,7 @@
     <Compile Include="Messages\Serilization\P9SerializationTest.cs" />
     <Compile Include="Messages\Serilization\StudentLoanEndSerializationTest.cs" />
     <Compile Include="Messages\Serilization\StudentLoanStartSerializationTest.cs" />
+    <Compile Include="Messages\TestDataBuilder.cs" />
     <Compile Include="ProxyServiceTest.cs" />
     <Compile Include="RequestTypeResolverTest.cs" />
     <Compile Include="ResponseFileRetrieverTest.cs" />

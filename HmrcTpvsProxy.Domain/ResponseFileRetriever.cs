@@ -8,38 +8,34 @@ namespace HmrcTpvsProxy.Domain
         public XmlDocument GetResponse(RequestType requestType)
         {
             var response = new XmlDocument();
+            response.LoadXml(GetResponseAsString(requestType));
 
+            return response;
+        }
+
+        public string GetResponseAsString(RequestType requestType)
+        {
             switch (requestType)
             {
                 case RequestType.Authorisation:
-                    response.LoadXml(CascadeEdgeCaseFiles.Authorisation);
-                    break;
+                    return CascadeEdgeCaseFiles.Authorisation;
                 case RequestType.P6:
-                    response.LoadXml(CascadeEdgeCaseFiles.P6Data);
-                    break;
+                    return CascadeEdgeCaseFiles.P6Data;
                 case RequestType.P9:
-                    response.LoadXml(CascadeEdgeCaseFiles.P9Data);
-                    break;
+                    return CascadeEdgeCaseFiles.P9Data;
                 case RequestType.SL1:
-                    response.LoadXml(CascadeEdgeCaseFiles.SL1Data);
-                    break;
+                    return CascadeEdgeCaseFiles.SL1Data;
                 case RequestType.SL2:
-                    response.LoadXml(CascadeEdgeCaseFiles.SL2Data);
-                    break;
+                    return CascadeEdgeCaseFiles.SL2Data;
                 case RequestType.NOT:
-                    response.LoadXml(CascadeEdgeCaseFiles.NOTData);
-                    break;
+                    return CascadeEdgeCaseFiles.NOTData;
                 case RequestType.AR:
-                    response.LoadXml(CascadeEdgeCaseFiles.ARData);
-                    break;
+                    return CascadeEdgeCaseFiles.ARData;
                 case RequestType.RTI:
-                    response.LoadXml(CascadeEdgeCaseFiles.NVRData);
-                    break;
+                    return CascadeEdgeCaseFiles.NVRData;
                 default:
                     throw new ArgumentOutOfRangeException("requestType");
             }
-
-            return response;
         }
     }
 }
