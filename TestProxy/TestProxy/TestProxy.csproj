@@ -143,6 +143,7 @@
     <Compile Include="Controllers\API\GetAlteredMessagesController.cs" />
     <Compile Include="Controllers\API\GetMessagesProxyController.cs" />
     <Compile Include="Controllers\API\HmrcProxyControllerBase.cs" />
+    <Compile Include="Controllers\MVC\DatasetController.cs" />
     <Compile Include="Controllers\MVC\HomeController.cs" />
     <Compile Include="Controllers\MVC\StudentLoanEdgeCasesController.cs" />
     <Compile Include="Controllers\API\TestDataController.cs" />
@@ -150,6 +151,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Dataset\DatasetModel.cs" />
     <Compile Include="Models\StudentLoanNoticeCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -173,8 +175,14 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Views\Dataset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HmrcTpvsProxy.DAL\HmrcTpvsProxy.DAL.csproj">
+      <Project>{C08819B1-7B7B-4904-9EC4-92C0E70F9C34}</Project>
+      <Name>HmrcTpvsProxy.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\HmrcTpvsProxy.Domain\HmrcTpvsProxy.Domain.csproj">
       <Project>{431ff976-c1c6-4d97-a584-ed1e6f0eb0ae}</Project>
       <Name>HmrcTpvsProxy.Domain</Name>
