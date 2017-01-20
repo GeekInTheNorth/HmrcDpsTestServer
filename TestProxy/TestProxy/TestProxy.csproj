@@ -148,6 +148,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\API\AuthorisationProxyController.cs" />
     <Compile Include="Controllers\API\ClearCacheController.cs" />
+    <Compile Include="Controllers\API\DatasetController.cs" />
     <Compile Include="Controllers\API\GetAlteredMessagesController.cs" />
     <Compile Include="Controllers\API\GetMessagesProxyController.cs" />
     <Compile Include="Controllers\API\HmrcProxyControllerBase.cs" />

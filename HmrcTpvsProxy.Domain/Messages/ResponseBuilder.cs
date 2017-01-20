@@ -54,13 +54,16 @@ namespace HmrcTpvsProxy.Domain.Messages
 
         private Envelope BuildEnvelope(RequestData requestData, IEnumerable<INotice> notices)
         {
+            var outstandingMessages = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved).OrderBy(x => x.SequenceNumber);
+            var messagesToSend = outstandingMessages.OrderBy(x => x.SequenceNumber).Take(MaximumMessageCount);
+
             var envelope = new Envelope();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = requestData.RequestType.ToString();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity = requestData.PayeReference;
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Got = notices.Count();
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.HighWaterMark = notices.Max(x => x.SequenceNumber);
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.MoreData = notices.Count(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved) > MaximumMessageCount;
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.NItemsReturned = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved).Take(MaximumMessageCount).Count();
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Got = requestData.LastSequenceNumberRecieved;
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.HighWaterMark = messagesToSend.Max(x => x.SequenceNumber);
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.MoreData = outstandingMessages.Count() > MaximumMessageCount;
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.NItemsReturned = messagesToSend.Count();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.VendorID = requestData.VendorId;
 
             return envelope;
