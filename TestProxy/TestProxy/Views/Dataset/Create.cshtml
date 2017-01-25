@@ -1,0 +1,31 @@
+﻿@model TestProxy.Models.Dataset.DatasetEditModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="centralised">
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>Dataset Name:</th>
+                <td>@Html.TextBox("description", Model.Description)</td>
+            </tr>
+            <tr>
+                <th>PAYE Reference:</th>
+                <td>@Html.TextBox("payeReference", Model.PayeReference)</td>
+            </tr>
+        </table>
+        <div class="btn-group">
+            <button type="submit" class="btn btn-success">Save</button>
+            @Html.ActionLink("Cancel", "Index", new { }, new { @class = "btn btn-warning" })
+        </div>
+    }
+    @if (Model.ShowValidationError)
+    {
+        <div class="alert alert-warning alert-dismissable">
+            Unable to save this Dataset, please check your values and try again.
+        </div>
+    }
+</div>

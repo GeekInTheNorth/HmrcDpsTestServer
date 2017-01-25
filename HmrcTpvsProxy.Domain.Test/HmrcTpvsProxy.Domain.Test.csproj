@@ -92,6 +92,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TestResponses.resx</DependentUpon>
     </Compile>
+    <Compile Include="Validators\PayeReferenceValidatorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HmrcTpvsProxy.Domain\HmrcTpvsProxy.Domain.csproj">

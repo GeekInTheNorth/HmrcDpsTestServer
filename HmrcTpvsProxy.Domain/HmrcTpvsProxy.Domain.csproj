@@ -98,6 +98,8 @@
     <Compile Include="Manipulator\HmrcDataManipulator.cs" />
     <Compile Include="TestDataTransformer\IStudentLoanNoticeTransformer.cs" />
     <Compile Include="TestDataTransformer\StudentLoanNoticeTransformer.cs" />
+    <Compile Include="Validators\IValidator.cs" />
+    <Compile Include="Validators\PayeReferenceValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CascadeEdgeCaseFiles.resx">
