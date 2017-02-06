@@ -17,6 +17,7 @@
                         <th class="numeric-cell">@messageType</th>
                     }
                     <th class="text-cell">API Path</th>
+                    <th class="text-cell">Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,6 +32,9 @@
                             <td class="numeric-cell">@count</td>
                         }
                         <td class="text-cell">@string.Format(Model.ApiUrl, dataset.Id)</td>
+                        <td class="text-cell">
+                            @Html.ActionLink("Upload Data", "Upload", new { id = dataset.Id }, new { @class = "Btn" })
+                        </td>
                     </tr>
                 }
             </tbody>

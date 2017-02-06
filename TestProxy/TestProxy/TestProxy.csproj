@@ -162,6 +162,7 @@
     </Compile>
     <Compile Include="Models\Dataset\DatasetEditModel.cs" />
     <Compile Include="Models\Dataset\DatasetModel.cs" />
+    <Compile Include="Models\Dataset\DatasetUploadModel.cs" />
     <Compile Include="Models\StudentLoanNoticeCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -180,6 +181,7 @@
     <Content Include="Views\StudentLoanEdgeCases\Index.cshtml" />
     <Content Include="Views\Dataset\Index.cshtml" />
     <Content Include="Views\Dataset\Create.cshtml" />
+    <Content Include="Views\Dataset\Upload.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
