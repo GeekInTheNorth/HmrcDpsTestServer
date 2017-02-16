@@ -3,7 +3,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using HmrcTpvsProxy.DAL.Repositories;
+using HmrcTpvsProxy.Domain;
 using HmrcTpvsProxy.Domain.Datasets;
+using HmrcTpvsProxy.Domain.Datasets.CsvParsing;
 using HmrcTpvsProxy.Domain.Validators;
 using TestProxy.Models.Dataset;
 
@@ -15,7 +17,7 @@ namespace TestProxy.Controllers.MVC
 
         public DatasetController()
         {
-            service = new DatasetService(new DatasetRepository(), new PayeReferenceValidator());
+            service = new DatasetService(new DatasetRepository(), new PayeReferenceValidator(), new CsvParser());
         }
 
         public ActionResult Index()
@@ -75,7 +77,23 @@ namespace TestProxy.Controllers.MVC
                 return View(model);
             }
 
-            return Upload(id);
+            try
+            {
+                RequestType messageType;
+                Enum.TryParse(model.MessageType, out messageType);
+
+                service.SaveCsv(id.Value, messageType, file.InputStream);
+            }
+            catch
+            {
+                model.ShowValidationError = true;
+                model.ValidationError = "Unable to parse the provided file.";
+                model.DatasetBeingModified = service.GetDatasetSummaries().FirstOrDefault(x => x.Id == id.Value).Name;
+
+                return View(model);
+            }
+
+            return RedirectToAction("Index");
         }
     }
 }

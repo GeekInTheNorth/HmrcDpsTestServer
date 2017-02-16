@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\TestProxy\packages\CsvHelper.2.16.3.0\lib\net45\CsvHelper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
@@ -50,8 +54,12 @@
     <Compile Include="ConfigurationData\Configuration.cs" />
     <Compile Include="ConfigurationData\ConfigurationRepository.cs" />
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
+    <Compile Include="Datasets\CsvParsing\CsvParser.cs" />
+    <Compile Include="Datasets\CsvParsing\MessageColumns.cs" />
+    <Compile Include="Datasets\CsvParsing\MessageDTO.cs" />
     <Compile Include="Datasets\DatasetService.cs" />
     <Compile Include="Datasets\DatasetSummary.cs" />
+    <Compile Include="Datasets\CsvParsing\ICsvParser.cs" />
     <Compile Include="Datasets\IDatasetRepository.cs" />
     <Compile Include="Datasets\IDatasetService.cs" />
     <Compile Include="IMessageSender.cs" />
@@ -117,6 +125,10 @@
     <Content Include="Resources\SL1Data.xml" />
     <Content Include="Resources\SL2Data.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
