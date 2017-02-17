@@ -1,11 +1,12 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using HmrcTpvsProxy.DAL.Repositories;
 using HmrcTpvsProxy.Domain;
 using HmrcTpvsProxy.Domain.Datasets;
-using HmrcTpvsProxy.Domain.Datasets.CsvParsing;
+using HmrcTpvsProxy.Domain.Datasets.CsvFiles;
 using HmrcTpvsProxy.Domain.Validators;
 using TestProxy.Models.Dataset;
 
@@ -17,7 +18,7 @@ namespace TestProxy.Controllers.MVC
 
         public DatasetController()
         {
-            service = new DatasetService(new DatasetRepository(), new PayeReferenceValidator(), new CsvParser());
+            service = new DatasetService(new DatasetRepository(), new PayeReferenceValidator(), new CsvParser(), new CsvCreator());
         }
 
         public ActionResult Index()
@@ -116,7 +117,7 @@ namespace TestProxy.Controllers.MVC
             return View(model);
         }
 
-        public FileResult Download(int? id, string messageType)
+        public FileStreamResult Download(int? id, string messageType)
         {
             if (!id.HasValue || string.IsNullOrWhiteSpace(messageType))
                 return null;
@@ -125,7 +126,13 @@ namespace TestProxy.Controllers.MVC
             if (!Enum.TryParse(messageType, true, out messageTypeEnum))
                 return null;
 
-            return null;
+            var csvInMemory = service.GetMessagesAsCsvInMemory(id.Value, messageTypeEnum);
+            var memoryStream = new MemoryStream(csvInMemory);
+
+            return new FileStreamResult(memoryStream, "text/csv")
+            {
+                FileDownloadName = string.Format("{0}Messages.csv", messageTypeEnum)
+            };
         }
     }
 }

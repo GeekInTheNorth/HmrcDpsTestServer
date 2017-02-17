@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using HmrcTpvsProxy.Domain.Datasets.CsvParsing;
+using HmrcTpvsProxy.Domain.Datasets.CsvFiles;
 using HmrcTpvsProxy.Domain.Validators;
 
 namespace HmrcTpvsProxy.Domain.Datasets
@@ -10,17 +10,20 @@ namespace HmrcTpvsProxy.Domain.Datasets
     {
         private readonly IDatasetRepository repository;
         private readonly IValidator payReferenceValidator;
-        private readonly ICsvParser parser; 
+        private readonly ICsvParser parser;
+        private readonly ICsvCreator creator;
 
-        public DatasetService(IDatasetRepository repository, IValidator payReferenceValidator, ICsvParser parser)
+        public DatasetService(IDatasetRepository repository, IValidator payReferenceValidator, ICsvParser parser, ICsvCreator creator)
         {
             if (repository == null) throw new ArgumentNullException(nameof(repository));
             if (payReferenceValidator == null) throw new ArgumentNullException(nameof(payReferenceValidator));
             if (parser == null) throw new ArgumentNullException(nameof(parser));
+            if (creator == null) throw new ArgumentNullException(nameof(creator));
 
             this.repository = repository;
             this.payReferenceValidator = payReferenceValidator;
             this.parser = parser;
+            this.creator = creator;
         }
 
         public bool Create(string description, string payeReference)
@@ -68,6 +71,13 @@ namespace HmrcTpvsProxy.Domain.Datasets
                 return new List<MessageDTO>();
 
             return repository.GetMessages(datasetId, messageType);
+        }
+
+        public byte[] GetMessagesAsCsvInMemory(int datasetId, RequestType messageType)
+        {
+            var messages = GetMessages(datasetId, messageType);
+
+            return creator.CreateCsvInMemory(messages, messageType);
         }
     }
 }

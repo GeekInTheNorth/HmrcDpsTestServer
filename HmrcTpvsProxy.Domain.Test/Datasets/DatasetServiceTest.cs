@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using HmrcTpvsProxy.Domain.Datasets;
-using HmrcTpvsProxy.Domain.Datasets.CsvParsing;
+using HmrcTpvsProxy.Domain.Datasets.CsvFiles;
 using HmrcTpvsProxy.Domain.Validators;
 using Moq;
 using NUnit.Framework;
@@ -15,6 +15,7 @@ namespace HmrcTpvsProxy.Domain.Test.Datasets
         private Mock<IDatasetRepository> mockRepository;
         private Mock<IValidator> mockValidator;
         private Mock<ICsvParser> mockParser;
+        private Mock<ICsvCreator> mockCreator;
         private DatasetService service;
 
         [SetUp]
@@ -23,8 +24,9 @@ namespace HmrcTpvsProxy.Domain.Test.Datasets
             mockRepository = new Mock<IDatasetRepository>();
             mockValidator = new Mock<IValidator>();
             mockParser = new Mock<ICsvParser>();
+            mockCreator = new Mock<ICsvCreator>();
 
-            service = new DatasetService(mockRepository.Object, mockValidator.Object, mockParser.Object);
+            service = new DatasetService(mockRepository.Object, mockValidator.Object, mockParser.Object, mockCreator.Object);
         }
 
         [Test]

@@ -12,5 +12,7 @@ namespace HmrcTpvsProxy.Domain.Datasets
         bool SaveCsv(int datasetId, RequestType messageType, Stream fileStream);
 
         IEnumerable<MessageDTO> GetMessages(int datasetId, RequestType messageType);
+
+        byte[] GetMessagesAsCsvInMemory(int datasetId, RequestType messageType);
     }
 }

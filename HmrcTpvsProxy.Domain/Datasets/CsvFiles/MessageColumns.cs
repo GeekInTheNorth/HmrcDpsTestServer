@@ -1,4 +1,4 @@
-﻿namespace HmrcTpvsProxy.Domain.Datasets.CsvParsing
+﻿namespace HmrcTpvsProxy.Domain.Datasets.CsvFiles
 {
     public class MessageColumns
     {

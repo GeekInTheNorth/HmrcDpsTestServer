@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using CsvHelper;
 
-namespace HmrcTpvsProxy.Domain.Datasets.CsvParsing
+namespace HmrcTpvsProxy.Domain.Datasets.CsvFiles
 {
     public class CsvParser : ICsvParser
     {

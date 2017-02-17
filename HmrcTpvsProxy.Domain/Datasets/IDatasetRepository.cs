@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using HmrcTpvsProxy.Domain.Datasets.CsvParsing;
+using HmrcTpvsProxy.Domain.Datasets.CsvFiles;
 
 namespace HmrcTpvsProxy.Domain.Datasets
 {

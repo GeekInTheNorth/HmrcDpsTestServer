@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace HmrcTpvsProxy.Domain.Datasets.CsvParsing
+namespace HmrcTpvsProxy.Domain.Datasets.CsvFiles
 {
     public interface ICsvParser
     {
