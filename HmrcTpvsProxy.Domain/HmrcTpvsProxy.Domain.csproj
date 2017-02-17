@@ -56,7 +56,7 @@
     <Compile Include="ConfigurationData\IConfigurationRepository.cs" />
     <Compile Include="Datasets\CsvParsing\CsvParser.cs" />
     <Compile Include="Datasets\CsvParsing\MessageColumns.cs" />
-    <Compile Include="Datasets\CsvParsing\MessageDTO.cs" />
+    <Compile Include="Datasets\MessageDTO.cs" />
     <Compile Include="Datasets\DatasetService.cs" />
     <Compile Include="Datasets\DatasetSummary.cs" />
     <Compile Include="Datasets\CsvParsing\ICsvParser.cs" />

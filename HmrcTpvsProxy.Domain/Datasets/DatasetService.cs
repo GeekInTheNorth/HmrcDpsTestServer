@@ -53,5 +53,21 @@ namespace HmrcTpvsProxy.Domain.Datasets
 
             return repository.Save(datasetId, messageType, messages);
         }
+
+        public IEnumerable<MessageDTO> GetMessages(int datasetId, RequestType messageType)
+        {
+            var allowedTypes = new List<RequestType>
+            {
+                RequestType.P6,
+                RequestType.P9,
+                RequestType.SL1,
+                RequestType.SL2
+            };
+
+            if (!allowedTypes.Contains(messageType))
+                return new List<MessageDTO>();
+
+            return repository.GetMessages(datasetId, messageType);
+        }
     }
 }

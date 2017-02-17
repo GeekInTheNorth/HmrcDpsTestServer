@@ -1,0 +1,79 @@
+﻿@model TestProxy.Models.Dataset.DatasetViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@string.Format("Showing {0} data for {1}", Model.MessageType, Model.Description)</h2>
+@Html.RouteLink("Download CSV", "DatasetRoute", new { Action = "Download", id = Model.Id, messageType = Model.MessageType }, new { @class = "btn btn-primary" })
+
+<table class="message-list" style="margin-top: 10px;">
+
+    <thead>
+        <tr>
+            <th class="text-cell">Form Type</th>
+            <th class="text-cell">Forename</th>
+            <th class="text-cell">Surname</th>
+            <th class="text-cell">NINO</th>
+            <th class="text-cell">Pay Id</th>
+            <th class="numeric-cell">Tax Year End</th>
+            <th class="numeric-cell">Issue Date</th>
+            <th class="numeric-cell">Effective Date</th>
+            <th class="numeric-cell">Sequence No</th>
+
+            @if (Model.MessageType.StartsWith("P"))
+            {
+                <th class="text-cell">Tax Code</th>
+                <th class="text-cell">Tax Regime</th>
+                <th class="text-cell">Week 1/Month 1</th>                
+            }
+
+            @if (Model.MessageType == "P6")
+            {
+                <th class="numeric-cell">Previous Gross Taxable</th>
+                <th class="numeric-cell">Previous Tax Paid</th>
+            }
+
+            @if (Model.MessageType == "SL1")
+            {
+                <th class="text-cell">Plan Type</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model.Messages)
+        {
+            <tr>
+                <td class="text-cell">@message.FormType</td>
+                <td class="text-cell">@message.Forename</td>
+                <td class="text-cell">@message.Surname</td>
+                <td class="text-cell">@message.NINO</td>
+                <td class="text-cell">@message.PayId</td>
+                <td class="numeric-cell">@message.TaxYearEnd</td>
+                <td class="numeric-cell">@string.Format("{0:dd/MM/yyyy}", message.IssueDate)</td>
+                <td class="numeric-cell">@string.Format("{0:dd/MM/yyyy}", message.EffectiveDate)</td>
+                <td class="numeric-cell">@message.SequenceNumber</td>
+
+                @if (Model.MessageType.StartsWith("P"))
+                {
+                    <td class="text-cell">@message.TaxCode</td>
+                    <td class="text-cell">@message.TaxRegime</td>
+                    <td class="text-cell">@message.TaxBasisNonCumulative</td>
+                }
+
+                @if (Model.MessageType == "P6")
+                {
+                    <td class="numeric-cell">@message.GrossTaxable</td>
+                    <td class="numeric-cell">@message.TaxPaid</td>
+                }
+
+                @if (Model.MessageType == "SL1")
+                {
+                    <td class="text-cell">@message.PlanType</td>
+                }
+
+            </tr>
+        }
+    </tbody>
+
+</table>

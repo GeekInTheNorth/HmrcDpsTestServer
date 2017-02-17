@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using HmrcTpvsProxy.Domain.Datasets;
 using System;
-using HmrcTpvsProxy.Domain.Datasets.CsvParsing;
 using HmrcTpvsProxy.Domain;
 
 namespace HmrcTpvsProxy.DAL.Repositories
@@ -169,6 +168,69 @@ namespace HmrcTpvsProxy.DAL.Repositories
             {
                 return false;
             }
+        }
+
+        public IEnumerable<MessageDTO> GetMessages(int datasetId, RequestType messageType)
+        {
+            switch (messageType)
+            {
+                case RequestType.P6:
+                case RequestType.P9:
+                    return GetCodingNotices(datasetId, messageType);
+                case RequestType.SL1:
+                case RequestType.SL2:
+                    return GetStudentLoanNotices(datasetId, messageType);
+                default:
+                    return new List<MessageDTO>();
+            }
+        }
+
+        private IEnumerable<MessageDTO> GetCodingNotices(int datasetId, RequestType messageType)
+        {
+            var messageTypeAsString = messageType.ToString();
+
+            return context.CodingNotices
+                          .Where(x => x.DatasetID == datasetId && x.MessageType.StartsWith(messageTypeAsString))
+                          .Select(x => new MessageDTO
+                          {
+                              EffectiveDate = x.EffectiveDate,
+                              Forename = x.Forename,
+                              FormType = x.MessageType,
+                              GrossTaxable = x.GrossTaxableInPreviousEmployment,
+                              IssueDate = x.IssueDate,
+                              NINO = x.NationalInsuranceNo,
+                              PayId = x.WorksNumber,
+                              SequenceNumber = x.SequenceNo,
+                              Surname = x.Surname,
+                              TaxBasisNonCumulative = x.TaxBasisNonCumulative,
+                              TaxCode = x.TaxCode,
+                              TaxPaid = x.TaxPaidInPreviousEmployment,
+                              TaxRegime = x.TaxRegime,
+                              TaxYearEnd = x.TaxYear
+                          })
+                          .ToList();
+        }
+
+        private IEnumerable<MessageDTO> GetStudentLoanNotices(int datasetId, RequestType messageType)
+        {
+            var messageTypeAsString = messageType.ToString();
+
+            return context.StudentLoanNotices
+                          .Where(x => x.DatasetID == datasetId && x.MessageType == messageTypeAsString)
+                          .Select(x => new MessageDTO
+                          {
+                              EffectiveDate = x.EffectiveDate,
+                              Forename = x.Forename,
+                              FormType = x.MessageType,
+                              IssueDate = x.IssueDate,
+                              NINO = x.NationalInsuranceNo,
+                              PayId = x.WorksNumber,
+                              SequenceNumber = x.SequenceNo,
+                              Surname = x.Surname,
+                              TaxYearEnd = x.TaxYear,
+                              PlanType = x.PlanType
+                          })
+                          .ToList();
         }
     }
 }

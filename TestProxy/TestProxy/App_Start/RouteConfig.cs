@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace TestProxy
@@ -18,7 +14,12 @@ namespace TestProxy
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "DatasetRoute",
+                url: "Dataset/{action}/{id}/{messageType}",
+                defaults: new { controller = "Dataset", action = "View", id = UrlParameter.Optional, messageType = UrlParameter.Optional }
+            );
         }
     }
 }
-

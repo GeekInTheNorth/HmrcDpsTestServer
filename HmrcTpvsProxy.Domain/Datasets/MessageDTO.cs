@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HmrcTpvsProxy.Domain.Datasets.CsvParsing
+namespace HmrcTpvsProxy.Domain.Datasets
 {
     public class MessageDTO
     {

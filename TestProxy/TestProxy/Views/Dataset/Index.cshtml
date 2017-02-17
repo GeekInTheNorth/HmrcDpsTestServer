@@ -29,7 +29,9 @@
                         @foreach (var messageType in Model.MessageTypes)
                         {
                             var count = dataset.MessageCounts.ContainsKey(messageType) ? dataset.MessageCounts[messageType] : 0;
-                            <td class="numeric-cell">@count</td>
+                            <td class="numeric-cell">
+                                @Html.RouteLink(count.ToString(), "DatasetRoute", new { Action = "View", id = dataset.Id, messageType = messageType }, new { @class = "Btn" })
+                            </td>
                         }
                         <td class="text-cell">@string.Format(Model.ApiUrl, dataset.Id)</td>
                         <td class="text-cell">

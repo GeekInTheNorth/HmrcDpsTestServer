@@ -95,5 +95,37 @@ namespace TestProxy.Controllers.MVC
 
             return RedirectToAction("Index");
         }
+
+        public ActionResult View(int? id, string messageType)
+        {
+            if (!id.HasValue || string.IsNullOrWhiteSpace(messageType))
+                return RedirectToAction("Index");
+
+            RequestType messageTypeEnum;
+            if (!Enum.TryParse(messageType, true, out messageTypeEnum))
+                return RedirectToAction("Index");
+
+            var model = new DatasetViewModel
+            {
+                Id = id.Value,
+                MessageType = messageType,
+                Description = service.GetDatasetSummaries().FirstOrDefault(x => x.Id == id.Value).Name,
+                Messages = service.GetMessages(id.Value, messageTypeEnum).ToList()
+            };
+
+            return View(model);
+        }
+
+        public FileResult Download(int? id, string messageType)
+        {
+            if (!id.HasValue || string.IsNullOrWhiteSpace(messageType))
+                return null;
+
+            RequestType messageTypeEnum;
+            if (!Enum.TryParse(messageType, true, out messageTypeEnum))
+                return null;
+
+            return null;
+        }
     }
 }
