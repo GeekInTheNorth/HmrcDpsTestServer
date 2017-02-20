@@ -157,6 +157,7 @@
     <Compile Include="Controllers\MVC\StudentLoanEdgeCasesController.cs" />
     <Compile Include="Controllers\API\TestDataController.cs" />
     <Compile Include="Filters\ForceHttpsAttribute.cs" />
+    <Compile Include="Filters\IPAccessAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

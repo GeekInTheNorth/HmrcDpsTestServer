@@ -8,6 +8,7 @@ using HmrcTpvsProxy.Domain;
 using HmrcTpvsProxy.Domain.Datasets;
 using HmrcTpvsProxy.Domain.Datasets.CsvFiles;
 using HmrcTpvsProxy.Domain.Validators;
+using TestProxy.Filters;
 using TestProxy.Models.Dataset;
 
 namespace TestProxy.Controllers.MVC
@@ -35,12 +36,14 @@ namespace TestProxy.Controllers.MVC
             return View(model);
         }
 
+        [IPAccess("Dataset", "Index")]
         public ActionResult Create()
         {
             return View(new DatasetEditModel());
         }
 
         [HttpPost]
+        [IPAccess("Dataset", "Index")]
         public ActionResult Create(DatasetEditModel model)
         {
             if (service.Create(model.Description, model.PayeReference))
@@ -51,6 +54,7 @@ namespace TestProxy.Controllers.MVC
             return View(model);
         }
 
+        [IPAccess("Dataset", "Index")]
         public ActionResult Upload(int? id)
         {
             if (!id.HasValue) return RedirectToAction("Index");
@@ -65,6 +69,7 @@ namespace TestProxy.Controllers.MVC
         }
 
         [HttpPost]
+        [IPAccess("Dataset", "Index")]
         public ActionResult Upload(int? id, DatasetUploadModel model, HttpPostedFileBase file)
         {
             var fileName = file.FileName;
