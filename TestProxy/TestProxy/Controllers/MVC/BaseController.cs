@@ -27,7 +27,7 @@ namespace TestProxy.Controllers.MVC
             {
                 var ipAddress = Request.UserHostAddress.Trim();
 
-                return Request.IsLocal || allowedIpAddresses.Contains(ipAddress, StringComparer.OrdinalIgnoreCase);
+                return Request.IsLocal || AllowedIpAddresses.Contains(ipAddress, StringComparer.OrdinalIgnoreCase);
             }
         }
 
