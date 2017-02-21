@@ -13,7 +13,7 @@ using TestProxy.Models.Dataset;
 
 namespace TestProxy.Controllers.MVC
 {
-    public class DatasetController : Controller
+    public class DatasetController : BaseController
     {
         private readonly IDatasetService service;
 
@@ -31,7 +31,7 @@ namespace TestProxy.Controllers.MVC
                                  .Replace("dataset", "api/dataset/{0}");
 
             var summaries = service.GetDatasetSummaries();
-            var model = new DatasetModel(summaries, apiPath);
+            var model = new DatasetModel(summaries, apiPath, CanEdit);
 
             return View(model);
         }
@@ -116,7 +116,8 @@ namespace TestProxy.Controllers.MVC
                 Id = id.Value,
                 MessageType = messageType,
                 Description = service.GetDatasetSummaries().FirstOrDefault(x => x.Id == id.Value).Name,
-                Messages = service.GetMessages(id.Value, messageTypeEnum).ToList()
+                Messages = service.GetMessages(id.Value, messageTypeEnum).ToList(),
+                CanEdit = CanEdit
             };
 
             return View(model);

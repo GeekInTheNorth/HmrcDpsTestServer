@@ -5,7 +5,11 @@
 }
 
 <h2>@string.Format("Showing {0} data for {1}", Model.MessageType, Model.Description)</h2>
-@Html.RouteLink("Download CSV", "DatasetRoute", new { Action = "Download", id = Model.Id, messageType = Model.MessageType }, new { @class = "btn btn-primary" })
+
+@if (Model.CanEdit)
+{
+    @Html.RouteLink("Download CSV", "DatasetRoute", new { Action = "Download", id = Model.Id, messageType = Model.MessageType }, new { @class = "btn btn-primary" })
+}
 
 <table class="message-list" style="margin-top: 10px;">
 

@@ -12,5 +12,7 @@ namespace TestProxy.Models.Dataset
         public string MessageType { get; set; }
 
         public List<MessageDTO> Messages { get; set; }
+
+        public bool CanEdit { get; set; }
     }
 }

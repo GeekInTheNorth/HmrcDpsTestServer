@@ -12,11 +12,14 @@ namespace TestProxy.Models.Dataset
 
         public string ApiUrl { get; private set; }
 
-        public DatasetModel(IEnumerable<DatasetSummary> summaries, string apiUrl)
+        public bool CanEdit { get; private set; }
+
+        public DatasetModel(IEnumerable<DatasetSummary> summaries, string apiUrl, bool canEdit)
         {
             ApiUrl = apiUrl;
             Summaries = summaries;
             MessageTypes = summaries.SelectMany(x => x.MessageCounts.Select(y => y.Key)).Distinct();
+            CanEdit = canEdit;
         }
     }
 }

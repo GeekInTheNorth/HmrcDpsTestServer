@@ -152,6 +152,7 @@
     <Compile Include="Controllers\API\GetAlteredMessagesController.cs" />
     <Compile Include="Controllers\API\GetMessagesProxyController.cs" />
     <Compile Include="Controllers\API\HmrcProxyControllerBase.cs" />
+    <Compile Include="Controllers\MVC\BaseController.cs" />
     <Compile Include="Controllers\MVC\DatasetController.cs" />
     <Compile Include="Controllers\MVC\HomeController.cs" />
     <Compile Include="Controllers\MVC\StudentLoanEdgeCasesController.cs" />

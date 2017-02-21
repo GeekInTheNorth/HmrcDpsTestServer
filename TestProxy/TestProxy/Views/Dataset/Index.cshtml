@@ -17,7 +17,10 @@
                         <th class="numeric-cell">@messageType</th>
                     }
                     <th class="text-cell">API Path</th>
-                    <th class="text-cell">Actions</th>
+                    @if (Model.CanEdit)
+                    {
+                        <th class="text-cell">Actions</th>
+                    }
                 </tr>
             </thead>
             <tbody>
@@ -34,9 +37,12 @@
                             </td>
                         }
                         <td class="text-cell">@string.Format(Model.ApiUrl, dataset.Id)</td>
-                        <td class="text-cell">
-                            @Html.ActionLink("Upload Data", "Upload", new { id = dataset.Id }, new { @class = "Btn" })
-                        </td>
+                        @if (Model.CanEdit)
+                        {
+                            <td class="text-cell">
+                                @Html.ActionLink("Upload Data", "Upload", new { id = dataset.Id }, new { @class = "Btn" })
+                            </td>
+                        }
                     </tr>
                 }
             </tbody>
@@ -47,7 +53,10 @@
         <span>There are currently no Datasets.</span>
     }
     <br />
-    <p>
-        @Html.ActionLink("Create Dataset", "Create", new { }, new { @class = "btn btn-primary" })
-    </p>
+    @if (Model.CanEdit)
+    {
+        <p>
+            @Html.ActionLink("Create Dataset", "Create", new { }, new { @class = "btn btn-primary" })
+        </p>
+    }
 </div>
