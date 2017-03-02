@@ -41,12 +41,12 @@ namespace HmrcTpvsProxy.DAL.Repositories
                     }).AsEnumerable();
         }
 
-        public IEnumerable<CodingNoticesP9> GetP9CodingNotices(int datasourceId)
+        public IEnumerable<CodingNoticeP9> GetP9CodingNotices(int datasourceId)
         {
             return (from notice in context.CodingNotices
                     join dataset in context.Datasets on notice.DatasetID equals dataset.ID
                     where notice.DatasetID == datasourceId && notice.MessageType.StartsWith("P9")
-                    select new CodingNoticesP9
+                    select new CodingNoticeP9
                     {
                         SequenceNumber = notice.SequenceNo,
                         WorksNumber = notice.WorksNumber,

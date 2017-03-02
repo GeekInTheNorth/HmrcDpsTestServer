@@ -111,11 +111,11 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         public void GivenIHaveARequestForP9CodingNotices_WhenIAskForAResponse_ThenTheResponseBuilderShouldBuildAResponse()
         {
             mockDataResolver.Setup(x => x.Get(It.IsAny<XmlDocument>())).Returns(new RequestData { RequestType = RequestType.P9 });
-            mockRepository.Setup(x => x.GetP9CodingNotices(It.IsAny<int>())).Returns(testData.GetCodingNoticesP9(3));
+            mockRepository.Setup(x => x.GetP9CodingNotices(It.IsAny<int>())).Returns(testData.GetCodingNoticeP9(3));
 
             var response = service.GetResponse(1, TestRequests.P9Request);
 
-            mockResponseBuilder.Verify(x => x.Build(It.IsAny<RequestData>(), It.IsAny<IEnumerable<CodingNoticesP9>>()), Times.Once());
+            mockResponseBuilder.Verify(x => x.Build(It.IsAny<RequestData>(), It.IsAny<IEnumerable<CodingNoticeP9>>()), Times.Once());
         }
 
         [Test]
@@ -167,8 +167,8 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         public void GivenIHaveARequestForP9CodingNotices_WhenIAskForAResponse_ThenSerializerShouldSerializeTheXmlDocument()
         {
             mockDataResolver.Setup(x => x.Get(It.IsAny<XmlDocument>())).Returns(new RequestData { RequestType = RequestType.P9 });
-            mockRepository.Setup(x => x.GetP9CodingNotices(It.IsAny<int>())).Returns(testData.GetCodingNoticesP9(3));
-            mockResponseBuilder.Setup(x => x.Build(It.IsAny<RequestData>(), It.IsAny<IEnumerable<CodingNoticesP9>>())).Returns(new Envelope());
+            mockRepository.Setup(x => x.GetP9CodingNotices(It.IsAny<int>())).Returns(testData.GetCodingNoticeP9(3));
+            mockResponseBuilder.Setup(x => x.Build(It.IsAny<RequestData>(), It.IsAny<IEnumerable<CodingNoticeP9>>())).Returns(new Envelope());
 
             var response = service.GetResponse(1, TestRequests.P9Request);
 

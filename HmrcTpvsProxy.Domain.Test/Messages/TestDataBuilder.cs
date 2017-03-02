@@ -6,13 +6,13 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 {
     public class TestDataBuilder
     {
-        public IEnumerable<CodingNoticesP9> GetCodingNoticesP9(int numberOfNotices)
+        public IEnumerable<CodingNoticeP9> GetCodingNoticeP9(int numberOfNotices)
         {
-            var notices = new List<CodingNoticesP9>();
+            var notices = new List<CodingNoticeP9>();
 
             for (var loop = 1; loop <= numberOfNotices; loop++)
             {
-                notices.Add(new CodingNoticesP9
+                notices.Add(new CodingNoticeP9
                 {
                     FormType = RequestType.P9.ToString(),
                     IssueDate = new DateTime(2016, 4, 1).AddDays(loop),

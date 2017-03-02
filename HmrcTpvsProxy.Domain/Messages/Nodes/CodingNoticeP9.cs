@@ -8,7 +8,7 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true, Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2")]
     [XmlRoot(Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2", IsNullable = false)]
-    public class CodingNoticesP9 : INotice
+    public class CodingNoticeP9 : INotice
     {
         public string EmployerRef { get; set; }
 
@@ -35,7 +35,7 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
         [XmlAttribute()]
         public int TaxYearEnd { get; set; }
 
-        public CodingNoticesP9()
+        public CodingNoticeP9()
         {
             Name = new Name();
             CodingUpdate = new CodingUpdate();

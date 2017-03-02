@@ -20,7 +20,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveMoreThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenOnlyTwentyMessagesShouldBeReturned()
         {
-            var messages = testData.GetCodingNoticesP9(21);
+            var messages = testData.GetCodingNoticeP9(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -31,14 +31,14 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             var response = responseBuilder.Build(requestData, messages);
 
-            Assert.That(response.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9.Count(), Is.EqualTo(20));
+            Assert.That(response.Body.DPSretrieveResponse.DPSdata.CodingNoticeP9.Count(), Is.EqualTo(20));
             Assert.That(response.Body.DPSretrieveResponse.DPSdata.DPSheader.NItemsReturned, Is.EqualTo(20));
         }
 
         [Test]
         public void GivenIHaveMoreThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsMoreData()
         {
-            var messages = testData.GetCodingNoticesP9(21);
+            var messages = testData.GetCodingNoticeP9(21);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -55,7 +55,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [Test]
         public void GivenIHaveLessThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenAllMessagesShouldBeReturned()
         {
-            var messages = testData.GetCodingNoticesP9(19);
+            var messages = testData.GetCodingNoticeP9(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -66,14 +66,14 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             var response = responseBuilder.Build(requestData, messages);
 
-            Assert.That(response.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9.Count(), Is.EqualTo(19));
+            Assert.That(response.Body.DPSretrieveResponse.DPSdata.CodingNoticeP9.Count(), Is.EqualTo(19));
             Assert.That(response.Body.DPSretrieveResponse.DPSdata.DPSheader.NItemsReturned, Is.EqualTo(19));
         }
 
         [Test]
         public void GivenIHaveLessThanTwentyPendingP9Messages_WhenIBuildAResponse_ThenTheHeaderShouldSayThereIsNoMoreData()
         {
-            var messages = testData.GetCodingNoticesP9(19);
+            var messages = testData.GetCodingNoticeP9(19);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -92,7 +92,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
         [TestCase(10)]
         public void GivenIHaveAlreadyRecievedP9Messages_WhenIBuildAResponse_ThenOnlyNewMessagesShouldBeReturned(int lastSequenceNumber)
         {
-            var messages = testData.GetCodingNoticesP9(30);
+            var messages = testData.GetCodingNoticeP9(30);
             var requestData = new RequestData
             {
                 RequestType = RequestType.P9,
@@ -103,7 +103,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages
 
             var response = responseBuilder.Build(requestData, messages);
 
-            Assert.That(response.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9.Any(x => x.SequenceNumber <= lastSequenceNumber), Is.False);
+            Assert.That(response.Body.DPSretrieveResponse.DPSdata.CodingNoticeP9.Any(x => x.SequenceNumber <= lastSequenceNumber), Is.False);
         }
 
         [Test]

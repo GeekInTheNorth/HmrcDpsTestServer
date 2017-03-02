@@ -72,7 +72,7 @@
     <Compile Include="Messages\IResponseBuilder.cs" />
     <Compile Include="Messages\MessagesService.cs" />
     <Compile Include="Messages\Nodes\CodingNoticesP6P6B.cs" />
-    <Compile Include="Messages\Nodes\CodingNoticesP9.cs" />
+    <Compile Include="Messages\Nodes\CodingNoticeP9.cs" />
     <Compile Include="Messages\Nodes\CodingUpdate.cs" />
     <Compile Include="Messages\Nodes\DPSData.cs" />
     <Compile Include="Messages\Nodes\DPSheader.cs" />

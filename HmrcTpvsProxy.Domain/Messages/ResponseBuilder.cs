@@ -30,13 +30,13 @@ namespace HmrcTpvsProxy.Domain.Messages
             return envelope;
         }
 
-        public Envelope Build(RequestData requestData, IEnumerable<CodingNoticesP9> notices)
+        public Envelope Build(RequestData requestData, IEnumerable<CodingNoticeP9> notices)
         {
             var envelope = BuildEnvelope(requestData, notices);
-            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9 = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved)
-                                                                               .OrderBy(x => x.SequenceNumber)
-                                                                               .Take(MaximumMessageCount)
-                                                                               .ToList();
+            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticeP9 = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved)
+                                                                              .OrderBy(x => x.SequenceNumber)
+                                                                              .Take(MaximumMessageCount)
+                                                                              .ToList();
 
             return envelope;
         }

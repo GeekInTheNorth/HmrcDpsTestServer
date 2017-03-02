@@ -7,7 +7,7 @@ namespace HmrcTpvsProxy.Domain.Messages
     {
         IEnumerable<CodingNoticesP6P6B> GetP6CodingNotices(int datasourceId);
 
-        IEnumerable<CodingNoticesP9> GetP9CodingNotices(int datasourceId);
+        IEnumerable<CodingNoticeP9> GetP9CodingNotices(int datasourceId);
 
         IEnumerable<StudentLoanStart> GetStudentLoanStartNotices(int datasourceId);
 

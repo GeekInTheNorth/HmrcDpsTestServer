@@ -17,8 +17,8 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
         [XmlElement("CodingNoticesP6P6B", Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticesP6P6B/2")]
         public List<CodingNoticesP6P6B> CodingNoticesP6P6B { get; set; }
 
-        [XmlElement("CodingNoticesP9", Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2")]
-        public List<CodingNoticesP9> CodingNoticesP9 { get; set; }
+        [XmlElement("CodingNoticeP9", Namespace = "http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2")]
+        public List<CodingNoticeP9> CodingNoticeP9 { get; set; }
 
         [XmlElement("StudentLoanStart", Namespace = "http://www.govtalk.gov.uk/taxation/StudentLoanStart/2")]
         public List<StudentLoanStart> StudentLoanStart { get; set; }
@@ -38,7 +38,7 @@ namespace HmrcTpvsProxy.Domain.Messages.Nodes
 
         public bool ShouldSerializeCodingNoticesP9()
         {
-            return CodingNoticesP9 != null && CodingNoticesP9.Any();
+            return CodingNoticeP9 != null && CodingNoticeP9.Any();
         }
 
         public bool ShouldSerializeStudentLoanStart()

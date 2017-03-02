@@ -65,7 +65,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 
             if (numberOfMessages >= 1)
             {
-                stringBuilder.Append("<CodingNoticesP9 FormType=\"P9\" IssueDate=\"2014-01-01\" SequenceNumber=\"227\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
+                stringBuilder.Append("<CodingNoticeP9 FormType=\"P9\" IssueDate=\"2014-01-01\" SequenceNumber=\"227\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
                 stringBuilder.Append("<Name>");
                 stringBuilder.Append("<Forename>NiChg</Forename>");
@@ -77,12 +77,12 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                 stringBuilder.Append("<CodingUpdate>");
                 stringBuilder.Append("<TaxCode TaxRegime=\"S\">647L</TaxCode>");
                 stringBuilder.Append("</CodingUpdate>");
-                stringBuilder.Append("</CodingNoticesP9>");
+                stringBuilder.Append("</CodingNoticeP9>");
             }
 
             if (numberOfMessages >= 2)
             {
-                stringBuilder.Append("<CodingNoticesP9 FormType=\"P9\" IssueDate=\"2014-01-01\" SequenceNumber=\"228\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
+                stringBuilder.Append("<CodingNoticeP9 FormType=\"P9\" IssueDate=\"2014-01-01\" SequenceNumber=\"228\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
                 stringBuilder.Append("<Name>");
                 stringBuilder.Append("<Forename>NiChg</Forename>");
@@ -94,12 +94,12 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                 stringBuilder.Append("<CodingUpdate>");
                 stringBuilder.Append("<TaxCode>647L</TaxCode>");
                 stringBuilder.Append("</CodingUpdate>");
-                stringBuilder.Append("</CodingNoticesP9>");
+                stringBuilder.Append("</CodingNoticeP9>");
             }
 
             if (numberOfMessages >= 3)
             {
-                stringBuilder.Append("<CodingNoticesP9 FormType=\"P9\" IssueDate=\"2014-03-03\" SequenceNumber=\"229\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
+                stringBuilder.Append("<CodingNoticeP9 FormType=\"P9\" IssueDate=\"2014-03-03\" SequenceNumber=\"229\" TaxYearEnd=\"2015\" xmlns=\"http://www.govtalk.gov.uk/taxation/CodingNoticeP9/2\">");
                 stringBuilder.Append("<EmployerRef>123/A6</EmployerRef>");
                 stringBuilder.Append("<Name>");
                 stringBuilder.Append("<Forename>Pamela</Forename>");
@@ -111,7 +111,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                 stringBuilder.Append("<CodingUpdate>");
                 stringBuilder.Append("<TaxCode Week1Month1Indicator=\"X\">609L</TaxCode>");
                 stringBuilder.Append("</CodingUpdate>");
-                stringBuilder.Append("</CodingNoticesP9>");
+                stringBuilder.Append("</CodingNoticeP9>");
             }
 
             stringBuilder.Append("</DPSdata>");
@@ -124,7 +124,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 
         private Envelope GetMessages(int numberOfMessages)
         {
-            var messages = new List<CodingNoticesP9>();
+            var messages = new List<CodingNoticeP9>();
             var envelope = new Envelope();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = RequestType.P9.ToString();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.VendorID = "0178";
@@ -138,7 +138,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 
             if (numberOfMessages >= 1)
             {
-                messages.Add(new CodingNoticesP9
+                messages.Add(new CodingNoticeP9
                 {
                     FormType = RequestType.P9.ToString(),
                     IssueDate = new DateTime(2014, 1, 1),
@@ -166,7 +166,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 
             if (numberOfMessages >= 2)
             {
-                messages.Add(new CodingNoticesP9
+                messages.Add(new CodingNoticeP9
                 {
                     FormType = RequestType.P9.ToString(),
                     IssueDate = new DateTime(2014, 1, 1),
@@ -193,7 +193,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
 
             if (numberOfMessages >= 3)
             {
-                messages.Add(new CodingNoticesP9
+                messages.Add(new CodingNoticeP9
                 {
                     FormType = RequestType.P9.ToString(),
                     IssueDate = new DateTime(2014, 3, 3),
@@ -219,7 +219,7 @@ namespace HmrcTpvsProxy.Domain.Test.Messages.Serilization
                 });
             }
 
-            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9 = messages;
+            envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticeP9 = messages;
 
             return envelope;
         }

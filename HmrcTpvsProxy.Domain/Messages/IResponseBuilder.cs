@@ -7,7 +7,7 @@ namespace HmrcTpvsProxy.Domain.Messages
     {
         Envelope Build(RequestData requestData, IEnumerable<CodingNoticesP6P6B> p6Notices);
 
-        Envelope Build(RequestData requestData, IEnumerable<CodingNoticesP9> p9Notices);
+        Envelope Build(RequestData requestData, IEnumerable<CodingNoticeP9> p9Notices);
 
         Envelope Build(RequestData requestData, IEnumerable<StudentLoanStart> sl1Notices);
 

@@ -80,7 +80,7 @@ namespace HmrcTpvsProxy.DAL.Migrations
                 var deserializedObject = new XmlSerializer(typeof(Envelope)).Deserialize(reader);
                 var envelope = (Envelope)deserializedObject;
 
-                foreach (var notice in envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9)
+                foreach (var notice in envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticeP9)
                 {
                     dataset.CodingNotices.Add(new CodingNotice
                     {
