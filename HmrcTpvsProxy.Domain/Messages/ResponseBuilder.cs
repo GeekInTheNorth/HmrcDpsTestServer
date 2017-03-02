@@ -23,9 +23,9 @@ namespace HmrcTpvsProxy.Domain.Messages
         {
             var envelope = BuildEnvelope(requestData, notices);
             envelope.Body.DPSretrieveResponse.DPSdata.StudentLoanEnd = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved)
-                                                                                .OrderBy(x => x.SequenceNumber)
-                                                                                .Take(MaximumMessageCount)
-                                                                                .ToList();
+                                                                              .OrderBy(x => x.SequenceNumber)
+                                                                              .Take(MaximumMessageCount)
+                                                                              .ToList();
 
             return envelope;
         }
@@ -34,9 +34,9 @@ namespace HmrcTpvsProxy.Domain.Messages
         {
             var envelope = BuildEnvelope(requestData, notices);
             envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP9 = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved)
-                                                                                .OrderBy(x => x.SequenceNumber)
-                                                                                .Take(MaximumMessageCount)
-                                                                                .ToList();
+                                                                               .OrderBy(x => x.SequenceNumber)
+                                                                               .Take(MaximumMessageCount)
+                                                                               .ToList();
 
             return envelope;
         }
@@ -45,9 +45,9 @@ namespace HmrcTpvsProxy.Domain.Messages
         {
             var envelope = BuildEnvelope(requestData, notices);
             envelope.Body.DPSretrieveResponse.DPSdata.CodingNoticesP6P6B = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved)
-                                                                                .OrderBy(x => x.SequenceNumber)
-                                                                                .Take(MaximumMessageCount)
-                                                                                .ToList();
+                                                                                  .OrderBy(x => x.SequenceNumber)
+                                                                                  .Take(MaximumMessageCount)
+                                                                                  .ToList();
 
             return envelope;
         }
@@ -56,14 +56,17 @@ namespace HmrcTpvsProxy.Domain.Messages
         {
             var outstandingMessages = notices.Where(x => x.SequenceNumber > requestData.LastSequenceNumberRecieved).OrderBy(x => x.SequenceNumber);
             var messagesToSend = outstandingMessages.OrderBy(x => x.SequenceNumber).Take(MaximumMessageCount);
+            var highwaterMark = messagesToSend.Any() ? messagesToSend.Max(x => x.SequenceNumber) : notices.Max(x => x.SequenceNumber);
+            var itemsReturned = messagesToSend.Any() ? messagesToSend.Count() : 0;
+            var moreData = outstandingMessages.Any() && (outstandingMessages.Count() > MaximumMessageCount);
 
             var envelope = new Envelope();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.DataType = requestData.RequestType.ToString();
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Entity = requestData.PayeReference;
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.Got = requestData.LastSequenceNumberRecieved;
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.HighWaterMark = messagesToSend.Max(x => x.SequenceNumber);
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.MoreData = outstandingMessages.Count() > MaximumMessageCount;
-            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.NItemsReturned = messagesToSend.Count();
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.HighWaterMark = highwaterMark;
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.MoreData = moreData;
+            envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.NItemsReturned = itemsReturned;
             envelope.Body.DPSretrieveResponse.DPSdata.DPSheader.VendorID = requestData.VendorId;
 
             return envelope;
