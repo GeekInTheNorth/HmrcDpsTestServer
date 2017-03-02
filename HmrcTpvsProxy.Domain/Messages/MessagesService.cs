@@ -35,12 +35,24 @@ namespace HmrcTpvsProxy.Domain.Messages
 
             var requestData = requestDataResolver.Get(xmlDocument);
 
-            if (requestData.RequestType == RequestType.Authorisation)
-                return CascadeEdgeCaseFiles.Authorisation;
-
-            var envelope = GetEnvelope(datasourceId, requestData);
-
-            return envelope == null ? null : serializer.Serialize(envelope);
+            switch (requestData.RequestType)
+            {
+                case RequestType.P6:
+                case RequestType.P9:
+                case RequestType.SL1:
+                case RequestType.SL2:
+                    return GetSerializedEnvelope(datasourceId, requestData);
+                case RequestType.Authorisation:
+                    return CascadeEdgeCaseFiles.Authorisation;
+                case RequestType.NOT:
+                    return CascadeEdgeCaseFiles.NOTData;
+                case RequestType.AR:
+                    return CascadeEdgeCaseFiles.ARData;
+                case RequestType.RTI:
+                    return CascadeEdgeCaseFiles.NVRData;
+                default:
+                    return null;
+            }
         }
 
         private Envelope GetEnvelope(int datasourceId, RequestData requestData)
@@ -58,6 +70,13 @@ namespace HmrcTpvsProxy.Domain.Messages
                 default:
                     return null;
             }
+        }
+
+        private string GetSerializedEnvelope(int datasourceId, RequestData requestData)
+        {
+            var envelope = GetEnvelope(datasourceId, requestData);
+
+            return envelope == null ? null : serializer.Serialize(envelope);
         }
     }
 }
