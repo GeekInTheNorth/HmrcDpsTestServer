@@ -28,7 +28,7 @@ namespace TestProxy.Controllers.API
             var content = request.Content;
             var xmlContent = content.ReadAsStringAsync().Result;
 
-            var messages = service.GetResponse(1, xmlContent);
+            var messages = service.GetResponse(id, xmlContent);
 
             return new HttpResponseMessage
             {
