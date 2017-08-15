@@ -1,4 +1,4 @@
 ﻿{
-  "HmrcAuthenticationServer": "https://www.tpvs.hmrc.gov.uk/dpsauthentication/dpsauthentication.jws",
-  "HmrcGetMessagesServer": "https://www.tpvs.hmrc.gov.uk/dps/dps.jws"
+  "HmrcAuthenticationServer": "https://secure.dev.gateway.gov.uk",
+  "HmrcGetMessagesServer": "https://secure.dev.gateway.gov.uk"
 }
