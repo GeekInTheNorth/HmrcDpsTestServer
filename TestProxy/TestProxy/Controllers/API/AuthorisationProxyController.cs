@@ -7,7 +7,6 @@ namespace TestProxy.Controllers.API
 {
     public class AuthorisationProxyController : HmrcProxyControllerBase
     {
-        [ForceHttps]
         [AcceptVerbs("POST")]
         public HttpResponseMessage GetData(HttpRequestMessage request)
         {
